@@ -66,6 +66,7 @@ main{max-width:1400px;margin:0 auto;padding-block:16px 96px;padding-inline:16px;
 .filters input[type=search]{flex:1 1 180px}
 .btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:7px 12px;cursor:pointer;font-weight:500;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .btn:hover{border-color:var(--muted)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
 .btn.primary{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
 .btn.danger{color:var(--crit);border-color:var(--crit-soft)}
 .btn.small{padding:4px 9px;font-size:12.5px}
@@ -285,7 +286,7 @@ const AD_CURSO = [["vendas","Vendas"],["receita","Receita (R$)"]];
 const LINKS = [["roteiro","Roteiro"],["arte","Arte / card"],["bruto","Material bruto"],["editado","Editado"],["post","Post publicado"],["anuncio","Anúncio (gerenciador)"]];
 const TABS = [
   ["resumo","Resumo"],["producao","Produção"],["calendario","Calendário"],["pendencias","Pendências"],
-  ["gravacao","Pauta de gravação"],["performance","Performance"],["anuncios","Anúncios"],
+  ["gravacao","Pauta de gravação"],["performance","Performance"],["instagram","Instagram"],["anuncios","Anúncios"],
 ];
 const DOW = ["Dom","Seg","Ter","Qua","Qui","Sex","Sáb"];
 const MESES = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
@@ -362,7 +363,7 @@ function statusDot(p){
 /* ---------- Armazenamento ---------- */
 const LS_KEY = "painel-pecas-v1";
 const store = {
-  mode:"carregando", db:null, pecas:new Map(), seed:[],
+  mode:"carregando", db:null, pecas:new Map(), seed:[], posts:new Map(), igConfig:{},
   async init(){
     try{
       const r = await fetch("dados/inventario.json");
@@ -382,6 +383,14 @@ const store = {
         const m=new Map(); snap.docs.forEach(d=>{ const v=d.data(); if(v&&v.codigo) m.set(v.codigo,v); });
         this.pecas=m; first=false; render();
       }, err=>{ this.mode="erro"; render(); });
+      db.collection("posts").onSnapshot(snap=>{
+        const m=new Map(); snap.docs.forEach(d=>{ const v=d.data(); if(v&&v.id) m.set(v.id,v); });
+        this.posts=m; if(ui.tab==="instagram"||ui.tab==="resumo") render();
+      }, ()=>{});
+      db.doc("config/instagram").onSnapshot(snap=>{
+        this.igConfig = snap.exists ? snap.data() : {}; if(ui.tab==="instagram") render();
+      }, ()=>{});
+      ig.init();
     } else {
       this.mode="local";
       const saved = lsGet(LS_KEY,null);
@@ -442,8 +451,8 @@ function render(){
   let html="";
   if(store.mode==="db-vazio") html+=`<div class="banner"><span><b>O banco do painel está vazio.</b> Importe as ${store.seed.length} peças do inventário inicial para começar.</span><button class="btn primary small" data-act="import">Importar inventário</button></div>`;
   if(store.mode==="local") html+=`<div class="banner"><span><b>Modo local.</b> As alterações ficam salvas só neste navegador. Abra o painel pelo link do Claude para compartilhar os dados entre aparelhos.</span></div>`;
-  if(!["resumo","anuncios"].includes(ui.tab)) html+=filtrosHtml(all);
-  html += ({resumo:vResumo,producao:vProducao,calendario:vCalendario,pendencias:vPendencias,gravacao:vGravacao,performance:vPerformance,anuncios:vAnuncios}[ui.tab]||vResumo)();
+  if(!["resumo","anuncios","instagram"].includes(ui.tab)) html+=filtrosHtml(all);
+  html += ({resumo:vResumo,producao:vProducao,calendario:vCalendario,pendencias:vPendencias,gravacao:vGravacao,performance:vPerformance,instagram:vInstagram,anuncios:vAnuncios}[ui.tab]||vResumo)();
   $main.innerHTML=html;
 }
 
@@ -688,6 +697,157 @@ function vAnuncios(){
     <section class="panel"><h2>Cursos<small>custo por venda e ROAS</small></h2>${tabela(cursos)}</section>`;
 }
 
+/* ---------- Instagram (via Genna) ---------- */
+const GENNA = "Genna";
+const ig = {
+  mcp:null, status:"idle", msg:"", brands:null, progress:"",
+  async init(){
+    try{ this.mcp = window.claude && window.claude.use ? await window.claude.use("mcp") : null; }catch(_){ this.mcp=null; }
+    if(ui.tab==="instagram") render();
+  },
+  erroMsg(e){
+    const c=e&&e.code;
+    if(c==="server_not_connected") return "O Genna não está conectado à sua conta. Adicione-o em claude.ai → Configurações → Conectores e tente de novo.";
+    if(c==="needs_reauth") return "A conexão com o Genna expirou. Reconecte-o em claude.ai → Configurações → Conectores.";
+    if(c==="not_in_manifest") return "O acesso ao Genna foi recusado para este painel. Recarregue a página e permita quando for pedido.";
+    if(c==="selection_required") return "Há mais de uma conexão do Genna. Escolha qual usar no aviso que aparece na página.";
+    if(c==="blocked_by_policy"||c==="approval_required") return "A política da sua organização bloqueia o uso do Genna aqui.";
+    if(c==="server_unavailable"||(e&&e.retryable)) return "O Genna não respondeu agora. Tente sincronizar de novo em alguns minutos.";
+    if(c==="tool_error") return "O Genna recusou o pedido: "+(e.message||"erro sem detalhes")+".";
+    if(c==="not_granted"||c==="capability_disabled"||c==="capability_removed") return "Esta visualização não permite usar conectores. Abra o painel pelo link do Claude.";
+    return "Não foi possível falar com o Genna ("+(c||"erro")+").";
+  },
+  async call(tool,input){ const r=await this.mcp.callTool(GENNA,tool,input,{cache:false}); return r.payload; },
+  async carregarMarcas(){
+    const p=await this.call("list_brands",{});
+    this.brands=(p&&p.brands)||[];
+    return this.brands;
+  },
+  async sincronizar(){
+    if(!this.mcp||!store.db){ return; }
+    this.status="sync"; this.msg=""; this.progress="Buscando marcas…"; render();
+    try{
+      const brands=await this.carregarMarcas();
+      const cfg=clone(store.igConfig||{}); cfg.marcas=cfg.marcas||{};
+      brands.forEach(b=>{ if(!cfg.marcas[b.id]) cfg.marcas[b.id]={nome:b.name,perfil:"Profissional",ativo:true}; });
+      const desde=new Date(parseIso(addDays(HOJE,-60))).toISOString();
+      let novos=0, total=0, atualizadas=0;
+      for(const b of brands){
+        const mc=cfg.marcas[b.id]; if(!mc.ativo) continue;
+        let after=null, pag=0;
+        do{
+          this.progress=`Lendo posts de ${b.name}…`; render();
+          const inp={brandId:b.id,limit:100,publishedFrom:desde}; if(after) inp.after=after;
+          const p=await this.call("get_analytics_posts",inp);
+          const posts=(p&&p.posts)||[];
+          for(const raw of posts){
+            total++;
+            const prev=store.posts.get(raw.id);
+            const doc=postDoc(raw,b.id,mc.perfil,prev);
+            if(!prev) novos++;
+            if(!doc.codigo){ const auto=[...store.pecas.values()].find(x=>(x.links||{}).post && normUrl(x.links.post)===normUrl(doc.permalink)); if(auto) doc.codigo=auto.codigo; }
+            this.progress=`Salvando ${total} posts…`;
+            await store.db.collection("posts").doc(doc.id).set(doc);
+            if(doc.codigo){ const ok=await aplicarPost(doc); if(ok) atualizadas++; }
+          }
+          after=p&&p.hasNextPage?p.endCursor:null; pag++;
+        }while(after && pag<5);
+      }
+      cfg.ultimaSync=new Date().toISOString();
+      await store.db.doc("config/instagram").set(cfg);
+      this.status="ok"; this.msg=`${total} posts lidos, ${novos} novos, ${atualizadas} peças atualizadas.`;
+    }catch(e){ this.status="erro"; this.msg=this.erroMsg(e); }
+    this.progress=""; render();
+  },
+};
+function normUrl(u){ return String(u||"").trim().replace(/[?#].*$/,"").replace(/\/+$/,"").toLowerCase(); }
+function postDoc(r,brandId,perfil,prev){
+  return {
+    id:r.id, brandId, perfil, timestamp:r.timestamp||"", data:(r.timestamp||"").slice(0,10),
+    tipo:r.type||"", permalink:r.permalink||"", legenda:String(r.caption||"").slice(0,400),
+    m:{ alcance:r.reach??null, views:r.views??null, curtidas:r.likes??null, coment:r.comments??null, compart:r.shares??null,
+        salvos:r.saved??null, seguidores:r.follows??null, visitas:r.profileVisits??null,
+        retencao: r.reelsAvgWatchTimeMs!=null ? Math.round(r.reelsAvgWatchTimeMs/100)/10 : null },
+    lidoEm:HOJE, codigo:prev?prev.codigo||"":"", ignorado:prev?!!prev.ignorado:false,
+  };
+}
+function janelaPara(p,dataPost){
+  const idade=diffDays(HOJE,dataPost), m=p.metricas||{};
+  if(idade>=30) return (idade<=32||!m.d30)?"d30":null;
+  if(idade>=7) return (idade<=9||!m.d7)?"d7":null;
+  return (idade<=1||!m.d1)?"d1":null;
+}
+async function aplicarPost(post){
+  const orig=store.pecas.get(post.codigo); if(!orig) return false;
+  const p=clone(orig);
+  p.links=p.links||{}; p.datas=p.datas||{}; p.metricas=p.metricas||{};
+  p.links.post=post.permalink;
+  if(!p.datas.publicado) p.datas.publicado=post.data;
+  if(feed(p) && EIDX[p.etapa] < EIDX.publicado) p.etapa="publicado";
+  const w=janelaPara(p,post.data);
+  if(w){
+    const limpo={}; Object.entries(post.m).forEach(([k,v])=>{ if(v!=null) limpo[k]=v; });
+    p.metricas[w]=Object.assign({},p.metricas[w]||{},limpo);
+    p.metricas_fonte={origem:"Instagram (Genna)",em:HOJE};
+  }
+  if(JSON.stringify(p)===JSON.stringify(orig)) return false;
+  await store.save(p); return true;
+}
+function tokens(s){ return new Set(String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").split(/[^a-z0-9]+/).filter(w=>w.length>=4)); }
+function sugestoes(post){
+  const tp=tokens(post.legenda); const vinc=new Set([...store.posts.values()].filter(x=>x.codigo&&x.id!==post.id).map(x=>x.codigo));
+  return store.all().filter(p=>p.perfil===post.perfil && feed(p) && !vinc.has(p.codigo)).map(p=>{
+    const tt=tokens(p.titulo); let s=0; tt.forEach(w=>{ if(tp.has(w)) s+=2; });
+    if(p.data_iso){ const d=Math.abs(diffDays(p.data_iso,post.data)); if(d===0) s+=4; else if(d<=2) s+=2; }
+    if((post.tipo==="REEL")===(p.formato==="Reel")) s+=1;
+    return [p,s];
+  }).filter(x=>x[1]>=2).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);
+}
+async function vincular(postId,codigo){
+  const post=clone(store.posts.get(postId)); if(!post) return;
+  post.codigo=codigo; post.ignorado=false;
+  await store.db.collection("posts").doc(postId).set(post);
+  if(codigo){ await aplicarPost(post); toast(`Post vinculado a ${codigo}`); }
+}
+const TIPO_POST={REEL:"Reel",FEED_CAROUSEL:"Carrossel",FEED_IMAGE:"Imagem",FEED_VIDEO:"Vídeo",IMAGE:"Imagem",CAROUSEL_ALBUM:"Carrossel",VIDEO:"Vídeo"};
+function vInstagram(){
+  const cfg=store.igConfig||{};
+  const disponivel = !!(ig.mcp && store.db);
+  const posts=[...store.posts.values()].sort((a,b)=>b.timestamp.localeCompare(a.timestamp));
+  const pend=posts.filter(p=>!p.codigo&&!p.ignorado), vinc=posts.filter(p=>p.codigo), ign=posts.filter(p=>!p.codigo&&p.ignorado);
+  const marcas=Object.entries(cfg.marcas||{});
+  const resumoM=p=>{ const t=taxas(p.m); return `<span class="tag num">alcance ${fmtN(p.m.alcance)} · ${fmtN(p.m.curtidas)} curtidas · ${fmtN(p.m.compart)} compart. · ${fmtN(p.m.salvos)} salvos${t&&t.viral?` · <span class="viral">potencial viral</span>`:""}</span>`; };
+  const cabec=p=>`<span class="pill neutral">${esc(TIPO_POST[p.tipo]||p.tipo)}</span><span class="tag">${fmtD(p.data)} · ${esc(p.perfil)}</span><a class="tag" href="${esc(p.permalink)}" target="_blank" rel="noopener">abrir no Instagram ↗</a>`;
+  const card=p=>{
+    const sug=sugestoes(p);
+    const opts=store.all().filter(x=>x.perfil===p.perfil&&feed(x)).map(x=>`<option value="${esc(x.codigo)}">${esc(x.codigo)} · ${esc(x.titulo)}</option>`).join("");
+    return `<div class="item" style="cursor:default"><div class="body">
+      <span class="meta">${cabec(p)}</span>
+      <span class="ttl" style="font-weight:400">${esc(p.legenda.slice(0,160)||"(sem legenda)")}${p.legenda.length>160?"…":""}</span>
+      ${resumoM(p)}
+      <span class="meta" style="margin-top:4px">${sug.length?`<span class="hint">Parece ser:</span>${sug.map(x=>`<button type="button" class="btn small" data-link-post="${esc(p.id)}" data-link-cod="${esc(x.codigo)}">${codeChip(x)} ${esc(x.titulo)}</button>`).join("")}`:`<span class="hint">Nenhuma sugestão.</span>`}</span>
+      <span class="meta"><select class="btn small" id="sel-${esc(p.id)}" data-link-sel="${esc(p.id)}" aria-label="Escolher peça"><option value="">Escolher outra peça…</option>${opts}</select>
+        <button type="button" class="btn small ghost" data-ignore-post="${esc(p.id)}">Não é do painel</button></span>
+    </div></div>`;
+  };
+  return `<section class="panel"><h2>Sincronização com o Instagram<small>via Genna</small></h2>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <button class="btn primary" data-act="ig-sync" ${disponivel&&ig.status!=="sync"?"":"disabled"}>${ig.status==="sync"?"Sincronizando…":"Sincronizar agora"}</button>
+      <span class="hint">${ig.progress?esc(ig.progress):cfg.ultimaSync?`Última sincronização: ${new Date(cfg.ultimaSync).toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"})}`:"Ainda não sincronizado."}</span>
+    </div>
+    ${ig.msg?`<div class="banner" style="margin-top:12px;${ig.status==="ok"?"background:var(--ok-soft)":""}"><span>${esc(ig.msg)}</span></div>`:""}
+    ${!disponivel?`<p class="hint" style="margin:12px 0 0">${!store.db?"A sincronização só funciona pelo link do painel no Claude.":"Os conectores não estão disponíveis nesta visualização. Abra o painel pelo link do Claude, com o Genna conectado à sua conta."}</p>`:""}
+    <p class="hint" style="margin:12px 0 0">Busca os posts dos últimos 60 dias e grava alcance, visualizações, curtidas, comentários, compartilhamentos, salvamentos, novos seguidores, visitas ao perfil e tempo médio assistido. A leitura entra em D+1 (até o 6º dia), D+7 (do 7º ao 29º) ou D+30 (do 30º em diante). Contas não seguidoras, % assistido até o fim, cliques no link e palavra-chave continuam manuais.</p>
+    ${marcas.length?`<div class="filters" style="margin-top:12px">${marcas.map(([id,mc])=>`<label class="hint" style="display:flex;gap:6px;align-items:center">${esc(mc.nome)} →
+      <select data-brand-perfil="${esc(id)}" id="bp-${esc(id)}" aria-label="Perfil de ${esc(mc.nome)}"><option${mc.perfil==="Profissional"?" selected":""}>Profissional</option><option${mc.perfil==="Clínica"?" selected":""}>Clínica</option></select></label>`).join("")}</div>`:""}
+  </section>
+  <section class="panel"><h2>Posts sem peça vinculada<small>${pend.length}</small></h2>
+    <div class="list">${pend.map(card).join("")||`<div class="empty">${posts.length?"Todos os posts estão vinculados ou marcados como fora do painel.":"Sincronize para trazer os posts."}</div>`}</div></section>
+  <section class="panel"><h2>Vinculados<small>${vinc.length}</small></h2>
+    <div class="list">${vinc.map(p=>{ const pc_=store.pecas.get(p.codigo); return `<div class="item" style="cursor:default"><div class="body"><span class="meta">${pc_?codeChip(pc_):`<span class="code">${esc(p.codigo)}</span>`}<span class="ttl" data-open="${esc(p.codigo)}" style="cursor:pointer">${esc(pc_?pc_.titulo:p.codigo)}</span></span><span class="meta">${cabec(p)}</span>${resumoM(p)}</div><button type="button" class="btn small ghost" data-unlink-post="${esc(p.id)}">Desvincular</button></div>`; }).join("")||`<div class="empty">Nenhum post vinculado ainda.</div>`}</div></section>
+  ${ign.length?`<section class="panel"><h2>Fora do painel<small>${ign.length}</small></h2><div class="list">${ign.map(p=>`<div class="item" style="cursor:default"><div class="body"><span class="meta">${cabec(p)}</span><span class="tag">${esc(p.legenda.slice(0,120))}</span></div><button type="button" class="btn small ghost" data-restore-post="${esc(p.id)}">Voltar para a fila</button></div>`).join("")}</div></section>`:""}`;
+}
+
 /* ---------- Editor de peça ---------- */
 let ed=null; // {orig, draft, isNew, win, confirmDel}
 function openEditor(codigo){
@@ -810,6 +970,14 @@ async function saveEditor(){
 
 /* ---------- Eventos ---------- */
 document.addEventListener("click",async e=>{
+  const lp=e.target.closest("[data-link-post],[data-ignore-post],[data-unlink-post],[data-restore-post]");
+  if(lp){
+    try{
+      if(lp.dataset.linkPost) await vincular(lp.dataset.linkPost,lp.dataset.linkCod);
+      else { const id=lp.dataset.ignorePost||lp.dataset.unlinkPost||lp.dataset.restorePost; const post=clone(store.posts.get(id)); post.codigo=""; post.ignorado=!!lp.dataset.ignorePost; await store.db.collection("posts").doc(id).set(post); }
+    }catch(_){ toast("Não foi possível salvar. Você precisa de acesso de edição."); }
+    return;
+  }
   const t=e.target.closest("[data-tab],[data-go],[data-open],[data-act],[data-cal],[data-grav],[data-psort],[data-etapa],[data-win],[data-delpend],[data-delweek]");
   if(!t) return;
   if(t.dataset.tab||t.dataset.go){ ui.tab=t.dataset.tab||t.dataset.go; saveUi(); try{history.replaceState(null,"","#"+ui.tab);}catch(_){} render(); window.scrollTo(0,0); return; }
@@ -824,6 +992,7 @@ document.addEventListener("click",async e=>{
     if(t.dataset.delweek){ collect(); ed.draft.anuncio.semanas.splice(Number(t.dataset.delweek),1); renderEditor(); return; }
   }
   const a=t.dataset.act;
+  if(a==="ig-sync"){ ig.sincronizar(); return; }
   if(a==="import"){ t.disabled=true; t.textContent="Importando…"; try{ await store.importSeed(); toast("Inventário importado"); }catch(_){ toast("Não foi possível importar. Você precisa de acesso de edição."); t.disabled=false; t.textContent="Importar inventário"; } return; }
   if(!ed) return;
   e.preventDefault();
@@ -845,6 +1014,12 @@ document.addEventListener("change",async e=>{
     return;
   }
   if(ed && el.closest("#edForm") && ["perfil","tipo","formato"].includes(el.name)){ collect(); renderEditor(); return; }
+  if(el.dataset.linkSel && el.value){ try{ await vincular(el.dataset.linkSel,el.value); }catch(_){ toast("Não foi possível salvar."); } return; }
+  if(el.dataset.brandPerfil){
+    const cfg=clone(store.igConfig||{}); cfg.marcas=cfg.marcas||{}; if(cfg.marcas[el.dataset.brandPerfil]) cfg.marcas[el.dataset.brandPerfil].perfil=el.value;
+    try{ await store.db.doc("config/instagram").set(cfg); toast("Perfil da marca atualizado. Os próximos posts sincronizados usam este perfil."); }catch(_){ toast("Não foi possível salvar."); }
+    return;
+  }
   const map={"f-perfil":"perfil","f-formato":"formato","f-tipo":"tipo","f-resp":"resp","p-group":"perfGroup","p-metric":"perfMetric"};
   if(map[el.id]){ ui[map[el.id]]=el.value; if(el.id==="p-metric") ui.perfSort=el.value; saveUi(); render(); }
 });

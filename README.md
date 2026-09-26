@@ -9,6 +9,7 @@ Painel para acompanhar as peças de conteúdo dos perfis **Clínica** e **Profis
 - **Pendências:** autorizações e ajustes, com checklist.
 - **Pauta de gravação:** reels ainda não gravados, agrupados por local ou por quem grava.
 - **Performance:** médias por avatar, produto, série, template/gatilho, formato e dia da semana, além do ranking das peças.
+- **Instagram:** sincroniza as métricas dos posts pelo conector Genna, sugere a peça de cada post e grava as métricas em D+1, D+7 ou D+30.
 - **Anúncios:** investimento, CPM, CTR, frequência, custo por conversa ou por venda, ROAS e a sugestão de troca a cada 15 dias.
 
 Toque em qualquer peça para editar a etapa, o responsável, as pendências, a gravação, os links, as métricas (D+1, D+7 e D+30, ou semanas de anúncio) e as observações. O botão **+ Nova peça** cadastra novas séries e códigos.
