@@ -12,11 +12,12 @@ Painel para acompanhar as peças de conteúdo dos perfis **Clínica** e **Profis
 - **Instagram:** sincroniza as métricas dos posts pelo conector Genna, sugere a peça de cada post e grava as métricas em D+1, D+7 ou D+30.
 - **Anúncios:** investimento, CPM, CTR, frequência, custo por conversa ou por venda, ROAS e a sugestão de troca a cada 15 dias.
 
-Toque em qualquer peça para editar a etapa, o responsável, as pendências, a gravação, os links, as métricas (D+1, D+7 e D+30, ou semanas de anúncio) e as observações. O botão **+ Nova peça** cadastra novas séries e códigos.
+Toque em qualquer peça para ler o roteiro (texto falado, CTAs e legenda, com botões de copiar) e para editar a etapa, o responsável, as pendências, a gravação, os links, as métricas (D+1, D+7 e D+30, ou semanas de anúncio) e as observações. O botão **+ Nova peça** cadastra novas séries e códigos.
 
 ## Arquivos
 - `index.html`: o painel inteiro, em um único arquivo.
-- `dados/inventario.json`: as 94 peças iniciais, geradas a partir de `dados/inventario_pecas.csv`.
+- `dados/inventario.json`: as 94 peças iniciais, geradas a partir de `dados/inventario_pecas.csv`, com os roteiros.
+- `dados/roteiros.json`: os 72 roteiros extraídos de `docs/roteiros-semana-1.pdf`, por código.
 - `docs/especificacao.pdf`: a especificação original.
 
 ## Onde os dados ficam

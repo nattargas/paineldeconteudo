@@ -208,6 +208,19 @@ label.f textarea{min-height:80px;resize:vertical}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:9px;z-index:80;font-size:13px;box-shadow:var(--shadow);max-width:calc(100% - 32px)}
 .fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;border-radius:99px;padding:11px 18px;box-shadow:0 6px 20px rgba(0,0,0,.2)}
 .viral{color:var(--ok);font-weight:600}
+.rot-meta{font-size:12.5px;color:var(--muted);line-height:1.45}
+.rot-body{display:flex;flex-direction:column;gap:12px}
+.rp{display:flex;flex-direction:column;gap:2px}
+.rp .rl{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.rp p{margin:0;font-size:15px;line-height:1.55;max-width:65ch}
+.rp.hl p{font-family:var(--f-head);font-size:17px;font-weight:600;line-height:1.35}
+.rp.cta .rl{color:var(--clin)}
+.rp.bel p{font-style:italic}
+.rp.leg{background:var(--surface-2);border-radius:8px;padding:10px 12px}
+.rp.nota{border-left:3px solid var(--warn);padding-left:10px}
+.rp.nota .rl{color:var(--warn)}
+.rot-actions{display:flex;gap:8px;flex-wrap:wrap}
+label.f textarea.rot-edit{min-height:360px;font-size:14px;line-height:1.5}
 .hint{font-size:12.5px;color:var(--muted)}
 
 @media (max-width:700px){
@@ -428,7 +441,7 @@ function filtradas(){
   return store.all().filter(p=>
     (!ui.perfil||p.perfil===ui.perfil) && (!ui.formato||p.formato===ui.formato) &&
     (!ui.tipo||p.tipo===ui.tipo) && (!ui.resp||(p.responsavel||"")===ui.resp) &&
-    (!q || (p.codigo+" "+p.titulo+" "+p.avatar+" "+p.produto+" "+(p.template_gatilho||"")).toLowerCase().includes(q))
+    (!q || (p.codigo+" "+p.titulo+" "+p.avatar+" "+p.produto+" "+(p.template_gatilho||"")+" "+rotPlano(p.roteiro)).toLowerCase().includes(q))
   );
 }
 
@@ -460,7 +473,7 @@ function filtrosHtml(all){
   const resps=[...new Set(all.map(p=>p.responsavel).filter(Boolean))].sort();
   const opt=(v,l,cur)=>`<option value="${esc(v)}"${cur===v?" selected":""}>${esc(l)}</option>`;
   return `<div class="filters">
-    <input type="search" id="f-q" placeholder="Buscar código, título, avatar…" value="${esc(ui.q)}" aria-label="Buscar">
+    <input type="search" id="f-q" placeholder="Buscar código, título ou texto do roteiro…" value="${esc(ui.q)}" aria-label="Buscar">
     <select id="f-perfil" aria-label="Perfil">${opt("","Todos os perfis",ui.perfil)}${opt("Clínica","Clínica",ui.perfil)}${opt("Profissional","Profissional",ui.perfil)}</select>
     <select id="f-formato" aria-label="Formato">${opt("","Todos os formatos",ui.formato)}${["Reel","Carrossel","Estático"].map(f=>opt(f,f,ui.formato)).join("")}</select>
     <select id="f-tipo" aria-label="Tipo">${opt("","Feed e anúncio",ui.tipo)}${opt("Feed","Feed",ui.tipo)}${opt("Anúncio","Anúncio",ui.tipo)}</select>
@@ -562,7 +575,8 @@ function cardHtml(p){
     <div class="row"><span class="tag">${esc(p.avatar)}${p.produto&&p.produto!=="Clínica"?" · "+esc(p.produto):""}</span>
       ${p.responsavel?`<span class="tag">· ${esc(p.responsavel)}</span>`:""}
       ${pa?`<span class="pill warn">${pa} pendência${pa>1?"s":""}</span>`:""}
-      ${atrasada(p)?`<span class="pill crit">Atrasada</span>`:""}</div>
+      ${atrasada(p)?`<span class="pill crit">Atrasada</span>`:""}
+      ${!(p.roteiro&&(p.roteiro.partes||[]).length)?`<span class="pill neutral">sem roteiro</span>`:""}</div>
   </button>`;
 }
 
@@ -848,6 +862,64 @@ function vInstagram(){
   ${ign.length?`<section class="panel"><h2>Fora do painel<small>${ign.length}</small></h2><div class="list">${ign.map(p=>`<div class="item" style="cursor:default"><div class="body"><span class="meta">${cabec(p)}</span><span class="tag">${esc(p.legenda.slice(0,120))}</span></div><button type="button" class="btn small ghost" data-restore-post="${esc(p.id)}">Voltar para a fila</button></div>`).join("")}</div></section>`:""}`;
 }
 
+/* ---------- Roteiros ---------- */
+function rotPlano(r){ if(!r) return ""; return (r.meta?r.meta+"\n\n":"")+(r.partes||[]).map(x=>x.r+": "+x.t).join("\n\n"); }
+function rotSplit(s){
+  let depth=0;
+  for(let i=0;i<Math.min(s.length,90);i++){ const ch=s[i];
+    if(ch==="(") depth++; else if(ch===")") depth--;
+    else if(ch===":" && depth===0 && s[i+1]===" "){ const lab=s.slice(0,i); if(lab.replace(/\(.*?\)/g,"").trim().split(/\s+/).length<=6) return [lab.trim(),s.slice(i+2).trim()]; return null; } }
+  return null;
+}
+function rotParse(txt,anterior){
+  const blocos=String(txt||"").split(/\n\s*\n/).map(b=>b.replace(/\s*\n\s*/g," ").trim()).filter(Boolean);
+  let meta=""; const partes=[];
+  blocos.forEach((b,i)=>{
+    if(i===0 && /^Ficha:\s/.test(b)){ meta=b.replace(/^Ficha:\s*/,""); return; }
+    const sp=rotSplit(b); partes.push(sp?{r:sp[0],t:sp[1]}:{r:"Texto",t:b});
+  });
+  return {meta,partes,fonte:(anterior&&anterior.fonte)||"Painel",editadoEm:HOJE};
+}
+function rotTextoEdicao(r){ if(!r) return ""; return (r.meta?"Ficha: "+r.meta+"\n\n":"")+(r.partes||[]).map(x=>x.r+": "+x.t).join("\n\n"); }
+function rotClasse(r){
+  if(/^(Headline|Gancho|Texto na arte)/.test(r) || /^Lâmina 1$/.test(r)) return "hl";
+  if(/^(Legenda|Texto principal)/.test(r)) return "leg";
+  if(/^Antes de gravar|^Atenção|^Complemento/.test(r)) return "nota";
+  if(/^(CTA|Apresentação)/.test(r)) return "cta";
+  if(/^Crença/.test(r)) return "bel";
+  return "";
+}
+function rotLegenda(r){ if(!r) return ""; const l=(r.partes||[]).find(x=>/^Legenda/.test(x.r))||(r.partes||[]).find(x=>/^Texto principal/.test(x.r)); return l?l.t:""; }
+function rotFalado(r){ if(!r) return ""; return (r.partes||[]).filter(x=>!/^(Legenda|Texto principal|Título|Antes de gravar)/.test(x.r)).map(x=>x.t.replace(/^Capa:\s*/,"").replace(/^CTA:\s*/,"")).join("\n\n"); }
+async function copiar(txt,ok){
+  try{ await navigator.clipboard.writeText(txt); toast(ok); }
+  catch(_){ const ta=document.createElement("textarea"); ta.value=txt; ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select();
+    let feito=false; try{ feito=document.execCommand("copy"); }catch(__){} ta.remove(); toast(feito?ok:"Não foi possível copiar. Selecione o texto e copie manualmente."); }
+}
+function rotSection(d){
+  const r=d.roteiro;
+  if(ed.rotEdit){
+    const txt = d.roteiro_txt!=null ? d.roteiro_txt : rotTextoEdicao(r);
+    return `<fieldset><legend>Roteiro</legend>
+      <p class="hint" style="margin:0">Um bloco por parte, separados por uma linha em branco, no formato <b>Rótulo: texto</b> (Headline, Notável 1, CTA, Legenda…). A primeira linha pode começar com <b>Ficha:</b> para template e visual.</p>
+      <label class="f"><textarea class="rot-edit" name="roteiro_txt" id="ed-roteiro" aria-label="Texto do roteiro">${esc(txt)}</textarea></label>
+      <div class="rot-actions"><button type="button" class="btn small" data-act="rot-cancel">Descartar edição do roteiro</button></div>
+    </fieldset>`;
+  }
+  if(!r || !(r.partes||[]).length) return `<fieldset><legend>Roteiro</legend><span class="hint">Esta peça ainda não tem roteiro no painel.</span><div class="rot-actions"><button type="button" class="btn small" data-act="rot-edit">Escrever roteiro</button></div></fieldset>`;
+  const leg=rotLegenda(r);
+  return `<fieldset><legend>Roteiro</legend>
+    ${r.meta?`<div class="rot-meta">${esc(r.meta)}</div>`:""}
+    <div class="rot-body">${r.partes.map(x=>`<div class="rp ${rotClasse(x.r)}"><span class="rl">${esc(x.r)}</span><p>${esc(x.t)}</p></div>`).join("")}</div>
+    <div class="rot-actions">
+      <button type="button" class="btn small" data-act="rot-copy">Copiar texto falado</button>
+      ${leg?`<button type="button" class="btn small" data-act="rot-copy-leg">Copiar ${/^Legenda/.test((r.partes.find(x=>x.t===leg)||{}).r||"")?"legenda":"texto do anúncio"}</button>`:""}
+      <button type="button" class="btn small ghost" data-act="rot-edit">Editar roteiro</button>
+    </div>
+    <span class="hint">Fonte: ${esc(r.fonte||"Painel")}${r.editadoEm?` · editado em ${fmtD(r.editadoEm)}`:""}</span>
+  </fieldset>`;
+}
+
 /* ---------- Editor de peça ---------- */
 let ed=null; // {orig, draft, isNew, win, confirmDel}
 function openEditor(codigo){
@@ -856,7 +928,7 @@ function openEditor(codigo){
   const draft = p ? clone(p) : {codigo:"",titulo:"",serie:"",perfil:"Clínica",formato:"Reel",tipo:"Feed",avatar:"",produto:"Clínica",template_gatilho:"",data_planejada:"",data_iso:"",etapa:"roteiro",responsavel:"",prazo:"",pendencias:[],links:{},gravacao:{},datas:{},metricas:{},anuncio:{},observacoes:""};
   ["links","gravacao","datas","metricas","anuncio"].forEach(k=>{ if(!draft[k]||typeof draft[k]!=="object") draft[k]={}; });
   if(!Array.isArray(draft.pendencias)) draft.pendencias=[];
-  ed={orig:p, draft, isNew:!p, win:"d1", confirmDel:false};
+  ed={orig:p, draft, isNew:!p, win:"d1", confirmDel:false, rotEdit:false};
   renderEditor();
 }
 function setPath(o,path,v){ const ks=path.split("."); let cur=o; ks.forEach((k,i)=>{ if(i===ks.length-1){ cur[k]=v; return; } if(cur[k]==null||typeof cur[k]!=="object") cur[k]=/^\d+$/.test(ks[i+1])?[]:{}; cur=cur[k]; }); }
@@ -890,6 +962,7 @@ function renderEditor(){
   document.getElementById("modalRoot").innerHTML=`<div class="scrim" id="scrim"><div class="sheet" role="dialog" aria-modal="true" aria-label="Editar peça">
     <div class="sheet-h">${d.codigo?codeChip(d):""}<h2>${ed.isNew?"Nova peça":esc(d.titulo)}</h2><button class="btn ghost" data-act="close" aria-label="Fechar">✕</button></div>
     <form class="sheet-b" id="edForm" autocomplete="off">
+      ${rotSection(d)}
       <fieldset><legend>Etapa atual</legend>
         <div class="track">${track}</div>
         <input type="hidden" name="etapa" value="${esc(d.etapa)}">
@@ -962,6 +1035,7 @@ async function saveEditor(){
   }
   if(!d.titulo){ toast("Dê um título à peça."); return; }
   d.pendencias=(d.pendencias||[]).filter(x=>x&&String(x.texto||"").trim());
+  if(d.roteiro_txt!=null){ const t=d.roteiro_txt.trim(); if(t && t!==rotTextoEdicao(d.roteiro).trim()) d.roteiro=rotParse(t,d.roteiro); else if(!t && ed.orig && ed.orig.roteiro){ d.roteiro=null; } delete d.roteiro_txt; }
   if(!ed.orig || ed.orig.etapa!==d.etapa){ d.datas=d.datas||{}; if(!d.datas[d.etapa]) d.datas[d.etapa]=HOJE; }
   ["d1","d7","d30"].forEach(k=>{ const m=(d.metricas||{})[k]; if(m && Object.values(m).every(v=>v==null||v==="")) delete d.metricas[k]; });
   try{ await store.save(d); toast(`${d.codigo} salva`); closeEditor(); }
@@ -996,6 +1070,10 @@ document.addEventListener("click",async e=>{
   if(a==="import"){ t.disabled=true; t.textContent="Importando…"; try{ await store.importSeed(); toast("Inventário importado"); }catch(_){ toast("Não foi possível importar. Você precisa de acesso de edição."); t.disabled=false; t.textContent="Importar inventário"; } return; }
   if(!ed) return;
   e.preventDefault();
+  if(a==="rot-copy"){ copiar(rotFalado(ed.draft.roteiro),"Texto falado copiado"); return; }
+  if(a==="rot-copy-leg"){ copiar(rotLegenda(ed.draft.roteiro),"Copiado"); return; }
+  if(a==="rot-edit"){ collect(); ed.rotEdit=true; renderEditor(); document.getElementById("ed-roteiro")?.focus(); return; }
+  if(a==="rot-cancel"){ collect(); ed.rotEdit=false; delete ed.draft.roteiro_txt; renderEditor(); return; }
   if(a==="close") closeEditor();
   else if(a==="save") saveEditor();
   else if(a==="addpend"){ collect(); ed.draft.pendencias.push({texto:"",ok:false}); renderEditor(); const ins=document.querySelectorAll('.pend input[type=text]'); ins[ins.length-1]?.focus(); }

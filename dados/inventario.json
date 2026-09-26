@@ -20,7 +20,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: crença + T19 · Headline visual: você sentada no mocho, levantando",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Podóloga, se você só ganha quando está sentada no mocho, você não tem um negócio. Você tem um emprego."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, a solução não é atender mais gente, nem trabalhar no sábado, nem fazer mais um curso de técnica de unha."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva esse vídeo, porque ele pode mudar a forma como você enxerga a sua agenda."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Procedimento avulso tem um teto: o número de horas do seu dia. Não importa quanto você é boa, ele não cresce."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Enquanto a podóloga comum cobra por procedimento, a especialista em biomecânica avalia a pisada e prescreve uma palmilha que custa em média R$ 1.500."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Se você conhece uma podóloga que trabalha até tarde e o dinheiro não cresce, manda esse vídeo pra ela."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Uma aluna minha, numa cidade pequena de Rondônia, fez mais de R$ 100 mil com palmilhas no primeiro ano."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: podóloga que entende biomecânica nunca mais depende de procedimento avulso."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue e comenta \"PÉ INTEIRO\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R2",
@@ -43,7 +85,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T26 + mistério tardio · Headline visual: close numa unha (imagem autorizada)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A unha da sua paciente não descola por acaso. E o problema nunca esteve na unha."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Não é fungo, não é o esmalte, não é o alicate. É algo que quase nenhuma podóloga olha."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva, porque você vai lembrar desse vídeo na próxima paciente."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Uma aluna minha atendia uma paciente comum, que só caminhava e fazia academia, e a unha do hálux descolava sempre."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Tratava, a unha crescia, descolava de novo. O ciclo se repetia havia anos."
+    },
+    {
+     "r": "Notável 3 (revelação)",
+     "t": "Fizemos uma avaliação biomecânica: hiperpronação bilateral importante. A cada passo, o hálux era empurrado contra o chão. Com a palmilha, as unhas estão impecáveis há mais de um ano."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra aquela colega que sempre reclama da paciente que \"não tem jeito\"."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: quem trata a unha e não olha o pé trata a consequência."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R3",
@@ -66,7 +150,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T5 (crença para confrontar) · Headline visual: palmilha na mão",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Palmilha é coisa de ortopedista, de fisioterapeuta. Podóloga não mexe com isso. Será mesmo?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "Essa frase fez muita podóloga deixar dinheiro e paciente na mesa."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Quem vê o pé de perto, toda semana, é a podóloga. Ela enxerga calosidade, unha e pressão antes de qualquer outro profissional."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Calosidade no mesmo ponto é um mapa de pressão. Ela conta como a pessoa pisa."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Se você conhece uma podóloga que acha que palmilha \"não é pra ela\", manda esse vídeo."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Com avaliação biomecânica, a podóloga passa de quem remove a calosidade para quem trata a causa dela."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a podóloga é a profissional que mais vê o pé. Ela só precisa aprender a ler o que vê."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Comenta \"PALMILHA\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R4",
@@ -89,7 +211,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T3 + inimigo (podologia de superfície)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Você saiu do curso técnico achando que estava pronta. Não estava, e a culpa não é sua."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Ninguém te contou que existe uma diferença entre cuidar da unha e entender o pé."
+    },
+    {
+     "r": "Notável 1 (identificação)",
+     "t": "Você trata bem, a paciente sai feliz… e volta em 30 dias com o mesmo problema."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Isso é a podologia de superfície: a formação que ensina a tratar o que aparece, não o que causa."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Marca aquela amiga que se formou com você."
+    },
+    {
+     "r": "Notável 3",
+     "t": "A causa quase sempre está na forma como o pé pisa. E isso se aprende."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: podóloga não nasceu para ficar presa no mocho."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R5",
@@ -112,7 +272,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: crença + dado + opinião forte · Confirmar a fonte do dado antes de gravar",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A maioria dos profissionais da nossa área é de mulheres. A maioria dos palestrantes é homem. Alguém me explica essa conta?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "E quando uma mulher sobe no palco, a primeira pergunta nunca é o que ela estudou."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Conte os palestrantes do último congresso de podologia que você foi. Faça a conta."
+    },
+    {
+     "r": "Notável 2 (história própria)",
+     "t": "Eu já ouvi \"escolhe: o mestrado ou eu\" de um chefe. Ri e escolhi o mestrado."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra toda podóloga que você acha que merece aquele palco."
+    },
+    {
+     "r": "Notável 3",
+     "t": "O problema não é falta de mulher competente. É falta de mulher sendo vista."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a podóloga não precisa de permissão para ser especialista."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Comenta o que você já ouviu."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R6",
@@ -135,7 +333,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: crença + lista de reconhecimento · Headline visual: mapa da baropodometria na tela",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A sua dor nas costas pode estar começando no seu pé."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, eu não estou falando de sapato apertado nem de salto alto."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva esse vídeo e faz esse teste hoje à noite."
+    },
+    {
+     "r": "Notável 1",
+     "t": "O pé é a base do corpo. Quando ele pisa torto, o joelho compensa, o quadril compensa e a lombar paga a conta."
+    },
+    {
+     "r": "Notável 2 (sinal)",
+     "t": "O seu sapato gasta muito mais de um lado do que do outro."
+    },
+    {
+     "r": "Notável 3 (sinal)",
+     "t": "A dor piora no fim do dia, depois de muito tempo em pé ou andando."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Se você conhece alguém que vive reclamando das costas, manda esse vídeo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a dor quase nunca está onde dói."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R7",
@@ -163,7 +403,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: mistério tardiamente revelado · Só com autorização escrita do paciente; sem ela, \"um médico de 50 e poucos anos\"",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Um médico passou por todos os ortopedistas da cidade, fez ressonância e tomografia… e ninguém achou a causa da dor dele."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Ele tomava remédio para dor todos os dias, havia anos."
+    },
+    {
+     "r": "Notável 1",
+     "t": "A dor ficava num ponto só, na região da bacia, do lado esquerdo."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Quando ele me descreveu a dor, eu já desconfiei. A baropodometria mostrou um desvio de quadril."
+    },
+    {
+     "r": "Notável 3 (revelação)",
+     "t": "Pedi um exame de medida das pernas. Uma era 0,8 cm menor. Com a palmilha certa, em cerca de 20 dias ele estava sem dor."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Se você conhece alguém que já fez todos os exames e a dor continua, manda esse vídeo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o exame parado não enxerga a dor que aparece quando você anda."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Comenta \"MAPA\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R8",
@@ -186,7 +464,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T21 · Headline visual: chinelo na mão",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O que acontece com os seus pés quando você passa o dia inteiro de chinelo."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Eu sei, é confortável. Mas o seu pé está trabalhando dobrado sem você perceber."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e confere o seu chinelo depois."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Para o chinelo não escapar, os dedos ficam o tempo todo agarrando. Isso sobrecarrega músculos pequenos do pé."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Sem apoio, o arco do pé fica sem sustentação e a pisada muda a cada passo."
+    },
+    {
+     "r": "Notável 3 (valor prático)",
+     "t": "Em casa, alterne: parte do tempo descalça, parte com um calçado que prenda o calcanhar."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra aquela pessoa que vive de chinelo e reclama de dor no pé."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o pé é a base de tudo. Quando a base erra, o corpo inteiro paga."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R9",
@@ -209,7 +529,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: opinião forte + crença · Headline visual: você com tênis de corrida",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Dor não é treino."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E quem te disse \"no pain, no gain\" provavelmente nunca teve que parar de correr por lesão."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Existe o cansaço do treino, que passa. E existe a dor que volta sempre no mesmo lugar. Essa segunda é um aviso."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Quando dói, o corpo compensa: muda a passada, muda a carga, e a compensação de hoje vira a lesão de amanhã."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra aquele amigo que corre com dor e diz que é normal."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Treinar sem dor não é treinar menos. É conseguir treinar por mais tempo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a dor não faz parte do treino. Ela está te pedindo para olhar a causa."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Comenta onde dói."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "R10",
@@ -232,7 +590,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: inimigo (tênis milagroso) + T27 · Headline visual: três tênis lado a lado",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Pare de trocar de tênis. O problema não está nele."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Você já trocou três vezes, gastou uma fortuna, e a dor continua no mesmo lugar."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva antes de comprar o próximo."
+    },
+    {
+     "r": "Notável 1",
+     "t": "O tênis muda o que está por fora. A pisada é o que acontece por dentro."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Se a causa é a forma como o seu pé toca o chão, trocar de tênis só muda o lugar onde a compensação aparece."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pro seu parceiro de corrida que coleciona tênis."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Antes do tênis novo, entenda como você pisa. Aí sim o tênis certo faz diferença."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: tênis não conserta pisada."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A1",
@@ -255,7 +655,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Profissional · Template: T21 (o que acontece quando…) · Visual: aplicação de tape no hálux",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O que acontece com a unha encravada quando você usa o tape?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, o tape não \"cura\" unha encravada. É outra coisa, e é bem mais interessante."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra mostrar pra sua próxima paciente."
+    },
+    {
+     "r": "Notável 1",
+     "t": "A primeira coisa é que aquela pressão absurda da borda da unha começa a diminuir. A paciente que chegava andando igual um pinguim possuído volta a encostar o pé no chão."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Porque o tape muda a mecânica da região: reduz tensão, direciona a pele, abre campo ungueal e diminui o atrito que fica inflamando tudo."
+    },
+    {
+     "r": "Notável 3 (plot twist)",
+     "t": "O problema não é a unha. Muitas vezes, ninguém te ensinou a olhar biomecanicamente pra ela."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: quem trata a unha e não olha o pé trata a consequência."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. E se voce quiser usar o Tape como especialista, comenta ONICOTAPE que eu te mostro o caminho."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A2",
@@ -278,7 +716,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Clínica (Márcia) · Template: T4 (o maior motivo) + lista · Visual: lixa na mão",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Você continua com esse calo no pé por 3 motivos."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E nenhum deles é falta de desbaste, de creme ou de ir à podóloga."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva para nao esquecer desses detalhes que vou te falar."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Você acha que o calo é o problema. Não é. Ele é o seu corpo te ajudando de alguma forma, massss, \"ou você muda essa mecânica, ou eu vou cimentar esse lugar aqui\"."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Você tira o calo, mas continua pisando igual uma britadeira desgovernada. Lixa, corta, pezinho de princesa por 4 dias… e ele volta. Que surpresa, né?"
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Conhece alguém que vive arrancando calo e ele volta pior? Manda antes que ela lixe o pé até o pré-sal."
+    },
+    {
+     "r": "Notável 3",
+     "t": "O corpo é malandro e joga pressão onde não devia: tornozelo sem mobilidade, dedão que não funciona, joelho que gira, pé que colapsa. A avaliação biomecânica olha tudo isso, e a palmilha redistribui a carga."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o problema raramente é a pele. É o jeito que você está esmagando ela no chão."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A3",
@@ -301,7 +781,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Profissional · Template: T9 (toda pessoa com X precisa saber)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Toda podóloga brasileira deveria entender isso antes que seja tarde."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Unha encravada voltando, calo reaparecendo, onicofose inflamando, micose que nunca melhora… e o problema não está só na unha nem na pele."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva, porque você vai querer rever esse vídeo."
+    },
+    {
+     "r": "Notável 1",
+     "t": "O corpo não faz nada aleatório. Como um paciente trata há anos e continua criando o mesmo padrão?"
+    },
+    {
+     "r": "Notável 2 (identificação)",
+     "t": "Unha deformada de um lado só. Dedos em garra. Calo sempre no mesmo ponto. Hálux colapsando de um lado e rígido do outro. Esse pé recebe carga diferente, e ninguém pergunta por quê."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Enquanto isso, fica todo mundo tratando consequência. É igual secar o chão com a torneira aberta."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra podóloga que trata a mesma paciente há anos."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: quando você aprende biomecânica de verdade, você para de decorar protocolo e começa a interpretar o corpo."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Comenta STEP que eu te mostro o caminho."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A4",
@@ -329,7 +851,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Clínica (Márcia/Diego) · Template: T2 (autoridade) + negação · Número oficial: 967 pares desde agosto de 2025",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Depois de quase mil pares de palmilhas produzidos na nossa oficina, esse é o tipo que mais funciona pra quem tem pé plano."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não é aquela palmilha dura igual tábua de carne que deixa o paciente andando igual um Playmobil."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva antes de comprar a próxima palmilha."
+    },
+    {
+     "r": "Notável 1",
+     "t": "O pé plano não precisa só de apoio. Precisa de direcionamento mecânico: como absorve carga, distribui pressão e quanto colapsa na marcha."
+    },
+    {
+     "r": "Notável 2",
+     "t": "O erro clássico é pôr uma palmilha rígida feito telha num pé flexível e instável. Resultado: o paciente não adapta, melhora por 3 dias e passa a odiar aquilo."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Tem pé plano ou conhece alguém? Manda esse vídeo."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Por isso eu uso cada vez mais palmilha termomoldável: ela modula a carga sem transformar o pé num bloco de concreto. E o corpo inteiro agradece, do joelho à lombar."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: palmilha boa não é a mais dura. É a que conversa com a mecânica do seu corpo."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A5",
@@ -352,7 +916,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Profissional · Template: história + T8 (demorei anos pra aprender)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Depois de ensinar tape por mais de 8 anos pra podologia, esse foi o erro de que eu mais me arrependo."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E ele fez muita aluna travar antes mesmo de começar."
+    },
+    {
+     "r": "Notável 1",
+     "t": "No começo, eu achava que precisava colocar tudo no curso. Mais técnica, mais aula, mais conteúdo. Resultado: curso gigante e aluna perdida."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Eu pensava igual professora, não igual quem está do outro lado tentando sobreviver na clínica."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que já saiu de um curso com mais dúvida do que entrou."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Vocês não queriam um caminhão de informação. Queriam aprender hoje e usar amanhã, sem montar um foguete da NASA no pé da paciente."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o problema nunca foi falta de conteúdo. Foi excesso de complexidade."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. E foi por isso que eu criei o OnicoTape, a primeira fase pra aprender tape do jeito certo, ou reaprender sem trauma. Comenta ONICOTAPE que eu te mostro o caminho."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A6",
@@ -375,7 +977,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Profissional · Template: \"A geração de ___ já está entre nós\" + opinião forte",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A geração de podólogos inovadores já está entre nós."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E ela não é a que tem mais certificado na parede."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Comprar formação atrás de formação não é evoluir. Às vezes é só virar acumuladora profissional de certificado."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Tem profissional com 37 cursos que empaca numa recidiva simples de unha encravada, porque nunca aprendeu raciocínio clínico."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que coleciona curso e continua no mesmo lugar."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Inovação não é equipamento caro parado no canto fazendo papel de decoração premium. É técnica barata com raciocínio, como o tape andando junto com a biomecânica."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: podóloga não nasceu pra ficar presa no mocho replicando protocolo."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. E se voce quer entender como o raciocinio clinico funciona comenta Step que te mostro o caminho"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "A7",
@@ -398,7 +1038,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Profissional · Template: T9 + opinião forte",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Quem tem unha encravada que sempre volta precisa saber disso."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E vou falar uma coisa que talvez gere polêmica."
+    },
+    {
+     "r": "Notável 1 (opinião)",
+     "t": "Podólogos e médicos tratam a unha encravada. Mas, na minha opinião de fisioterapeuta especialista em pés, isso é muito mais competência do podólogo do que se imagina, porque é ele quem vê pressão, atrito, deformidade e pele no detalhe."
+    },
+    {
+     "r": "Notável 2",
+     "t": "A unha não encrava do nada. Ela sofre microtrauma o tempo todo: o dedo colapsa, o sapato comprime, o hálux perde mobilidade, a carga vai pra borda."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra alguém que precisa entender isso."
+    },
+    {
+     "r": "Notável 3",
+     "t": "O tape ajuda a abrir campo, reduzir tensão e pressão. E funciona melhor ainda quando a profissional entende biomecânica, com a palmilha mudando a mecânica que continua traumatizando a unha."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: às vezes o problema não é a unha que cresce errado. É o corpo inteiro esmagando aquela região todos os dias."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B1",
@@ -426,7 +1104,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T29 (o pior erro não é…) + dado · Confirmar a fonte dos 20%",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O maior erro das podólogas brasileiras não é técnico. É tratar a unha encravada e ignorar o resto do pé."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E isso está deixando paciente, resultado e dinheiro na mesa."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva esse vídeo e revê antes da próxima paciente."
+    },
+    {
+     "r": "Notável 1 (dado)",
+     "t": "Estima-se que cerca de 20% de quem procura podologia tem algum grau de onicocriptose. Olha o tamanho disso."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Quantas dessas pacientes escutam que a unha pode estar sofrendo pela forma como o pé pisa? Pressão errada, atrito, sapato comprimindo, hálux colapsando."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Você tem a paciente na mão e poderia oferecer um cuidado mais completo e mais lucrativo. Só não aprendeu a interpretar marcha, carga e compensações."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: quem entende o motivo de a unha continuar adoecendo deixa de ser mais uma e vira especialista."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. E se voce quer entender o caminho para uma resoluçao eficaz comenta STEP que eu te mostro"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B2",
@@ -449,7 +1165,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T26 (não foi pelo motivo que você pensa) + mistério",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O tape virou uma febre na podologia, mas quase ninguém entendeu o verdadeiro motivo."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, não foi a fita."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Todo mundo começou a colar fita em tudo: unha encravada, edema, onicofose, calo. E isso foi maravilhoso, porque o tape trouxe o que a paciente ama: sentir diferença no mesmo dia."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Menos pressão, menos dor, mais conforto pra caminhar."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que já cola tape em tudo."
+    },
+    {
+     "r": "Notável 3 (revelação)",
+     "t": "O motivo real foi o raciocínio mecânico por trás dela. O tape modifica tensão e direciona tecido. Ele abriu a porta da biomecânica dentro da podologia."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o tape sozinho não faz milagre. Quem faz é a profissional que entende por que está aplicando."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Foi por isso que eu criei o OnicoTape, sem pós-graduação em sabichonisse com fita adesiva. Comenta ONICOTAPE."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B3",
@@ -472,7 +1226,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T28 (isso não é…) · Visual: 3 fotos de tape errado",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Isso aqui tá errado. E isso aqui também. Meu Deus, esse aqui então…"
+    },
+    {
+     "r": "Intensificador",
+     "t": "Calma que eu vou te mostrar o que faz muita podóloga perder resultado com o tape."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e confere na sua próxima aplicação."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Primeiro erro: achar que tape é reproduzir a foto do Instagram. Ele precisa respeitar direção, tensão, acomodação da pele e o comportamento da borda ungueal."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Segundo: exagerar na força achando que quanto mais puxa, melhor. Pelo amor de Deus. 😅 Você irrita a região e perde o conforto da paciente."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Terceiro: não preparar a pele. A fita descola, perde função, e a paciente acha que \"tape não funciona\"."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o tape não falha. Falha a aplicação."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Foi pra isso que eu criei o"
+    },
+    {
+     "r": "OnicoTape",
+     "t": "aplicações simples e práticas pra parar de improvisar. Comenta ONICOTAPE."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B4",
@@ -495,7 +1291,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T13 (X vs. Y) · Visual: duas aplicações lado a lado",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Isso aqui parece tape terapêutico. Isso aqui também parece. Só um deles funciona."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E é exatamente aí que muita podóloga se perde."
+    },
+    {
+     "r": "Notável 1",
+     "t": "O problema não é colar a fita. É entender como aplicar pra gerar conforto e resultado."
+    },
+    {
+     "r": "Notável 2",
+     "t": "O tape não pode gerar mais pressão do que a paciente já sente. Tem aplicação que parece que a pessoa tá embalando a paciente pra Sedex. 😅"
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que ainda cola tape \"no olho\"."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Quando é bem aplicado, a paciente sente menos atrito, menos pressão e mais segurança pra caminhar, e isso muda a experiência do atendimento."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: copiar foto aleatória da internet não é protocolo."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. No OnicoTape, eu ensino aplicações simples, práticas e inteligentes. Comenta ONICOTAPE que te mostro o caminho"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B5",
@@ -518,7 +1352,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T22 (sinais de que você é…) + humor",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Sinais de que você virou a podóloga palestrinha do tape."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Domina toda a teoria… e trava na hora de aplicar."
+    },
+    {
+     "r": "Notável 1 (identificação)",
+     "t": "\"Ah, porque a tensão da fita…\" \"Ah, porque a direção fascial…\" \"Ah, porque a vetorização tecidual…\" 😅"
+    },
+    {
+     "r": "Notável 2",
+     "t": "Teoria importa. Mas tem gente transformando uma aplicação simples em tese de doutorado da NASA."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Marca a amiga palestrinha (com carinho)."
+    },
+    {
+     "r": "Notável 3 (valor prático)",
+     "t": "Pra paciente, a explicação tem que ser simples: a fita ajuda no conforto, reduz a pressão local, alivia ao caminhar e acomoda a pele."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: você não precisa estudar 14 anos pra colar uma fita corretamente. Precisa de prática, raciocínio simples e segurança."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Foi pra isso que eu criei o OnicoTape. Comenta ONICOTAPE."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "B6",
@@ -541,7 +1413,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T16 (o item mais subestimado)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Essa é provavelmente a técnica mais subestimada pra quem trata unha encravada."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não porque virou modinha, nem porque é uma fitinha colorida."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Bem aplicado, o tape reduz a pressão na borda, melhora o conforto e alivia aquela dor latejando dentro do sapato. Quem já teve sabe: é um mini inferno no dedão."
+    },
+    {
+     "r": "Notável 2",
+     "t": "É acessível e rápido. Você não precisa de equipamento milionário, nem transformar o atendimento em cirurgia de Grey's Anatomy. 😅"
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva a lista do que você precisa aprender."
+    },
+    {
+     "r": "Notável 3 (valor prático)",
+     "t": "Você precisa saber qual fita usar, como preparar a pele, onde aplicar, quanta tensão usar, quais erros evitar e como orientar a paciente depois."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o que diferencia o seu atendimento não é equipamento caro. É conhecimento aplicado."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aprenda no OnicoTape, antes que sua concorrente aprenda primeiro. 😅 Comenta ONICOTAPE."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C1",
@@ -564,7 +1474,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T4 (esse é o maior motivo) + história",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A maioria das podólogas que eu formo sabe fazer a espiculaectomia. O problema começa depois."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Quando, três meses depois, a mesma unha volta a encravar."
+    },
+    {
+     "r": "Notável 1 (identificação)",
+     "t": "Procedimento certinho, espícula removida, curativo orientado, paciente feliz. Três meses depois: mesma queixa, mesma unha, mesmo pé."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Tirar a espícula resolveu a crise. Mas a unha continuou crescendo, e ninguém fez nada com o caminho dessa lâmina."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que vive atendendo a mesma recidiva."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Pra mudar esse caminho, a unha precisa de espaço. É aí que o tape entra como estratégia mecânica durante o crescimento."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: uma coisa é tratar a crise, outra é acompanhar a unha depois que a paciente sai do consultório."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. É esse raciocínio que eu ensino no Protocolo ONICOTAPE. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C2",
@@ -592,7 +1540,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: opinião forte + T11 · Sempre condicionar à avaliação",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Tem podóloga cobrando por espiculaectomia que talvez nem precisasse fazer."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E a onicocriptose em bebê é o caso que mais obriga você a pensar antes de cortar."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Um pezinho minúsculo, uma mãe preocupada, um bebê que não consegue explicar o que sente. A primeira pergunta não deveria ser \"onde eu corto?\", e sim \"eu realmente preciso cortar?\""
+    },
+    {
+     "r": "Notável 2",
+     "t": "Em alguns casos, depois de uma avaliação adequada, o tape pode fazer parte de uma abordagem conservadora. Pensa como mãe por cinco segundos: qual mãe não gostaria de conhecer essa possibilidade?"
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que atende criança."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Quando você amplia as suas possibilidades de conduta, muda a experiência do atendimento, e um atendimento delicado e especializado tem outro valor percebido."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: não é decorar aplicação, é aprender a olhar o caso e saber onde cada técnica entra."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. É esse raciocínio que eu ensino no Protocolo ONICOTAPE. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C3",
@@ -615,7 +1601,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T5 (crença para confrontar) + opinião forte",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "\"Tape em onicocriptose é frescura.\" Toma vergonha na cara: é técnica."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E normalmente quem fala que é \"só uma fitinha\" nunca estudou direito o que está fazendo."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Viu alguém aplicando na internet, achou bonitinho, colou mais ou menos igual e pensou \"pronto, fiz tape\". Não, pequeno gafanhoto. Você colou uma fita."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Aí descola, não funciona, e vem a conclusão: \"tape não presta\" ou \"vou trocar por outro material\". Você está tentando resolver um problema de técnica trocando o material."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que diz que tape é frescura."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Existe direção, tensão, objetivo e momento de troca. Copiar o formato da fita é fácil. Entender o mecanismo é outra história."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a pergunta não é se o tape funciona. É se você sabe o que está tentando provocar com aquela aplicação."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. O Protocolo ONICOTAPE foi feito pra mudar esse raciocínio. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C4",
@@ -638,7 +1662,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T19 (enquanto X faz isso, Y faz aquilo)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Enquanto você desiste do tape, tem colega cobrando mais pelo mesmo tipo de caso."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não necessariamente porque ela é melhor profissional que você."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Ela só sabe explicar melhor o que vai fazer, por que, quanto tempo leva e o que a paciente faz entre as sessões. Ela não vende uma fitinha. Ela apresenta uma conduta."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Enquanto isso, você copiou uma aplicação da internet, descolou, e decidiu: \"não gostei de tape\"."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que desistiu do tape na primeira tentativa."
+    },
+    {
+     "r": "Notável 3",
+     "t": "É igual comprar uma furadeira, fazer um buraco torto e decidir que furadeira é uma porcaria. Talvez o problema não seja a ferramenta."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: tape dentro de uma conduta não é \"onde eu colo?\", é \"por que essa aplicação, qual efeito, como oriento, quando reavalio?\""
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. O Protocolo ONICOTAPE organiza esse raciocínio, com 12 meses de acesso. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C5",
@@ -661,7 +1723,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: reconhecimento (\"eu sei o que passa na sua cabeça\")",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Eu não preciso ser podóloga pra saber o que passa na sua cabeça naquele caso grave de onicocriptose."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Eu ensino tape e biomecânica há anos pra esse público, e essa insegurança aparece o tempo inteiro."
+    },
+    {
+     "r": "Notável 1 (identificação)",
+     "t": "Você olha o hálux, a unha, o paciente… e pensa: \"tá, e agora, o que eu faço?\""
+    },
+    {
+     "r": "Notável 2",
+     "t": "O caso real nem sempre é igual à foto bonita do curso. E muita gente aprendeu onicocriptose como receita de bolo."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que já travou num caso assim."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Com biomecânica, surgem outras perguntas: quanta pressão esse hálux recebe? Como esse paciente distribui carga? O tape passa a fazer parte de um raciocínio."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: segurança não vem de decorar técnica. Vem de entender por que você está usando."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Essa é a proposta do Protocolo ONICOTAPE. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C6",
@@ -684,7 +1784,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T30 (erros que você comete) + humor",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Merdas que as pessoas fazem com tape quando não são capacitadas… mas usam mesmo assim."
+    },
+    {
+     "r": "Intensificador",
+     "t": "\"Ah, Natália, mas é só uma fita.\" Não é."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra conferir se você comete alguma."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Copiar aplicação da internet sem nenhuma capacitação, e inventar o resto da técnica pra tentar reproduzir o desenho."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Aprender com quem também não aprendeu. \"Eu aprendi em cinco minutos.\" Você não aprendeu tape. Você assistiu alguém colar uma fita."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que vai se identificar (sem julgamento)."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Economizar no material: tape de marketplace que não sustenta nem a própria aplicação. E achar que a primeira aplicação tem que ficar perfeita. A primeira vai ficar uma bosta, a segunda menos bosta, e você melhora repetindo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: tape exige técnica, mão e treino."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Você pode aprender sozinha errando, ou treinar acompanhada por mim no Protocolo ONICOTAPE. Clica em \"Saiba mais\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C7",
@@ -707,7 +1849,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T27 (a dor acontece porque você faz X) + humor · Escolher um CTA só",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "\"Meu tape descola.\" Eu sei por quê, e você não vai gostar."
+    },
+    {
+     "r": "Intensificador",
+     "t": "É uma das frases que eu mais ouço de quem começou a aplicar e ainda não treinou o suficiente."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Por que uma profissional aplica e o tape fica, e outra aplica no mesmo caso e ele descola? A resposta cabe em uma palavra: treino."
+    },
+    {
+     "r": "Notável 2 (humor)",
+     "t": "Aí começa: \"foi a cola\", \"foi o material\", \"foi a pele\", \"foi o paciente\", \"foi a desordem e o caos do universo\". Tudo é culpado, menos ela, o alecrim dourado da podologia."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que já culpou até Mercúrio retrógrado."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Não comece um protocolo novo no paciente antes de treinar. Tape exige repetição, correção e alguém olhando a sua aplicação."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: talvez o problema não seja a fita. Talvez você só ainda não tenha aprendido a usar essa ferramenta."
+    },
+    {
+     "r": "Apresentação + CTA (venda)",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. No Protocolo ONICOTAPE você tem acompanhamento comigo, com grupo e meu número pra mandar casos. Clica em \"Saiba mais\"."
+    },
+    {
+     "r": "CTA alternativo (autoridade)",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue: toda semana eu trago técnica, aplicação e os erros que eu vejo por aí."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "C8",
@@ -730,7 +1914,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T5 (mito) + fato curioso · Visual: fitas de várias cores",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Se você escolhe a cor do tape achando que uma é mais forte que a outra, eu preciso te contar uma coisa."
+    },
+    {
+     "r": "Intensificador",
+     "t": "É uma das perguntas que eu mais recebo em oito anos ensinando tape."
+    },
+    {
+     "r": "Notável 1",
+     "t": "A cor não influencia nada. Tape não é faixa elástica de academia, em que a cor muda a resistência. O preto não é mais potente, e o nude não é versão light."
+    },
+    {
+     "r": "Notável 2",
+     "t": "O tape é material elástico, algodão e cola acrílica. Não tem remedinho escondido no rosa. Eu, particularmente, sou um arco-íris: quanto mais cor, melhor."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que só compra fita preta \"porque é mais forte\"."
+    },
+    {
+     "r": "Notável 3",
+     "t": "A tensão não vem na cor. Quem coloca é você, conforme a técnica, o corte e o objetivo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: aprender tape não é decorar \"azul pra isso, rosa pra aquilo\". É entender o material."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue pra mais tape sem mito de internet."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "D1",
@@ -758,7 +1980,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: lista de reconhecimento + humor · Sem nomes, eventos ou detalhes que identifiquem alguém",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Fofocas de congresso que eu provavelmente não deveria contar."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Mas eu vou contar, porque todas elas ensinam alguma coisa."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Já vi palestrante no palco aplicando tape errado, sem princípio, e uma plateia inteira anotando."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Já vi palestra de plantigrafia dizendo que avaliação só estática estava ótima. Eu respirando fundo na cadeira. E já vi professor admitindo que aprendeu tape num vídeo do YouTube."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que vai comigo no próximo congresso."
+    },
+    {
+     "r": "Notável 3",
+     "t": "E a minha favorita: gente passando por mim no corredor fingindo que não me viu… e eu sabendo bem o que aquela pessoa tinha feito."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: congresso também ensina, às vezes pelo conteúdo, às vezes mostrando por que a gente estuda antes de ensinar."
+    },
+    {
+     "r": "CTA",
+     "t": "Quer a parte 2? Comenta \"PARTE 2\", porque eu tenho material."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "D2",
@@ -781,7 +2041,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T13 (X vs. Y vs. Z) + crença · Série machismo",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Manterrupting, mansplaining e gaslighting: três jeitos diferentes de tirar a autoridade da fala de uma mulher."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E talvez você esteja aí pensando: \"nossa, essa mulher deve estar traumatizada\". Talvez eu só tenha parado de achar normal o que normalizei por anos."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra reconhecer da próxima vez."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Manterrupting é quando um homem interrompe a mulher o tempo todo, até ela ter que disputar o direito de terminar uma frase."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Mansplaining é quando ele explica, de forma condescendente, algo que ela sabe mais do que ele, às vezes a própria especialidade dela."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra toda mulher da sua área."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Gaslighting é mais pesado: negar e distorcer até você duvidar da própria percepção. \"Eu nunca falei isso.\" \"Você está exagerando.\""
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: hoje ninguém precisa mandar uma mulher calar a boca. Basta fazer ela desistir de falar."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Numa profissão ocupada por mulheres, a gente precisa aprender não só a ocupar espaço, mas a reconhecer quando tentam tirá-lo. Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "D3",
@@ -804,7 +2106,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: história de origem + crença · Conecta com a mentoria",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "A faculdade te ensinou a cuidar do paciente. Só esqueceu de ensinar a manter aberta a empresa onde você cuida dele."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Você se forma achando que o difícil vai ser dominar a técnica. Aí abre um consultório e vira vendedora, financeira, secretária, social media e às vezes até faxineira."
+    },
+    {
+     "r": "Notável 1 (identificação)",
+     "t": "Você estuda, faz curso, compra equipamento, atende bem, o paciente gosta de você. E no fim do mês olha pro dinheiro e pensa: \"onde é que eu tô errando?\""
+    },
+    {
+     "r": "Notável 2 (história)",
+     "t": "Eu passei por isso. Abri meu primeiro consultório com 22 anos, e obviamente não deu certo. Eu sabia atender, mas não sabia administrar."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra colega que atende o dia inteiro e não vê o lucro."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Aos 26, abri meu estúdio de Pilates. São 12 anos como gestora aprendendo preço, equipe, venda, custo, erro e acerto, porque não existe pós-graduação que faça boleto se pagar sozinho."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a técnica responde \"como eu cuido desse paciente?\". A gestão responde \"como eu transformo tudo que eu sei numa empresa saudável?\"."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "D4",
@@ -827,7 +2167,57 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: lista de reconhecimento · Série machismo · Sem identificar quem disse",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Frases que você provavelmente já ouviu no trabalho só por ser mulher."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E se você já ouviu pelo menos uma, esse vídeo é pra você. Se nunca ouviu nenhuma, parabéns: você é a exceção."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva, porque da próxima vez que você ouvir uma dessas, vai lembrar que não é exagero seu."
+    },
+    {
+     "r": "Notável 1 (ameaça disfarçada)",
+     "t": "\"É só eu mandar uma mensagem em alguns grupos que você não trabalha mais com ninguém. Sua carreira acabou.\" Ninguém fala isso pra um colega homem que discorda. Fala pra mulher que começou a ocupar espaço."
+    },
+    {
+     "r": "Notável 2 (a competência questionada)",
+     "t": "\"Você não está certa. Eu estou.\" / \"Eu entendo as mulheres, acredite, eu sou casado.\" / \"Você tá de TPM, só pode.\" Repara que nenhuma delas discute o argumento. Todas discutem você."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra amiga que já ouviu alguma dessas e engoliu calada."
+    },
+    {
+     "r": "Notável 3 (o favor que humilha)",
+     "t": "Depois de três dias trabalhando fora do horário num curso, receber um presente em dinheiro seguido de: \"não se acostume, tenho certeza de que ninguém nunca te deu um presente nesse valor\". Não era gratidão. Era um lembrete de quem manda."
+    },
+    {
+     "r": "Complemento (escolha só as que você já ouviu de verdade)",
+     "t": "\"Nossa, nem parece que foi uma mulher que fez.\" / \"Calma, não precisa ficar nervosa.\" / \"Deixa que eu explico pro paciente.\" / \"Quem te ensinou isso?\" / \"Você é muito nova pra saber disso.\""
+    },
+    {
+     "r": "Reflexão",
+     "t": "O que mais dói nem é a frase. É a sala inteira rindo, ou fingindo que não ouviu. E você saindo de lá achando que talvez tenha exagerado."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: frase \"de brincadeira\" que diminui a sua competência não é brincadeira. É um jeito educado de te colocar no seu lugar."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro. Comenta a frase que você já ouviu. Eu leio todas."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "E1",
@@ -850,7 +2240,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T22 (sinais) + lista de reconhecimento · Visual: você mostrando a sola de um sapato gasto",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Sinais de que a sua dor nas costas começa nos pés, e nenhum exame te contou."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E eu não estou falando de sapato apertado nem de salto alto."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e confere hoje à noite."
+    },
+    {
+     "r": "Notável 1 (sinal)",
+     "t": "O seu sapato gasta muito mais de um lado do que do outro. Isso é a sua pisada deixando assinatura."
+    },
+    {
+     "r": "Notável 2 (sinal)",
+     "t": "A dor piora no fim do dia, depois de muito tempo em pé, e melhora quando você senta."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem vive dizendo \"minhas costas estão me matando\"."
+    },
+    {
+     "r": "Notável 3 (sinal)",
+     "t": "Você tem calo sempre no mesmo ponto do pé. Calo é pressão acumulada, e pressão errada no pé sobe pelo corpo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o pé é a base de tudo. Quando a base erra, o corpo inteiro paga."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "E2",
@@ -873,7 +2305,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: inimigo + T26 · Visual: imagem de ressonância ao lado da baropodometria",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O seu exame deu normal, e a dor continua. Eu sei por quê."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Não é que o exame esteja errado. Ele só não foi feito para ver o que está acontecendo com você."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Ressonância, raio-x e tomografia veem o seu corpo parado, deitado. São exames importantes, mas estáticos."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Só que a sua dor aparece quando você anda, sobe escada, passa o dia em pé. Ela vive no movimento."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem já fez todos os exames e ouviu \"está tudo normal\"."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Por isso eu avalio a pisada em movimento e mapeio a pressão do pé. É ali que muitas vezes aparece o que o exame parado não mostrou."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: uma dor que aparece no movimento precisa ser avaliada em movimento."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Comenta \"MAPA\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "E3",
@@ -896,7 +2366,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T5 (crença para confrontar)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "\"É coisa da idade.\" Será mesmo?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "Essa frase já fez muita gente desistir de tratar uma dor que tinha causa."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Se fosse só a idade, por que dói um joelho e o outro não? Os dois têm a mesma idade."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Muitas vezes, o lado que dói é o lado que recebe mais carga. E carga desigual tem a ver com a forma como você pisa."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra sua mãe, sua tia, aquela pessoa que já ouviu essa frase."
+    },
+    {
+     "r": "Notável 3",
+     "t": "A idade muda o corpo, sim. Mas \"é da idade\" não pode ser a explicação para tudo, principalmente quando a dor está atrapalhando a rotina."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a dor quase nunca está onde dói, e quase nunca é só a idade."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "E4",
@@ -919,7 +2427,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T14 (o que fazer quando) + valor prático · Visual: garrafinha, toalha, pés descalços",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O que fazer quando o seu pé dói no fim do dia."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Não é colocar o pé pra cima e esperar melhorar amanhã."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra fazer hoje à noite."
+    },
+    {
+     "r": "Notável 1 (valor prático)",
+     "t": "Assim que chegar em casa, tire o sapato e fique alguns minutos descalça, pra deixar o pé se mexer livre."
+    },
+    {
+     "r": "Notável 2 (valor prático)",
+     "t": "Role a sola do pé sobre uma garrafinha de água gelada por 1 minuto de cada lado, sem forçar."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem trabalha o dia inteiro em pé."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Se a dor aparece todos os dias, isso não é só cansaço. É o seu corpo avisando que tem carga mal distribuída, e vale investigar a causa."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: aliviar é importante, mas entender por que dói é o que muda a sua rotina."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "E5",
@@ -947,7 +2497,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: mistério tardiamente revelado · Caso da Luciana, só com autorização escrita; sem ela, \"uma paciente de 40 e poucos anos\"",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Ela sentia uma dor forte no tornozelo. O problema estava 0,6 cm abaixo."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, não era torção, não era tendinite, não era o sapato."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Ela passava o dia em pé no trabalho. A mobilidade do tornozelo estava ótima, mas um pé fazia muito mais força que o outro pra levantar."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Quando uma dor aparece de um lado só, eu já desconfio. Coloquei na baropodometria: a pressão entre os dois pés era completamente diferente."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem tem uma dor de um lado só que ninguém explica."
+    },
+    {
+     "r": "Notável 3 (revelação)",
+     "t": "O exame de medida das pernas confirmou: 0,6 cm de diferença. Com a palmilha nivelando as duas pernas, em uma semana ela estava sem dor, usando o dia todo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a dor quase nunca está onde dói."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Comenta \"MAPA\"."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "F1",
@@ -975,7 +2563,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T26 (não foi pelo motivo que você pensa) · Usar sempre que sair notícia de lesão de atleta",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O [atleta/corredor] não se machucou por azar. Foi por algo que começou muito antes da lesão."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E quase ninguém que comentou a notícia percebeu isso."
+    },
+    {
+     "r": "Notável 1 (notícia)",
+     "t": "Resuma o fato em uma frase: quem se machucou, qual lesão, em que momento."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Lesão por sobrecarga raramente aparece do nada. Antes dela, o corpo passa semanas compensando: muda a passada, joga carga pra um lado, protege uma dor pequena."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pro seu parceiro de treino que ignora aquela dorzinha."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Se isso acontece com atleta de elite, com equipe e acompanhamento, imagina com quem treina sozinho e acha que a dor faz parte."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a compensação de hoje é a lesão de amanhã."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "F2",
@@ -998,7 +2624,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: lista de reconhecimento + autoridade (mestrado)",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "3 sinais de que a sua corrida está compensando, antes da lesão aparecer."
+    },
+    {
+     "r": "Intensificador",
+     "t": "No meu mestrado, eu estudei a mecânica de corredores. E esses sinais aparecem muito antes da dor forte."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e confere no seu próximo treino."
+    },
+    {
+     "r": "Notável 1 (sinal)",
+     "t": "A dor aparece sempre no mesmo ponto e no mesmo quilômetro. Isso é padrão, não coincidência."
+    },
+    {
+     "r": "Notável 2 (sinal)",
+     "t": "O seu tênis gasta muito mais de um lado, ou um pé gasta diferente do outro."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem corre com você no fim de semana."
+    },
+    {
+     "r": "Notável 3 (sinal)",
+     "t": "Você sente um lado do corpo mais cansado que o outro no fim do treino."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: dor não é treino. É o corpo pedindo pra você olhar a causa."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Comenta onde dói."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "F3",
@@ -1021,7 +2689,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T24 (antes de X, faça isso) + valor prático · Visual: você fazendo os testes na frente do espelho",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Antes da sua próxima corrida, faça esses 3 testes na frente do espelho."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Leva 2 minutos, e não se assuste se você descobrir por que aquela dor sempre volta."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra fazer antes do próximo treino."
+    },
+    {
+     "r": "Notável 1 (teste)",
+     "t": "Agache devagar apoiado numa perna só. Se o joelho cai pra dentro, anota."
+    },
+    {
+     "r": "Notável 2 (teste)",
+     "t": "Suba na ponta de um pé só, várias vezes seguidas. Se um lado cansa muito antes do outro, anota."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pro grupo de corrida e vê quem passa nos 3."
+    },
+    {
+     "r": "Notável 3 (teste)",
+     "t": "Fique 30 segundos equilibrado num pé só, de olhos abertos. Se um lado balança bem mais, anota."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: esses testes não dão diagnóstico, mas mostram onde o seu corpo está compensando, e é por aí que a investigação começa."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Comenta quantos você anotou."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "F4",
@@ -1044,7 +2754,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: quadro fixo + opinião forte · Visual: um tênis de placa de carbono num \"banco dos réus\"",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Tênis no tribunal: o tênis de placa de carbono para quem corre 5 km no fim de semana. Absolvido ou condenado?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "Muita gente compra achando que vai correr mais rápido. Hoje eu dou o veredito."
+    },
+    {
+     "r": "Notável 1 (acusação)",
+     "t": "Ele é feito para performance: rigidez, retorno de energia, prova e treino específico."
+    },
+    {
+     "r": "Notável 2 (defesa)",
+     "t": "Pra quem já tem boa mecânica e treina pra prova, ele pode fazer diferença."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pro amigo que comprou o mais caro da loja pra correr no parque."
+    },
+    {
+     "r": "Notável 3 (veredito)",
+     "t": "Pro iniciante que ainda compensa na passada, o tênis não resolve a mecânica. Na minha opinião, absolvido pra prova, condenado como solução pra dor."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: tênis não conserta pisada."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Comenta qual tênis vai para o tribunal no próximo episódio."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "F5",
@@ -1067,7 +2815,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T27 (a dor acontece porque você faz X) + crença · Público crossfit",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Se o seu joelho dói no agachamento do WOD, o problema pode não estar no joelho."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E aumentar a carga, trocar o tênis ou usar joelheira mais apertada não resolve isso."
+    },
+    {
+     "r": "Notável 1",
+     "t": "No agachamento, o pé é a base de tudo. Se ele colapsa pra dentro, o joelho acompanha, e é o joelho que reclama."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Tornozelo travado também cobra a conta: sem mobilidade embaixo, o corpo compensa em cima."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pro seu parceiro de box que vive com o joelho enfaixado."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Treinar em cima dessa compensação é somar repetições do jeito errado. No volume de um WOD, isso cobra rápido."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: dor não é treino, e a dor quase nunca está onde dói."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu ajudo corredores e atletas a destravarem o treino, tirando a dor do caminho. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "G1",
@@ -1090,7 +2876,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T30 (erros ao fazer algo) + valor prático · Visual: cortador de unha e lixa na mão",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Se a sua unha vive encravando, o problema pode começar no jeito que você corta."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, arredondar o cantinho \"pra não machucar\" não ajuda. Muitas vezes, piora."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra lembrar na próxima vez que for cortar."
+    },
+    {
+     "r": "Notável 1 (erro)",
+     "t": "Cortar arredondado ou em V nos cantos. A pele do lado ganha espaço e a unha, quando cresce, entra nela."
+    },
+    {
+     "r": "Notável 2 (erro)",
+     "t": "Cortar curto demais. A ponta do dedo empurra a pele pra cima e a unha encontra resistência pra crescer."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem corta a unha no \"bem curtinho\"."
+    },
+    {
+     "r": "Notável 3 (como fazer)",
+     "t": "Corte reto, deixando a unha no comprimento da ponta do dedo, e lixe só pra tirar a quina. De preferência depois do banho, quando a unha está mais macia."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: muita unha encravada começa num corte de cinco segundos."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "G2",
@@ -1113,7 +2941,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T30 (erros) + alerta · Visual: alicate de cutícula e algodão",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Unha encravada: 3 coisas que você nunca deveria fazer em casa."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Eu sei, a vontade de resolver na hora é enorme. Mas essas três costumam piorar tudo."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva, porque você vai lembrar desse vídeo quando o dedão começar a doer."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Cavar o canto com alicate ou tesourinha. Você pode deixar uma ponta de unha lá dentro e machucar ainda mais a pele."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Enfiar algodão à força embaixo da unha inflamada. Sem técnica, ele pode aumentar a pressão e acumular sujeira."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem está com o dedão doendo agora."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Esperar \"passar sozinho\" quando já tem vermelhidão, calor e pus. Nesses sinais, e principalmente se você tem diabetes, procure atendimento logo."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: unha encravada tem tratamento, e quanto antes, mais simples ele costuma ser."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "G3",
@@ -1136,7 +3006,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T22 (sinais) + lista de reconhecimento · Visual: esmalte na mão (\"esconder não resolve\")",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Sinais de que aquela unha \"feia\" pode ser micose, e esmalte não vai resolver."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Muita gente passa anos escondendo a unha e deixando o problema crescer."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e confere as suas unhas hoje."
+    },
+    {
+     "r": "Notável 1 (sinal)",
+     "t": "A unha mudou de cor: ficou amarelada, esbranquiçada ou mais escura."
+    },
+    {
+     "r": "Notável 2 (sinal)",
+     "t": "Ela engrossou, ficou quebradiça ou começou a descolar da pele."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem só usa sandália com as unhas pintadas."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Nem toda unha alterada é micose: trauma no sapato também deixa a unha assim. Por isso, o primeiro passo é uma avaliação profissional, e em muitos casos o tratamento é feito junto com o médico."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: esconder a unha não trata a unha."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "G4",
@@ -1159,7 +3071,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: opinião forte + T4 (o maior motivo) · Visual: lâmina de barbear riscada com um X",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Calo não se arranca. E se você usa gilete no pé, esse vídeo é pra você."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Eu sei que dá alívio na hora. Mas o calo volta, e às vezes volta pior."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Tirar calo com lâmina em casa é um convite pra corte e infecção. E quem tem diabetes nunca deveria fazer isso."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Calicida sem orientação também é arriscado: o ácido não sabe onde termina o calo e começa a pele saudável."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem guarda uma gilete no banheiro só pro pé."
+    },
+    {
+     "r": "Notável 3",
+     "t": "O maior motivo do calo voltar é que a pressão continua no mesmo lugar. Por isso a gente remove com segurança e investiga por que ele aparece ali."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o calo é o aviso, não o problema."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "G5",
@@ -1182,7 +3132,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Template: T21 (o que acontece quando) + valor prático · Visual: chinelo e creme para os pés",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "O que acontece com o seu calcanhar quando você passa o ano inteiro de chinelo no calor de Rio Preto."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E por que a rachadura volta mesmo você passando creme toda noite."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra fazer a rotina certa."
+    },
+    {
+     "r": "Notável 1",
+     "t": "Com o calcanhar exposto e o calor, a pele resseca e engrossa. A pele grossa não estica e racha quando você pisa."
+    },
+    {
+     "r": "Notável 2 (valor prático)",
+     "t": "Hidrate todos os dias, de preferência com um creme próprio para os pés, e use lixa só com a pele seca e sem força."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem esconde o calcanhar na foto de sandália."
+    },
+    {
+     "r": "Notável 3",
+     "t": "Se a rachadura sangra, dói pra andar ou você tem diabetes, não espere: rachadura funda é porta de entrada pra infecção e precisa de cuidado profissional."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: calcanhar rachado não é descuido. É pele pedindo o cuidado certo."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H1",
@@ -1205,7 +3197,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Podologia · Sônia · Terça",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: Você corta a unha do jeito certo? (spoiler: quase ninguém)"
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Use um cortador limpo e só seu. Alicate de cutícula não é cortador de unha."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Corte depois do banho, quando a unha está mais macia."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "Corte reto, sem arredondar e sem fazer V nos cantos."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Deixe a unha no comprimento da ponta do dedo. Curto demais convida a encravar."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Lixe só a quina, com movimentos leves, num sentido só."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "Tem diabetes, dificuldade de enxergar ou de alcançar os pés? O corte deve ser feito por um profissional."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Salva e manda pra quem precisa ver isso."
+    },
+    {
+     "r": "Legenda",
+     "t": "Cinco segundos de corte podem evitar meses de unha encravada. Salva esse passo a passo."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H2",
@@ -1228,7 +3262,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Podologia · Sônia · Terça",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: Calo, calosidade e olho de peixe não são a mesma coisa."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Calosidade: pele grossa e espalhada, em áreas de atrito, como calcanhar e sola. Geralmente não dói muito."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Calo: área dura e menor, com um núcleo que \"espeta\" quando você pisa. Aparece onde a pressão é concentrada."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "\"Olho de peixe\": o nome popular costuma se referir à verruga plantar, causada por vírus. Pode ter pontinhos escuros e dói mais ao apertar dos lados."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Por que isso importa? Porque o tratamento de cada um é diferente, e tratar errado faz voltar."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Calo e calosidade são respostas à pressão. A verruga é contagiosa e precisa de outro cuidado."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "Na dúvida, não corte nem use produto por conta própria."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Manda pra quem chama tudo de \"calo\"."
+    },
+    {
+     "r": "Legenda",
+     "t": "Nem tudo que é duro no pé é calo. E essa diferença muda o tratamento."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H3",
@@ -1251,7 +3327,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Podologia · Sônia · Terça",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: 6 cuidados com os pés que quase ninguém faz (e deveria)."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Secar entre os dedos depois do banho. Umidade ali é convite pra fungo."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Hidratar o pé, mas não entre os dedos."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "Olhar a sola do pé uma vez por semana, com um espelho se precisar."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Alternar os calçados: o mesmo sapato todos os dias acumula umidade e pressão no mesmo ponto."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Usar meia de algodão ou tecido que respira quando ficar muito tempo de tênis."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "Não andar descalço em vestiário e piscina."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Salva e marca quem precisa começar hoje."
+    },
+    {
+     "r": "Legenda",
+     "t": "Pé bem cuidado é rotina, não milagre."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H4",
@@ -1274,7 +3392,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Podologia · Sônia · Terça",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: Unha encravada: quando dá pra esperar e quando não dá."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Dor leve no canto, sem vermelhidão: cuide do corte e observe por alguns dias."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Dor que piora ao usar sapato: já vale uma avaliação."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "Vermelhidão, inchaço e calor no dedo: procure atendimento."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Pus, cheiro ou febre: procure atendimento o quanto antes."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Tem diabetes ou problema de circulação? Qualquer unha encravada merece avaliação rápida."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "A unha voltou a encravar depois de tratada? Vale investigar o calçado e a forma como você pisa."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Salva e manda pra quem vive com o dedão doendo."
+    },
+    {
+     "r": "Legenda",
+     "t": "Esperar demais é o que transforma uma unha encravada simples num tratamento longo."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H5",
@@ -1297,7 +3457,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Biomecânica · Márcia · Sábado",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: 5 sinais de que a sua dor começa no pé (mesmo que doa nas costas)."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "O seu sapato gasta muito mais de um lado."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "A dor piora no fim do dia, depois de muito tempo em pé."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "Você tem calo sempre no mesmo ponto."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Um pé cansa ou incha mais que o outro."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Você já fez exames, está tudo \"normal\", e a dor continua."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "O pé é a base: quando ele pisa torto, joelho, quadril e lombar compensam."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Se você marcou 2 ou mais, vale mapear a sua pisada. Manda mensagem pra agendar."
+    },
+    {
+     "r": "Legenda",
+     "t": "A dor quase nunca está onde dói."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H6",
@@ -1320,7 +3522,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Biomecânica · Diego · Sábado",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: Antes de comprar o próximo tênis, leia isso."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Compre no fim da tarde, quando o pé está mais inchado."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Deixe cerca de um dedo de espaço na ponta."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "O calcanhar precisa ficar firme, sem escapar."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Confortável na loja é o mínimo. Se precisa \"amaciar\", não é o seu."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Tênis caro não conserta pisada. Tênis certo é o que conversa com o jeito que você pisa."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "Dor que volta mesmo trocando de tênis é sinal de que a causa não está no calçado."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Salva pra próxima compra e manda pro seu parceiro de corrida."
+    },
+    {
+     "r": "Legenda",
+     "t": "Tênis não conserta pisada. Mas o tênis errado pode piorar."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H7",
@@ -1343,7 +3587,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Biomecânica · Márcia/Diego · Sábado",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: 5 mitos sobre palmilha que você provavelmente já ouviu."
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "\"Palmilha é só pra pé chato.\" Ela pode ser indicada para vários padrões de pisada."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "\"Palmilha de farmácia faz o mesmo.\" Ela é feita para um pé genérico; a personalizada, para o seu."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "\"Quanto mais dura, melhor.\" Palmilha boa é a que se adapta ao comportamento do seu pé."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "\"Vou usar pra sempre.\" Nem sempre: depende da avaliação e da evolução."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "\"Palmilha enfraquece o pé.\" Bem indicada e com acompanhamento, ela redistribui a carga."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "O que define a palmilha certa é a avaliação, não a loja."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Manda pra quem já comprou palmilha e não se adaptou."
+    },
+    {
+     "r": "Legenda",
+     "t": "Palmilha boa não é a mais dura. É a que conversa com a mecânica do seu corpo."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H8",
@@ -1366,7 +3652,53 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Biomecânica · Todos · Sábado",
+   "partes": [
+    {
+     "r": "Lâmina 1",
+     "t": "Capa: O que acontece numa avaliação biomecânica? (por dentro da consulta)"
+    },
+    {
+     "r": "Lâmina 2",
+     "t": "Conversa: onde dói, quando dói, rotina, esportes e calçados."
+    },
+    {
+     "r": "Lâmina 3",
+     "t": "Observação dos pés: pele, unhas, calosidades e formato."
+    },
+    {
+     "r": "Lâmina 4",
+     "t": "Mapa da pisada: a baropodometria mostra como a pressão se distribui no pé."
+    },
+    {
+     "r": "Lâmina 5",
+     "t": "Movimento: como você anda, e corre, se for o caso."
+    },
+    {
+     "r": "Lâmina 6",
+     "t": "Testes: mobilidade, força e equilíbrio."
+    },
+    {
+     "r": "Lâmina 7",
+     "t": "Plano: o que foi encontrado e o que fazer, que pode incluir palmilha, exercícios e orientação de calçado."
+    },
+    {
+     "r": "Lâmina 8",
+     "t": "CTA: Quer mapear a sua pisada? Manda mensagem pra agendar."
+    },
+    {
+     "r": "Legenda",
+     "t": "A gente não olha só onde dói. A gente mapeia de onde a dor vem."
+    },
+    {
+     "r": "Observação",
+     "t": "\"Antes e depois: o mapa da pisada\" O carrossel de 31/10 depende de imagens reais de baropodometria com autorização escrita do paciente. Quando tiver as imagens, eu monto o texto em cima delas."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "H9",
@@ -1398,7 +3730,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "I1",
@@ -1421,7 +3754,53 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Crença de estreia · Sônia · Template: T28 (isso não é o que você pensa) · Visual: bancada de podologia com o material embalado e esterilizado",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Se você acha que podóloga é \"manicure do pé\", esse vídeo é pra você."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, isso não é desmerecer a manicure. São duas profissões diferentes, que cuidam de coisas diferentes."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra mostrar pra quem ainda confunde."
+    },
+    {
+     "r": "Notável 1",
+     "t": "A manicure cuida da beleza da unha. A podóloga cuida da saúde do pé: unha encravada, calo, rachadura, micose, pé de quem tem diabetes."
+    },
+    {
+     "r": "Notável 2",
+     "t": "Antes de qualquer procedimento, a podóloga avalia. Ela olha a pele, a unha, o calçado e pergunta sobre a sua saúde."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem tira calo no salão \"porque é mais rápido\"."
+    },
+    {
+     "r": "Notável 3",
+     "t": "E o material é esterilizado e aberto na sua frente. No pé, um corte pequeno pode virar uma infecção grande."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: cuidar do pé não é só estética. É saúde."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. O perfil começa hoje: me segue pra acompanhar."
+    },
+    {
+     "r": "Legenda",
+     "t": "Manicure e podóloga não competem, se complementam. Mas cada uma tem o seu lugar. Salva e manda pra quem precisa saber disso."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "I2",
@@ -1453,7 +3832,57 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Bastidores · Todos · Modelo: mistério tardiamente revelado · Visual: tour em plano-sequência, câmera na mão, porta da sala de avaliação fechada até o final",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Essa é a sala mais importante da nossa clínica, e não é a que você imagina."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Mas antes de abrir essa porta, deixa eu te mostrar o resto."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra lembrar onde fica quando vier pra cá."
+    },
+    {
+     "r": "Notável 1 (cena: recepção)",
+     "t": "Aqui é onde você chega. A ideia é simples: você não precisa ter vergonha do seu pé aqui dentro."
+    },
+    {
+     "r": "Notável 2 (cena: sala de podologia)",
+     "t": "Aqui é a sala de podologia: unha encravada, calo, rachadura. Material esterilizado e aberto na sua frente."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra alguém de Rio Preto que vive reclamando do pé."
+    },
+    {
+     "r": "Notável 3 (cena: abre a porta, plataforma de baropodometria)",
+     "t": "E essa é a sala de avaliação. É aqui que a gente vê como o seu pé distribui o peso do corpo. Muitas vezes a dor no joelho, no quadril ou na lombar começa a ser explicada aqui."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: a dor quase nunca está onde dói."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue pra conhecer a clínica por dentro."
+    },
+    {
+     "r": "Legenda",
+     "t": "Seja bem-vindo à Clínica Insole360. Qual sala você quer conhecer melhor? Me conta nos comentários."
+    },
+    {
+     "r": "Antes de gravar o I2",
+     "t": "ajustar as cenas ao que a clínica tem de fato (nomes das salas, o que aparece em cada uma). Evitar pacientes no fundo, ou gravar só com autorização."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "J1",
@@ -1476,7 +3905,53 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Dia das Crianças · Pais · Template: T22 (sinais) + lista de reconhecimento · Visual: tênis de criança ao lado de um tênis de adulto",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Hoje é Dia das Crianças, e o pé do seu filho pode estar pedindo atenção sem você perceber."
+    },
+    {
+     "r": "Intensificador",
+     "t": "E não, eu não vou falar de pé chato. Criança pequena ter o pé \"achatado\" costuma ser normal, porque o arco vai se formando com o tempo."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva e observa o seu filho essa semana."
+    },
+    {
+     "r": "Notável 1 (sinal)",
+     "t": "Ele reclama de dor no pé ou na perna com frequência, principalmente depois de brincar, ou pede colo mais do que as outras crianças da idade dele."
+    },
+    {
+     "r": "Notável 2 (sinal)",
+     "t": "Ele tropeça ou cai muito mais que os colegas, ou ainda anda na ponta dos pés depois que já aprendeu a andar bem."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra mãe ou pai que precisa ver isso hoje."
+    },
+    {
+     "r": "Notável 3 (sinal)",
+     "t": "O tênis gasta muito mais de um lado, ou o pé dele deixa marca vermelha no mesmo ponto. E lembra: pé de criança cresce rápido, então confira a numeração a cada poucos meses."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: dor em criança não é \"dor de crescimento\" até que alguém avalie."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos pés da família inteira. Me segue pra mais dicas."
+    },
+    {
+     "r": "Legenda",
+     "t": "Feliz Dia das Crianças! Se você notou algum desses sinais, converse com o pediatra ou agende uma avaliação."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "J2",
@@ -1499,7 +3974,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Leve · Todos · Template: T10 ([coisas] que são um verdadeiro [referência]) + humor · Visual: Jorge cheirando uma fileira de calçados, com uma placa \"REPROVADO\" ou \"APROVADO\" em cada um",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Apresento o fiscal de sapatos mais exigente de Rio Preto."
+    },
+    {
+     "r": "Intensificador",
+     "t": "O nome dele é Jorge, ele é um bulldog francês, e ele não aprova qualquer calçado."
+    },
+    {
+     "r": "Notável 1 (cena: sapatilha sem sola)",
+     "t": "Sapatilha fininha, sem amortecimento nenhum? Reprovada. O Jorge tem mais almofada na pata do que isso."
+    },
+    {
+     "r": "Notável 2 (cena: chinelo gasto)",
+     "t": "Chinelo com a sola gasta só de um lado? Reprovado. Esse chinelo está contando como você pisa."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Marca aquela pessoa que precisa passar pela fiscalização do Jorge."
+    },
+    {
+     "r": "Notável 3 (cena: tênis confortável)",
+     "t": "Tênis do tamanho certo, com espaço pros dedos e calcanhar firme? Aprovado. O Jorge até deitou em cima."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: o sapato que você usa todo dia conversa com o seu corpo inteiro."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas, e aqui na Clínica Insole360 até o cachorro entende de pisada. Comenta \"JORGE\" se você quer mais fiscalizações."
+    },
+    {
+     "r": "Legenda",
+     "t": "O Jorge não tem diploma, mas tem critério. Qual calçado seu passaria na fiscalização?"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "J3",
@@ -1531,7 +4048,57 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Caso clínico, versão paciente · Sônia · Modelo: mistério tardiamente revelado · Visual: Natália falando para a câmera, com imagens da unha só se a paciente autorizar",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Ela tratou a unha como micose durante meses, e o problema estava no jeito que ela pisava."
+    },
+    {
+     "r": "Intensificador",
+     "t": "Deixa eu te contar essa história, porque talvez ela seja a sua."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva, porque esse caso é mais comum do que parece."
+    },
+    {
+     "r": "Notável 1 (história)",
+     "t": "Uma paciente chegou aqui com a unha do dedão descolando. Ela já tinha usado vários produtos, e a unha continuava igual."
+    },
+    {
+     "r": "Notável 2 (história)",
+     "t": "Na avaliação, a gente olhou o calçado e a pisada. O dedão dela batia na ponta do tênis a cada passo."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem vive escondendo a unha do dedão."
+    },
+    {
+     "r": "Notável 3 (revelação)",
+     "t": "Não era só a unha. Era um trauma repetido, milhares de vezes por dia. Com a causa identificada, o tratamento passou a olhar para o pé inteiro: unha, calçado e pisada."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: nem toda unha descolando é micose, e só a avaliação diferencia uma coisa da outra."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, a gente cuida dos seus pés do jeito que eles merecem. Me segue."
+    },
+    {
+     "r": "Legenda",
+     "t": "A unha às vezes é só o recado. A causa pode estar no calçado ou na pisada."
+    },
+    {
+     "r": "Antes de gravar o J3",
+     "t": "ajustar a história ao caso real (tempo de tratamento, calçado, o que foi feito). Não usar nome nem imagem da paciente sem autorização escrita."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "J4",
@@ -1559,7 +4126,57 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Bastidores · Todos · Modelo: mistério tardiamente revelado · Visual: tour pela oficina de palmilhas, acompanhando um par do início ao fim",
+   "partes": [
+    {
+     "r": "Headline",
+     "t": "Você sabe o que acontece com a sua palmilha depois que você sai da avaliação?"
+    },
+    {
+     "r": "Intensificador",
+     "t": "Quase ninguém vê essa parte. Hoje eu vou te mostrar."
+    },
+    {
+     "r": "CTA salvamento",
+     "t": "Salva pra entender o caminho da sua palmilha."
+    },
+    {
+     "r": "Notável 1 (cena: prescrição)",
+     "t": "Tudo começa com o mapa do seu pé. A palmilha é desenhada a partir do que a avaliação mostrou, não de um tamanho de numeração."
+    },
+    {
+     "r": "Notável 2 (cena: oficina)",
+     "t": "Aqui é a nossa oficina. Cada par é feito para um pé específico, e a nossa equipe já produziu quase mil pares."
+    },
+    {
+     "r": "CTA compartilhamento",
+     "t": "Manda pra quem acha que palmilha é tudo igual."
+    },
+    {
+     "r": "Notável 3 (cena: entrega e ajuste)",
+     "t": "E não acaba na entrega. A palmilha é testada no seu calçado e ajustada se precisar."
+    },
+    {
+     "r": "Crença",
+     "t": "Você precisa entender o seguinte: palmilha boa não sai de uma prateleira. Sai de uma avaliação."
+    },
+    {
+     "r": "Apresentação + CTA",
+     "t": "Meu nome é Natália Targas e eu mapeio a dor que trava a sua rotina para você voltar a se mover melhor. Me segue."
+    },
+    {
+     "r": "Legenda",
+     "t": "Por trás de cada par, tem uma avaliação, uma prescrição e uma equipe. Quer ver alguma etapa com mais detalhe? Comenta aqui."
+    },
+    {
+     "r": "Antes de gravar o J4",
+     "t": "ajustar as etapas ao fluxo real da oficina e confirmar se o \"quase mil pares\" inclui os pares das mentoradas (se incluir, dizer \"a nossa oficina já produziu quase mil pares\", sem sugerir que todos foram de pacientes da clínica)."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K1",
@@ -1582,7 +4199,45 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Reel de anúncio · Márcia · 35 a 40 segundos · Visual: ressonância ao lado do mapa da baropodometria",
+   "partes": [
+    {
+     "r": "Gancho (texto na tela: \"Exame normal. Dor continua.\")",
+     "t": "Exame normal e dor que não passa: isso tem explicação."
+    },
+    {
+     "r": "Desenvolvimento 1",
+     "t": "Ressonância, raio-x e tomografia são exames importantes, mas veem o corpo parado, deitado."
+    },
+    {
+     "r": "Desenvolvimento 2",
+     "t": "Só que muita dor aparece no movimento: andando, subindo escada, passando o dia em pé."
+    },
+    {
+     "r": "Desenvolvimento 3",
+     "t": "Na avaliação biomecânica, a gente analisa a pisada em movimento e mapeia a pressão do pé. É ali que, muitas vezes, aparece o que o exame parado não mostrou."
+    },
+    {
+     "r": "Crença",
+     "t": "Dor que aparece no movimento precisa ser avaliada em movimento."
+    },
+    {
+     "r": "CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto. Manda uma mensagem e agenda a sua avaliação."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Muita gente faz todos os exames, ouve \"está tudo normal\" e continua com dor. A avaliação biomecânica olha o corpo em movimento e complementa o acompanhamento médico. Clínica Insole360, São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    },
+    {
+     "r": "Título",
+     "t": "Avaliação biomecânica em Rio Preto"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K2",
@@ -1610,7 +4265,49 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Reel de anúncio · Márcia · 40 a 45 segundos · Caso real: só com autorização escrita",
+   "partes": [
+    {
+     "r": "Gancho (texto na tela: \"A dor era no tornozelo. A causa, não.\")",
+     "t": "A dor era no tornozelo. A causa estava 0,6 cm abaixo."
+    },
+    {
+     "r": "Desenvolvimento 1",
+     "t": "Uma paciente passava o dia em pé no trabalho e sentia dor de um lado só."
+    },
+    {
+     "r": "Desenvolvimento 2",
+     "t": "Na baropodometria, a pressão entre os dois pés era muito diferente. O exame de medida das pernas confirmou: 0,6 cm de diferença."
+    },
+    {
+     "r": "Desenvolvimento 3",
+     "t": "Com a palmilha nivelando as duas pernas, ela voltou a passar o dia em pé sem dor."
+    },
+    {
+     "r": "Crença",
+     "t": "A dor quase nunca está onde dói."
+    },
+    {
+     "r": "CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto. Manda uma mensagem e agenda a sua avaliação."
+    },
+    {
+     "r": "Texto na tela no final",
+     "t": "\"Resultados variam de pessoa para pessoa.\""
+    },
+    {
+     "r": "Texto principal",
+     "t": "Uma dor de um lado só pode ter uma causa que ninguém olhou. Na avaliação biomecânica, a gente mapeia a pisada para encontrar de onde a dor vem. Clínica Insole360, São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    },
+    {
+     "r": "Título",
+     "t": "De onde vem a sua dor?"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K3",
@@ -1633,7 +4330,41 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Reel de anúncio · Diego · 35 a 40 segundos · Visual: corrida na rua, close no tênis gasto",
+   "partes": [
+    {
+     "r": "Gancho (texto na tela: \"Corredor, presta atenção nisso\")",
+     "t": "3 sinais de compensação na corrida que aparecem antes da lesão."
+    },
+    {
+     "r": "Desenvolvimento 1 (autoridade)",
+     "t": "No meu mestrado, eu estudei a mecânica de corredores. E esses sinais aparecem muito antes da dor forte."
+    },
+    {
+     "r": "Desenvolvimento 2 (sinais)",
+     "t": "A dor que aparece sempre no mesmo ponto e no mesmo quilômetro. O tênis que gasta muito mais de um lado. Um lado do corpo que cansa antes do outro."
+    },
+    {
+     "r": "Crença",
+     "t": "Dor não é treino. É o corpo pedindo pra você olhar a causa."
+    },
+    {
+     "r": "CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto, tem avaliação da pisada para corredores. Manda uma mensagem e agenda."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Compensação na corrida costuma dar sinal antes de virar lesão. A avaliação da pisada mostra como o seu corpo distribui a carga em movimento. Clínica Insole360, São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    },
+    {
+     "r": "Título",
+     "t": "Avaliação da pisada para corredores"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K4",
@@ -1656,7 +4387,41 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Reel de anúncio · Sônia/Márcia · 30 a 35 segundos · Visual: lixa na mão, depois o mapa de pressão com o ponto do calo em vermelho",
+   "partes": [
+    {
+     "r": "Gancho (texto na tela: \"Não é falta de lixa\")",
+     "t": "Calo que sempre volta não é falta de lixa."
+    },
+    {
+     "r": "Desenvolvimento 1",
+     "t": "O calo é a resposta do corpo à pressão. Tira o calo e deixa a pressão no mesmo lugar, e ele volta."
+    },
+    {
+     "r": "Desenvolvimento 2",
+     "t": "Aqui a gente faz as duas coisas: a podologia remove com segurança, e a avaliação biomecânica investiga por que a pressão vai sempre pro mesmo ponto."
+    },
+    {
+     "r": "Crença",
+     "t": "O calo é o aviso, não o problema."
+    },
+    {
+     "r": "CTA",
+     "t": "Aqui na Clínica Insole360, em Rio Preto. Manda uma mensagem e agenda a sua avaliação."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Calo que volta sempre no mesmo lugar tem um motivo. Na Clínica Insole360, podologia e biomecânica trabalham juntas para cuidar da pele e da causa. São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    },
+    {
+     "r": "Título",
+     "t": "Podologia e biomecânica em Rio Preto"
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K5",
@@ -1679,7 +4444,25 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Visual: mapa colorido da baropodometria em destaque, fundo limpo com as cores da clínica.",
+   "partes": [
+    {
+     "r": "Texto na arte",
+     "t": "A dor pode estar começando no pé."
+    },
+    {
+     "r": "Subtítulo",
+     "t": "Avaliação biomecânica com mapa da pisada, em Rio Preto."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Joelho, quadril e lombar muitas vezes compensam o que acontece no pé. A avaliação biomecânica mostra de onde a dor vem. Toque em \"Enviar mensagem\" para agendar."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K6",
@@ -1702,7 +4485,25 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Visual: bancada de podologia com o material embalado e esterilizado, sem imagem de unha machucada.",
+   "partes": [
+    {
+     "r": "Texto na arte",
+     "t": "Unha encravada tem tratamento."
+    },
+    {
+     "r": "Subtítulo",
+     "t": "Podologia com material esterilizado e avaliação do pé inteiro, em Rio Preto."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Quanto antes a unha encravada é tratada, mais simples o tratamento costuma ser. Clínica Insole360, São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K7",
@@ -1725,7 +4526,25 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Visual: tênis de corrida gasto de um lado, em close.",
+   "partes": [
+    {
+     "r": "Texto na arte",
+     "t": "Dor não é treino."
+    },
+    {
+     "r": "Subtítulo",
+     "t": "Avaliação da pisada para corredores e crossfiteiros, em Rio Preto."
+    },
+    {
+     "r": "Texto principal",
+     "t": "A dor que volta sempre no mesmo treino é um sinal de compensação. A avaliação da pisada mostra onde o corpo está sobrecarregando. Toque em \"Enviar mensagem\" para agendar."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "K8",
@@ -1748,7 +4567,25 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": {
+   "meta": "Visual: mapa de pressão plantar ocupando a arte inteira.",
+   "partes": [
+    {
+     "r": "Texto na arte",
+     "t": "Você já viu o mapa do seu pé?"
+    },
+    {
+     "r": "Subtítulo",
+     "t": "Ele mostra como o seu corpo distribui o peso a cada passo."
+    },
+    {
+     "r": "Texto principal",
+     "t": "Na avaliação biomecânica, a gente mapeia a pressão do seu pé parado e em movimento. Clínica Insole360, São José do Rio Preto. Toque em \"Enviar mensagem\" para agendar."
+    }
+   ],
+   "fonte": "Roteiros Semana 1"
+  }
  },
  {
   "codigo": "L1",
@@ -1780,7 +4617,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "L2",
@@ -1812,7 +4650,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "L3",
@@ -1840,7 +4679,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "L4",
@@ -1863,7 +4703,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "L5",
@@ -1891,7 +4732,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M1",
@@ -1914,7 +4756,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M2",
@@ -1937,7 +4780,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M3",
@@ -1960,7 +4804,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M4",
@@ -1983,7 +4828,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M5",
@@ -2011,7 +4857,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M6",
@@ -2034,7 +4881,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M7",
@@ -2057,7 +4905,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "M8",
@@ -2080,7 +4929,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N1",
@@ -2103,7 +4953,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N2",
@@ -2126,7 +4977,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N3",
@@ -2149,7 +5001,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N4",
@@ -2172,7 +5025,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N5",
@@ -2195,7 +5049,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N6",
@@ -2218,7 +5073,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N7",
@@ -2241,7 +5097,8 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  },
  {
   "codigo": "N8",
@@ -2264,6 +5121,7 @@
   "datas": {},
   "metricas": {},
   "anuncio": {},
-  "observacoes": ""
+  "observacoes": "",
+  "roteiro": null
  }
 ]
