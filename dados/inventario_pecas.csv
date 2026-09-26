@@ -1,0 +1,95 @@
+﻿codigo,titulo,perfil,formato,tipo,publico_produto,data_planejada,pendencia,serie,etapa
+R1,Mocho não é negócio,Profissional,Reel,Feed,Carla · Mentoria,,,R,Roteiro pronto
+R2,A unha que sempre descola,Profissional,Reel,Feed,Carla · Mentoria,,,R,Roteiro pronto
+R3,Palmilha é coisa de ortopedista?,Profissional,Reel,Feed,Carla · Mentoria,,,R,Roteiro pronto
+R4,Você achou que estava pronta,Profissional,Reel,Feed,Carla · Mentoria,,,R,Roteiro pronto
+R5,A conta que não fecha (machismo),Profissional,Reel,Feed,Carla · Posicionamento,,,R,Roteiro pronto
+R6,A dor nas costas que começa no pé,Clínica,Reel,Feed,Márcia,05/10,,R,Roteiro pronto
+R7,"A causa estava 0,8 cm abaixo",Clínica,Reel,Feed,Márcia,02/10,Autorização do paciente,R,Roteiro pronto
+R8,O que o chinelo faz com os seus pés,Clínica,Reel,Feed,Márcia,Nov,,R,Roteiro pronto
+R9,Dor não é treino,Clínica,Reel,Feed,Diego,07/10,,R,Roteiro pronto
+R10,Pare de trocar de tênis,Clínica,Reel,Feed,Diego,14/10,,R,Roteiro pronto
+A1,O que o tape faz na unha encravada,Profissional,Reel,Feed,Carla · ONICOTAPE,,,A,Roteiro pronto
+A2,O calo que sempre volta,Clínica,Reel,Feed,Sônia/Márcia,16/10,,A,Roteiro pronto
+A3,Toda podóloga deveria entender isso,Profissional,Reel,Feed,Carla · Mentoria,,,A,Roteiro pronto
+A4,A palmilha que mais funciona no pé plano,Clínica,Reel,Feed,Márcia/Diego,Nov,Unificar nº de palmilhas,A,Roteiro pronto
+A5,O erro de que eu mais me arrependo,Profissional,Reel,Feed,Carla · ONICOTAPE,,,A,Roteiro pronto
+A6,A geração de podólogos inovadores,Profissional,Reel,Feed,Carla · ONICOTAPE,,,A,Roteiro pronto
+A7,A unha encravada que sempre volta,Profissional,Reel,Feed,Carla · Mentoria,,,A,Roteiro pronto
+B1,O maior erro na unha encravada,Profissional,Reel,Feed,Carla · ONICOTAPE,,Evento já passou: adaptar CTA,B,Roteiro pronto
+B2,A febre do tape,Profissional,Reel,Feed,Carla · ONICOTAPE,,,B,Roteiro pronto
+B3,Isso aqui tá errado,Profissional,Reel,Feed,Carla · ONICOTAPE,,,B,Roteiro pronto
+B4,Parece tape terapêutico,Profissional,Reel,Feed,Carla · ONICOTAPE,,,B,Roteiro pronto
+B5,A podóloga palestrinha,Profissional,Reel,Feed,Carla · ONICOTAPE,,,B,Roteiro pronto
+B6,A técnica mais subestimada da unha encravada,Profissional,Reel,Feed,Carla · ONICOTAPE,,,B,Roteiro pronto
+C1,A unha que volta a encravar,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C2,Onicocriptose em bebê,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,Condicionar à avaliação,C,Roteiro pronto
+C3,Tape não é frescura,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C4,A colega que cobra mais pelo mesmo caso,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C5,Aquele caso grave,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C6,Merdas que fazem com o tape,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C7,"""Meu tape descola""",Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+C8,A cor do tape,Profissional,Reel,Anúncio,Carla · ONICOTAPE,,,C,Roteiro pronto
+D1,Fofocas de congresso,Profissional,Reel,Feed,Carla · Posicionamento,,Não identificar pessoas,D,Roteiro pronto
+D2,Os três jeitos de calar uma mulher,Profissional,Reel,Feed,Carla · Posicionamento,,,D,Roteiro pronto
+D3,A faculdade esqueceu de ensinar,Profissional,Reel,Feed,Carla · Posicionamento,,,D,Roteiro pronto
+D4,Frases que a gente ouve no trabalho sendo mulher,Profissional,Reel,Feed,Carla · Posicionamento,,,D,Roteiro pronto
+E1,Sinais de que a sua dor lombar começa nos pés,Clínica,Reel,Feed,Márcia,19/10,,E,Roteiro pronto
+E2,O exame parado,Clínica,Reel,Feed,Márcia,26/10,,E,Roteiro pronto
+E3,"""É coisa da idade""",Clínica,Reel,Feed,Márcia,30/10,,E,Roteiro pronto
+E4,O que fazer quando o pé dói no fim do dia,Clínica,Reel,Feed,Márcia,Nov,,E,Roteiro pronto
+E5,"A causa estava 0,6 cm abaixo",Clínica,Reel,Feed,Márcia,09/10,Autorização do paciente,E,Roteiro pronto
+F1,Não foi azar,Clínica,Reel,Feed,Diego,Nov,Usar quando sair notícia de lesão,F,Roteiro pronto
+F2,Sinais de que a sua corrida está compensando,Clínica,Reel,Feed,Diego,21/10,,F,Roteiro pronto
+F3,Antes da próxima corrida,Clínica,Reel,Feed,Diego,28/10,,F,Roteiro pronto
+F4,Tênis no tribunal (episódio 1),Clínica,Reel,Feed,Diego,11/10,,F,Roteiro pronto
+F5,A dor no agachamento do WOD,Clínica,Reel,Feed,Diego,Nov,,F,Roteiro pronto
+G1,O jeito certo de cortar a unha,Clínica,Reel,Feed,Sônia,08/10,,G,Roteiro pronto
+G2,Unha encravada: o que nunca fazer em casa,Clínica,Reel,Feed,Sônia,15/10,,G,Roteiro pronto
+G3,Micose na unha que não sai,Clínica,Reel,Feed,Sônia,22/10,,G,Roteiro pronto
+G4,Calo não se arranca,Clínica,Reel,Feed,Sônia,29/10,,G,Roteiro pronto
+G5,O calcanhar rachado e o calor de Rio Preto,Clínica,Reel,Feed,Sônia,Nov,,G,Roteiro pronto
+H1,O passo a passo para cortar a unha,Clínica,Carrossel,Feed,Sônia,06/10,,H,Roteiro pronto
+H2,"Calo, calosidade e olho de peixe",Clínica,Carrossel,Feed,Sônia,13/10,,H,Roteiro pronto
+H3,Cuidados diários que quase ninguém faz,Clínica,Carrossel,Feed,Sônia,20/10,,H,Roteiro pronto
+H4,Unha encravada: quando procurar a podóloga,Clínica,Carrossel,Feed,Sônia,27/10,,H,Roteiro pronto
+H5,5 sinais de que a sua dor começa no pé,Clínica,Carrossel,Feed,Márcia,10/10,,H,Roteiro pronto
+H6,Como escolher o tênis,Clínica,Carrossel,Feed,Diego,17/10,,H,Roteiro pronto
+H7,Mitos sobre palmilha,Clínica,Carrossel,Feed,Márcia/Diego,24/10,,H,Roteiro pronto
+H8,O que avaliamos numa consulta de biomecânica,Clínica,Carrossel,Feed,Todos,03/10,,H,Roteiro pronto
+H9,Antes e depois: o mapa da pisada,Clínica,Carrossel,Feed,Márcia,31/10,A escrever; imagens autorizadas,H,A escrever
+I1,Podóloga não é manicure (estreia),Clínica,Reel,Feed,Sônia,01/10,,I,Roteiro pronto
+I2,A sala mais importante da clínica,Clínica,Reel,Feed,Todos,04/10,Ajustar cenas; sem pacientes ao fundo,I,Roteiro pronto
+J1,3 sinais de que o pé do seu filho merece atenção,Clínica,Reel,Feed,Pais,12/10,,J,Roteiro pronto
+J2,"Jorge, o fiscal de sapatos",Clínica,Reel,Feed,Todos,18/10,,J,Roteiro pronto
+J3,A unha que descolava por causa da pisada,Clínica,Reel,Feed,Sônia,23/10,Ajustar ao caso real; autorização,J,Roteiro pronto
+J4,O que acontece com a sua palmilha depois da avaliação,Clínica,Reel,Feed,Todos,25/10,Ajustar ao fluxo da oficina,J,Roteiro pronto
+K1,Exame normal e dor que não passa,Clínica,Reel,Anúncio,Márcia,Paralelo,,K,Roteiro pronto
+K2,"A causa estava 0,6 cm abaixo",Clínica,Reel,Anúncio,Márcia,Paralelo,Autorização do paciente,K,Roteiro pronto
+K3,Sinais de compensação na corrida,Clínica,Reel,Anúncio,Diego,Reserva,,K,Roteiro pronto
+K4,O calo que sempre volta,Clínica,Reel,Anúncio,Sônia/Márcia,Reserva,,K,Roteiro pronto
+K5,A dor pode estar começando no pé,Clínica,Estático,Anúncio,Márcia,Paralelo,,K,Roteiro pronto
+K6,Unha encravada tem tratamento,Clínica,Estático,Anúncio,Sônia,Reserva,,K,Roteiro pronto
+K7,Dor não é treino,Clínica,Estático,Anúncio,Diego,Reserva,,K,Roteiro pronto
+K8,Você já viu o mapa do seu pé?,Clínica,Estático,Anúncio,Todos,Paralelo,,K,Roteiro pronto
+L1,"Cidade pequena, resultado grande (case Iar)",Profissional,Reel,Anúncio,Carla · Mentoria,Dez–Jan,Autorização; grafia do nome,L,Roteiro pronto
+L2,"Diarista de dia, especialista à noite (case Thaís)",Profissional,Reel,Anúncio,Carla · Mentoria,Dez–Jan,Autorização; aprovar roteiro com ela,L,Roteiro pronto
+L3,Quase mil pares (números da mentoria),Profissional,Reel,Anúncio,Carla · Mentoria,Dez–Jan,Estimativa: aviso na tela,L,Roteiro pronto
+L4,A podóloga que só olha a unha,Profissional,Reel,Anúncio,Carla · Mentoria,Out–Nov,,L,Roteiro pronto
+L5,A unha que parou de descolar (aluna Vânia),Profissional,Reel,Anúncio,Carla · Mentoria,Out–Nov,Autorização da aluna e paciente,L,Roteiro pronto
+M1,3 erros que fazem o tape não funcionar,Profissional,Reel,Feed,Carla · PODOTAPE,Quartas,,M,Roteiro pronto
+M2,O tape mais subestimado da podologia,Profissional,Reel,Feed,Carla · PODOTAPE,Quartas,,M,Roteiro pronto
+M3,"Antes de aplicar tape, toda podóloga precisa saber disso",Profissional,Reel,Feed,Carla · PODOTAPE,Quartas,,M,Roteiro pronto
+M4,A sequência que muda o resultado do seu tape,Profissional,Reel,Feed,Carla · PODOTAPE,Quartas,,M,Roteiro pronto
+M5,A paciente da dor no calcanhar,Profissional,Reel,Feed,Carla · PODOTAPE,Quartas,Usar caso real,M,Roteiro pronto
+M6,Da unha para o pé inteiro (remarketing),Profissional,Reel,Anúncio,Compradoras ONICOTAPE · PODOTAPE,Contínuo,,M,Roteiro pronto
+M7,Mais de 17 técnicas de tape para o pé,Profissional,Reel,Anúncio,Carla · PODOTAPE,Contínuo,,M,Roteiro pronto
+M8,Um recurso a mais no seu atendimento,Profissional,Reel,Anúncio,Carla · PODOTAPE,Contínuo,,M,Roteiro pronto
+N1,"A ""Lei de Root"" não é lei",Profissional,Reel,Feed,Carla · StepBase,Quintas,,N,Roteiro pronto
+N2,A parte mais escura da pegada não é onde tem mais pressão,Profissional,Reel,Feed,Carla · StepBase,Quintas,,N,Roteiro pronto
+N3,O arco mais baixo estava no pé que não doía,Profissional,Reel,Feed,Carla · StepBase,Quintas,,N,Roteiro pronto
+N4,Pare de chamar pronação de pisada errada,Profissional,Reel,Feed,Carla · StepBase,Quintas,,N,Roteiro pronto
+N5,O teste do dedão em 30 segundos,Profissional,Reel,Feed,Carla · StepBase,Quintas,,N,Roteiro pronto
+N6,O calo que volta tem um porquê,Profissional,Reel,Anúncio,Carla · StepBase,Contínuo,,N,Roteiro pronto
+N7,O que você aprende no StepBase,Profissional,Reel,Anúncio,Carla · StepBase,Contínuo,,N,Roteiro pronto
+N8,Quem só tem martelo vê prego em tudo,Profissional,Reel,Anúncio,Alunas de tape · StepBase,Contínuo,,N,Roteiro pronto
