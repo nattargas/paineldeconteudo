@@ -1,0 +1,1440 @@
+{
+  "perfil": "Profissional",
+  "mes": "2026-10",
+  "versao": "2026-09-27",
+  "total": 31,
+  "pecas": [
+    {
+      "codigo": "N4",
+      "serie": "N",
+      "titulo": "Pare de chamar pronação de pisada errada",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase",
+      "linha_do_dia": "StepBase",
+      "template": "T11",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Crença"
+      ],
+      "data_planejada": "2026-10-01",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você falando direto para a câmera",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Na próxima vez que você for dizer pra uma paciente que ela \"pisa errado\", não faça isso.",
+        "intensificador": "Porque a pronação que você viu provavelmente não é o problema dela.",
+        "cta_salvamento": "Salva pra lembrar antes da próxima avaliação.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Pronação faz parte do movimento normal. É ela que deixa o pé se adaptar ao chão e absorver carga."
+          },
+          {
+            "rotulo": "",
+            "texto": "O que importa é quanto, quando e como o pé prona, se ele consegue sair desse movimento pra impulsionar e se isso tem relação com a queixa."
+          },
+          {
+            "rotulo": "",
+            "texto": "E tem mais: \"pisa errado\", \"pé torto\", \"arco desabado\" assustam a paciente e não explicam nada. Descreva o que você viu e explique o que isso muda pra ela."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que ainda fala \"seu pé está desabando\" pra paciente.",
+        "crenca": "Você precisa entender o seguinte: biomecânica não serve pra encontrar defeito em pé. Serve pra entender como aquela pessoa usa o próprio corpo.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    },
+    {
+      "codigo": "R5",
+      "serie": "R",
+      "titulo": "A conta que não fecha (machismo)",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Posicionamento",
+      "linha_do_dia": "Posicionamento",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Crença",
+        "Reconhecimento"
+      ],
+      "data_planejada": "2026-10-02",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "A maioria dos profissionais da nossa área é de mulheres. A maioria dos palestrantes é homem. Alguém me explica essa conta?",
+        "intensificador": "E quando uma mulher sobe no palco, a primeira pergunta nunca é o que ela estudou.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Conte os palestrantes do último congresso de podologia que você foi. Faça a conta."
+          },
+          {
+            "rotulo": "história própria",
+            "texto": "Eu já ouvi \"escolhe: o mestrado ou eu\" de um chefe. Ri e escolhi o mestrado."
+          },
+          {
+            "rotulo": "",
+            "texto": "O problema não é falta de mulher competente. É falta de mulher sendo vista."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra toda podóloga que você acha que merece aquele palco.",
+        "crenca": "Você precisa entender o seguinte: a podóloga não precisa de permissão para ser especialista.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta o que você já ouviu."
+      }
+    },
+    {
+      "codigo": "R2",
+      "serie": "R",
+      "titulo": "A unha que sempre descola",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Mentoria Insole360",
+      "linha_do_dia": "Mentoria",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-03",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Autorização da aluna (caso da Vânia)"
+      ],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "A unha da sua paciente não descola por acaso. E o problema nunca esteve na unha.",
+        "intensificador": "Não é fungo, não é o esmalte, não é o alicate. É algo que quase nenhuma podóloga olha.",
+        "cta_salvamento": "Salva, porque você vai lembrar desse vídeo na próxima paciente.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Uma aluna minha atendia uma paciente comum, que só caminhava e fazia academia, e a unha do hálux descolava sempre."
+          },
+          {
+            "rotulo": "",
+            "texto": "Tratava, a unha crescia, descolava de novo. O ciclo se repetia havia anos."
+          },
+          {
+            "rotulo": "revelação",
+            "texto": "Fizemos uma avaliação biomecânica: hiperpronação bilateral importante. A cada passo, o hálux era empurrado contra o chão. Com a palmilha, as unhas estão impecáveis há mais de um ano."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra aquela colega que sempre reclama da paciente que \"não tem jeito\".",
+        "crenca": "Você precisa entender o seguinte: quem trata a unha e não olha o pé trata a consequência.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    },
+    {
+      "codigo": "O1",
+      "serie": "O",
+      "titulo": "Coisas que toda podóloga já ouviu de paciente",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (aquecimento)",
+      "linha_do_dia": "Aquecimento viral",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento"
+      ],
+      "data_planejada": "2026-10-04",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você reagindo a frases que aparecem na tela, com cara de paisagem",
+      "notas_antes_de_gravar": "",
+      "legenda": "Qual dessas você já ouviu essa semana? Conta nos comentários que eu quero fazer a parte 2.",
+      "conteudo": {
+        "headline": "Frases que toda podóloga já ouviu dentro do consultório. A última me tirou do sério.",
+        "intensificador": "",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "\"É só tirar o calo, né? Rapidinho.\" (Rapidinho. Há quatro anos. Toda semana.)"
+          },
+          {
+            "rotulo": "",
+            "texto": "\"O moço da loja de tênis disse que eu sou pronada.\" (O moço da loja tem mestrado em quê, exatamente?)"
+          },
+          {
+            "rotulo": "",
+            "texto": "\"Você faz pé de noiva?\" / \"Quanto é pra passar só um esmaltezinho?\""
+          },
+          {
+            "rotulo": "a última",
+            "texto": "\"Mas você é só podóloga ou é doutora mesmo?\""
+          }
+        ],
+        "cta_compartilhamento": "Marca a colega que já ouviu todas.",
+        "crenca": "Você precisa entender o seguinte: a paciente trata a gente do jeito que a gente se posiciona.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta a frase que você mais ouve."
+      }
+    },
+    {
+      "codigo": "A1",
+      "serie": "A",
+      "titulo": "O que o tape faz na unha encravada",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "ONICOTAPE",
+      "linha_do_dia": "ONICOTAPE",
+      "template": "T21",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-05",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "O que acontece com a unha encravada quando você usa o tape?",
+        "intensificador": "E não, o tape não \"cura\" unha encravada. É outra coisa, e é bem mais interessante.",
+        "cta_salvamento": "Salva pra mostrar pra sua próxima paciente.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "A primeira coisa é que aquela pressão absurda da borda da unha começa a diminuir. A paciente que chegava andando igual um pinguim possuído volta a encostar o pé no chão."
+          },
+          {
+            "rotulo": "",
+            "texto": "Porque o tape muda a mecânica da região: reduz tensão, direciona a pele, abre campo ungueal e diminui o atrito que fica inflamando tudo."
+          },
+          {
+            "rotulo": "plot twist",
+            "texto": "O problema não é a unha. Muitas vezes, ninguém te ensinou a olhar biomecanicamente pra ela."
+          }
+        ],
+        "cta_compartilhamento": "",
+        "crenca": "Você precisa entender o seguinte: quem trata a unha e não olha o pé trata a consequência.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "E se você quiser usar o tape como especialista, comenta ONICOTAPE que eu te mostro o caminho."
+      }
+    },
+    {
+      "codigo": "R1",
+      "serie": "R",
+      "titulo": "Mocho não é negócio",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Mentoria Insole360",
+      "linha_do_dia": "Mentoria",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Crença",
+        "Disrupção"
+      ],
+      "data_planejada": "2026-10-06",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Há um comentário aberto no documento sobre o valor de R$ 1.500"
+      ],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Podóloga, se você só ganha quando está sentada no mocho, você não tem um negócio. Você tem um emprego.",
+        "intensificador": "E não, a solução não é atender mais gente, nem trabalhar no sábado, nem fazer mais um curso de técnica de unha.",
+        "cta_salvamento": "Salva esse vídeo, porque ele pode mudar a forma como você enxerga a sua agenda.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Procedimento avulso tem um teto: o número de horas do seu dia. Não importa quanto você é boa, ele não cresce."
+          },
+          {
+            "rotulo": "",
+            "texto": "Enquanto a podóloga comum cobra por procedimento, a especialista em biomecânica avalia a pisada e prescreve uma palmilha que custa em média R$ 1.500."
+          },
+          {
+            "rotulo": "",
+            "texto": "Uma aluna minha, numa cidade pequena de Rondônia, fez mais de R$ 100 mil com palmilhas no primeiro ano."
+          }
+        ],
+        "cta_compartilhamento": "Se você conhece uma podóloga que trabalha até tarde e o dinheiro não cresce, manda esse vídeo pra ela.",
+        "crenca": "Você precisa entender o seguinte: podóloga que entende biomecânica nunca mais depende de procedimento avulso.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue e comenta \"PÉ INTEIRO\"."
+      }
+    },
+    {
+      "codigo": "M1",
+      "serie": "M",
+      "titulo": "3 erros que fazem o tape não funcionar",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "PODOTAPE",
+      "linha_do_dia": "PODOTAPE",
+      "template": "T30",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-07",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você aplicando tape errado e depois certo, lado a lado",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Se o seu tape descola em dois dias ou não faz diferença nenhuma, você provavelmente está cometendo um desses 3 erros.",
+        "intensificador": "E nenhum deles é a marca do rolo.",
+        "cta_salvamento": "Salva pra revisar antes da próxima aplicação.",
+        "notaveis": [
+          {
+            "rotulo": "erro",
+            "texto": "Esticar o tape inteiro, inclusive as pontas. A âncora vai sem tensão; se você estica tudo, a pele puxa de volta e o tape descola."
+          },
+          {
+            "rotulo": "erro",
+            "texto": "Aplicar em pele oleosa, úmida ou com creme. O adesivo não tem onde grudar. Pele limpa e seca, e pontas arredondadas pra não levantar na meia."
+          },
+          {
+            "rotulo": "erro",
+            "texto": "Aplicar sem saber pra quê. Antes do rolo, você precisa saber qual é o objetivo: aliviar tensão, dar suporte, drenar edema. Cada objetivo pede um corte e uma tensão diferentes."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que diz que \"tape não funciona\".",
+        "crenca": "Você precisa entender o seguinte: o tape começa antes do rolo, na avaliação.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    },
+    {
+      "codigo": "N1",
+      "serie": "N",
+      "titulo": "A \"Lei de Root\" não é lei",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase",
+      "linha_do_dia": "StepBase",
+      "template": "T5",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Disrupção"
+      ],
+      "data_planejada": "2026-10-08",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você segurando um slide com \"80%\" riscado",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "\"80% das dores do antepé começam no retropé.\" Você já ouviu isso num curso de biomecânica. E não é verdade.",
+        "intensificador": "Não existe nenhuma lei física chamada \"Lei de Root\". E esse número não tem sustentação científica.",
+        "cta_salvamento": "Salva antes do próximo curso que repetir essa frase.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "O Root teve um papel histórico enorme: ele organizou a avaliação do pé por segmentos. Mas o modelo dele nasceu nos anos 60 e 70, com medidas feitas com o pé parado."
+          },
+          {
+            "rotulo": "",
+            "texto": "Quando os pesquisadores testaram, pés classificados do mesmo jeito se moviam de formas diferentes. A posição parada não previa o movimento."
+          },
+          {
+            "rotulo": "",
+            "texto": "O retropé influencia o antepé? Sim. Mas o antepé também influencia o resto do pé, e o calçado muda tudo. Influência não é causa, e o corpo não funciona por uma seta de mão única."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que ainda procura o problema no calcanhar antes de olhar onde dói.",
+        "crenca": "Você precisa entender o seguinte: o paciente não deve ser encaixado na sua teoria favorita. A teoria é que precisa ajudar você a entender o paciente.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta STEPBASE."
+      }
+    },
+    {
+      "codigo": "D2",
+      "serie": "D",
+      "titulo": "Os três jeitos de calar uma mulher",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Posicionamento",
+      "linha_do_dia": "Posicionamento",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento",
+        "Crença"
+      ],
+      "data_planejada": "2026-10-09",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Manterrupting, mansplaining e gaslighting: três jeitos diferentes de tirar a autoridade da fala de uma mulher.",
+        "intensificador": "E talvez você esteja aí pensando: \"nossa, essa mulher deve estar traumatizada\". Talvez eu só tenha parado de achar normal o que normalizei por anos.",
+        "cta_salvamento": "Salva pra reconhecer da próxima vez.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Manterrupting é quando um homem interrompe a mulher o tempo todo, até ela ter que disputar o direito de terminar uma frase."
+          },
+          {
+            "rotulo": "",
+            "texto": "Mansplaining é quando ele explica, de forma condescendente, algo que ela sabe mais do que ele, às vezes a própria especialidade dela."
+          },
+          {
+            "rotulo": "",
+            "texto": "Gaslighting é mais pesado: negar e distorcer até você duvidar da própria percepção. \"Eu nunca falei isso.\" \"Você está exagerando.\""
+          }
+        ],
+        "cta_compartilhamento": "Manda pra toda mulher da sua área.",
+        "crenca": "Você precisa entender o seguinte: hoje ninguém precisa mandar uma mulher calar a boca. Basta fazer ela desistir de falar.",
+        "argumento_prova": "",
+        "apresentacao": "Numa profissão ocupada por mulheres, a gente precisa aprender não só a ocupar espaço, mas a reconhecer quando tentam tirá-lo. Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    },
+    {
+      "codigo": "O5",
+      "serie": "O",
+      "titulo": "O pior conselho que uma podóloga recém-formada recebe",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (aquecimento)",
+      "linha_do_dia": "Aquecimento viral",
+      "template": "T29",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Crença",
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-10",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você caminhando pelo corredor da clínica",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "O pior conselho que uma podóloga recém-formada recebe não é \"cobra barato pra encher a agenda\".",
+        "intensificador": "Nem \"faz de tudo pra não perder paciente\". Nem \"primeiro junta dinheiro, depois estuda\".",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Esses são ruins, mas a gente percebe rápido que não funcionam."
+          },
+          {
+            "rotulo": "revelação",
+            "texto": "O pior é \"você já sabe o suficiente, agora é só prática\". Porque prática sem raciocínio é repetir o mesmo erro com mais velocidade."
+          },
+          {
+            "rotulo": "",
+            "texto": "Eu ouvi esse conselho. Levei anos para entender que o que me faltava não era mão, era método para olhar o pé."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra uma podóloga que acabou de se formar.",
+        "crenca": "Você precisa entender o seguinte: experiência sem método é só tempo de casa.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta o pior conselho que você já recebeu."
+      }
+    },
+    {
+      "codigo": "P1",
+      "serie": "P",
+      "titulo": "Dia 21 eu vou fazer uma coisa que nunca fiz aqui",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-10",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério",
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-11",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Definir mecanismo de inscrição (automação de direct e/ou link na bio)"
+      ],
+      "visual": "você no consultório, olhando um plantígrafo",
+      "notas_antes_de_gravar": "",
+      "legenda": "Aula ao vivo e gratuita, dia 21/10, às 20h, no YouTube. Comenta AULA que eu te mando o link por direct. 👣",
+      "conteudo": {
+        "headline": "Dia 21 eu vou fazer uma coisa que eu nunca fiz aqui no Instagram.",
+        "intensificador": "E eu estou fazendo isso por causa de uma pergunta que eu recebo quase todo dia.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "A pergunta é: \"Natália, eu quero entender biomecânica, mas eu não sei por onde começar.\""
+          },
+          {
+            "rotulo": "",
+            "texto": "E eu entendo. Biomecânica parece difícil porque quase sempre ensinam pelo fim: termo técnico, classificação de pé, protocolo pronto."
+          },
+          {
+            "rotulo": "revelação",
+            "texto": "Então, no dia 21, às 20h, no YouTube, eu vou dar uma aula ao vivo e gratuita pra te mostrar por onde começar: como olhar o pé de um jeito que faz sentido, do achado até a hipótese."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que vive te fazendo essa pergunta também.",
+        "crenca": "Você precisa entender o seguinte: você não precisa decorar todos os nomes. Precisa aprender a fazer as perguntas certas.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "O2",
+      "serie": "O",
+      "titulo": "Você não precisa de mais um curso de técnica",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-9",
+      "template": "T28",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Disrupção",
+        "Crença"
+      ],
+      "data_planejada": "2026-10-12",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você olhando para uma pilha de certificados",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Você não precisa de mais um curso de técnica. E eu sei que isso é estranho vindo de quem vende curso.",
+        "intensificador": "Mas presta atenção no que eu vou te falar, porque isso pode mudar o seu próximo ano.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Tem podóloga com quinze certificados na parede que ainda cobra o mesmo valor de quando se formou."
+          },
+          {
+            "rotulo": "",
+            "texto": "Porque técnica nova resolve um caso novo. Mas não muda o jeito que a paciente enxerga você."
+          },
+          {
+            "rotulo": "",
+            "texto": "O que muda o jogo é entender por que o problema aparece. A podóloga que explica a causa deixa de ser comparada pelo preço."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que já está procurando o próximo curso.",
+        "crenca": "Você precisa entender o seguinte: técnica te dá um procedimento. Raciocínio te dá uma profissão.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "O4",
+      "serie": "O",
+      "titulo": "O desafio da pegada",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-8",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-13",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "uma plantigrafia estática na tela inteira",
+      "notas_antes_de_gravar": "Usar uma plantigrafia real sem identificação do paciente, ou uma de demonstração.",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Olha essa pegada e me responde nos comentários antes de o vídeo acabar: esse pé é plano?",
+        "intensificador": "Pensa bem. Eu vou dar a resposta no final, e quase todo mundo erra.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Olha a faixa do meio do pé. Ela está bem larga, né? A primeira vontade é dizer \"pé plano\"."
+          },
+          {
+            "rotulo": "",
+            "texto": "Agora me diz: você sabe se essa pessoa sente dor? Se o pé dela se adapta bem quando caminha? Se o dedão participa do passo?"
+          },
+          {
+            "rotulo": "revelação",
+            "texto": "A resposta certa é: não dá pra saber só pela pegada. A plantigrafia mostra onde o pé encostou no papel. Ela não mostra como esse pé funciona, nem se ele é um problema."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega e vê se ela acerta.",
+        "crenca": "Você precisa entender o seguinte: pegada não é diagnóstico. É uma parte da história.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta o que você respondeu antes da revelação. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P2",
+      "serie": "P",
+      "titulo": "O que você vai aprender na aula do dia 21",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-7",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-14",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "três itens aparecendo na tela, um por vez",
+      "notas_antes_de_gravar": "Confirmar que os três temas estão no roteiro da aula.",
+      "legenda": "Três coisas que você vai aprender na aula ao vivo e gratuita do dia 21/10, às 20h, no YouTube. Comenta AULA. 👣",
+      "conteudo": {
+        "headline": "Se você for na minha aula do dia 21, você vai sair sabendo três coisas que a maioria das podólogas nunca aprendeu.",
+        "intensificador": "",
+        "cta_salvamento": "Salva pra lembrar do dia.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Por que o calo volta sempre no mesmo lugar, e o que investigar antes de tirar de novo."
+          },
+          {
+            "rotulo": "",
+            "texto": "Como ler uma plantigrafia sem cair no erro mais comum: achar que a parte escura é onde tem mais pressão."
+          },
+          {
+            "rotulo": "",
+            "texto": "O caminho do achado até a hipótese: o jeito de pensar que separa quem só executa de quem entende o caso."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que você quer do seu lado na aula.",
+        "crenca": "Você precisa entender o seguinte: a podóloga que explica a causa deixa de ser comparada pelo preço.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "N3",
+      "serie": "N",
+      "titulo": "O arco mais baixo estava no pé que não doía",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase",
+      "linha_do_dia": "Antecipação D-6",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-15",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "duas plantigrafias lado a lado",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "A paciente tinha um calo dolorido no pé direito. E o arco mais baixo estava no esquerdo.",
+        "intensificador": "Se você olhasse só a pegada, ia tratar o pé errado.",
+        "cta_salvamento": "Salva, porque esse raciocínio vale pra muita paciente.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Ela é vendedora, passa o dia em pé, e o calo embaixo dos metatarsos centrais volta toda vez que é removido."
+          },
+          {
+            "rotulo": "",
+            "texto": "O achado mais chamativo era o arco esquerdo mais baixo. Mas o lado esquerdo não doía. Então ele não podia ser o centro da explicação."
+          },
+          {
+            "rotulo": "revelação",
+            "texto": "No pé direito, o dedão mexia menos, o calcanhar subia mais cedo e a saída do passo acontecia pelo meio do antepé. Somando o sapato estreito de salto do trabalho, estava ali a explicação mais provável."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que vive tirando o mesmo calo da mesma paciente.",
+        "crenca": "Você precisa entender o seguinte: um achado verdadeiro pode não ter nada a ver com a queixa.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta STEPBASE. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "O3",
+      "serie": "O",
+      "titulo": "Sinais de que você já pensa como especialista",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-5",
+      "template": "T22",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento"
+      ],
+      "data_planejada": "2026-10-16",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você no consultório, falando direto para a câmera",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Sinais de que você já pensa como especialista em biomecânica, mesmo sem ter estudado isso.",
+        "intensificador": "",
+        "cta_salvamento": "Salva e conta quantos você marcou.",
+        "notaveis": [
+          {
+            "rotulo": "sinal",
+            "texto": "Você tira o mesmo calo da mesma paciente e fica incomodada, porque sabe que ele vai voltar."
+          },
+          {
+            "rotulo": "sinal",
+            "texto": "Você olha o sapato da paciente antes de olhar o pé."
+          },
+          {
+            "rotulo": "sinal",
+            "texto": "A unha encravada voltou, e você pensou \"tem alguma coisa no jeito que ela pisa\"."
+          },
+          {
+            "rotulo": "sinal",
+            "texto": "Você já sentiu que sabe mais do que consegue explicar."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que é assim também.",
+        "crenca": "Você precisa entender o seguinte: essa inquietação não é insegurança. É o seu olhar clínico pedindo método.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta quantos sinais você marcou. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "O6",
+      "serie": "O",
+      "titulo": "Demorei quase 20 anos para aprender isso sobre o pé",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-4",
+      "template": "T8",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Autoridade"
+      ],
+      "data_planejada": "2026-10-17",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você com uma foto antiga do início da carreira na mão",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Demorei quase 20 anos para aprender isso sobre o pé. Você vai aprender em 40 segundos.",
+        "intensificador": "E se eu tivesse ouvido isso no primeiro ano, teria poupado muita paciente de tratamento no lugar errado.",
+        "cta_salvamento": "Salva, porque isso vale pra carreira inteira.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "No começo, eu achava que avaliar era encontrar o que estava errado. Pé plano, pé cavo, calcanhar torto. Achou, tratou."
+          },
+          {
+            "rotulo": "",
+            "texto": "Até que eu comecei a ver pés \"errados\" sem dor nenhuma. E pés \"perfeitos\" doendo todos os dias."
+          },
+          {
+            "rotulo": "a lição",
+            "texto": "O que eu aprendi é que achado não é causa. Todo pé tem alguma diferença. A pergunta certa não é \"o que tem de errado aqui?\", é \"o que disso tem a ver com a dor dela?\"."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que está começando.",
+        "crenca": "Você precisa entender o seguinte: biomecânica não serve pra encontrar defeito em pé. Serve pra entender a pessoa.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P4",
+      "serie": "P",
+      "titulo": "Bastidores da preparação da aula",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-3",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-18",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você na mesa com anotações, plantigrafias sem identificação espalhadas e o Jorge deitado por perto",
+      "notas_antes_de_gravar": "Conferir que nenhuma plantigrafia ou pergunta da caixinha identifica paciente ou colega.",
+      "legenda": "Bastidores da aula de quarta. As pegadas estão escolhidas, as perguntas estão separadas e o Jorge já aprovou. Falta você. Comenta AULA. 👣",
+      "conteudo": {
+        "headline": "Faltam três dias pra aula, e eu vou te mostrar uma coisa que ninguém vê.",
+        "intensificador": "A parte da aula que dá mais trabalho não é a que aparece na tela.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "cena: plantigrafias",
+            "texto": "Essas aqui são pegadas reais, sem nome de ninguém. Eu passei a semana escolhendo quais vão entrar na aula, porque cada uma engana de um jeito diferente."
+          },
+          {
+            "rotulo": "cena: caderno",
+            "texto": "E aqui estão as perguntas de vocês na caixinha. Muitas delas viraram exemplo. Se a sua pergunta aparecer na aula, você vai reconhecer."
+          },
+          {
+            "rotulo": "cena: o Jorge",
+            "texto": "O Jorge acompanhou tudo. Ele não entendeu nada de biomecânica, mas aprovou o roteiro dormindo em cima dele."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que ainda não se inscreveu.",
+        "crenca": "Você precisa entender o seguinte: aula boa não é a que mostra tudo o que eu sei. É a que muda o jeito que você olha o próximo pé.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Quarta, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "O7",
+      "serie": "O",
+      "titulo": "Se o Dr. House fosse podólogo",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-2",
+      "template": "T10",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Popularidade"
+      ],
+      "data_planejada": "2026-10-19",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você de jaleco, com uma bengala de brincadeira; referência só falada",
+      "notas_antes_de_gravar": "Não usar trechos, imagens ou áudio da série; a referência é só falada.",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Se o Dr. House fosse podólogo, ele ia odiar a maioria das avaliações que eu vejo por aí.",
+        "intensificador": "E ele ia ter razão em pelo menos três coisas.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "\"Todo mundo mente.\" Não por maldade: a paciente diz que usa tênis confortável, e o sapato do trabalho tem salto e bico fino. Pergunte sobre a rotina, não só sobre a dor."
+          },
+          {
+            "rotulo": "",
+            "texto": "Ele nunca ficava com a primeira hipótese. Achou pronação e já decidiu que é a causa? Ele ia perguntar: e se não for?"
+          },
+          {
+            "rotulo": "",
+            "texto": "Ele testava a hipótese antes de fechar o caso. Na podologia, isso é observar a paciente caminhando, comparar com outro calçado e reavaliar depois."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que também é viciada em série médica.",
+        "crenca": "Você precisa entender o seguinte: avaliação boa não é a que encontra mais coisas. É a que faz as perguntas certas.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta a sua série médica favorita. Dia 21 eu vou dar uma aula ao vivo e gratuita sobre isso, às 20h, no YouTube. Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P3",
+      "serie": "P",
+      "titulo": "Amanhã tem aula",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Antecipação D-1",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-20",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Definir presente ao vivo"
+      ],
+      "visual": "você arrumando o ambiente da aula (luz, plantígrafo, anotações)",
+      "notas_antes_de_gravar": "Definir o presente de quem assistir ao vivo; se não houver, apagar o intensificador e o Notável 3.",
+      "legenda": "É amanhã! Aula ao vivo e gratuita, 21/10, às 20h, no YouTube. Ativa o lembrete e comenta AULA. 👣",
+      "conteudo": {
+        "headline": "Amanhã, às 20h, no YouTube, eu vou te mostrar o que eu demorei quase 20 anos pra entender sobre o pé.",
+        "intensificador": "E tem uma coisa que só quem estiver ao vivo vai receber.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "A aula é gratuita e vai direto ao ponto: o calo que volta, a pegada que engana e o raciocínio que muda o seu atendimento."
+          },
+          {
+            "rotulo": "",
+            "texto": "Traz uma dúvida de um caso seu. Eu vou separar um tempo pra responder ao vivo."
+          },
+          {
+            "rotulo": "",
+            "texto": "[Presente para quem estiver ao vivo: definir.]"
+          }
+        ],
+        "cta_compartilhamento": "Manda agora pra colega que disse que ia e ainda não se inscreveu.",
+        "crenca": "Você precisa entender o seguinte: um olhar diferente sobre o pé muda o seu próximo atendimento, não daqui a um ano.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P5",
+      "serie": "P",
+      "titulo": "É hoje",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Lançamento",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-21",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você arrumando o cenário da aula",
+      "notas_antes_de_gravar": "",
+      "legenda": "É hoje! Aula ao vivo e gratuita às 20h, no YouTube. Comenta AULA e ativa o lembrete. 👣",
+      "conteudo": {
+        "headline": "É hoje, às 20h, no YouTube. E eu vou te contar o que muda no seu consultório depois dessa aula.",
+        "intensificador": "",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Você vai entender por que o calo volta sempre no mesmo lugar, e o que perguntar antes de tirar de novo."
+          },
+          {
+            "rotulo": "",
+            "texto": "Vai aprender a ler uma plantigrafia sem cair no erro que quase todo mundo comete."
+          },
+          {
+            "rotulo": "",
+            "texto": "E vai sair com um jeito de pensar o caso do achado até a hipótese. Quem ficar até o final ainda ganha um presente."
+          }
+        ],
+        "cta_compartilhamento": "Manda agora pra colega que vai assistir com você.",
+        "crenca": "Você precisa entender o seguinte: o próximo pé que você atender já pode ser diferente.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta AULA que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "N2",
+      "serie": "N",
+      "titulo": "A parte mais escura da pegada não é onde tem mais pressão",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "StepBase (carrinho aberto)",
+      "template": "T28",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Disrupção"
+      ],
+      "data_planejada": "2026-10-22",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "uma plantigrafia na mão, apontando para a área mais escura",
+      "notas_antes_de_gravar": "CTA ajustado para o carrinho aberto.",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Essa parte mais escura da plantigrafia não é onde tem mais pressão.",
+        "intensificador": "E se você já explicou isso pra alguma paciente, calma. Quase todo mundo aprendeu assim.",
+        "cta_salvamento": "Salva pra não errar na próxima avaliação.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "A plantigrafia registra contato, não pressão. Ela mostra onde o pé encostou no papel."
+          },
+          {
+            "rotulo": "",
+            "texto": "A cor muda com a quantidade de tinta, o tempo que a paciente ficou parada, a umidade da pele e até se ela se mexeu. Escuro não é sinônimo de sobrecarga."
+          },
+          {
+            "rotulo": "",
+            "texto": "Pra medir pressão, você precisa de outro equipamento, como a baropodometria. A plantigrafia tem muito valor, desde que você use pro que ela realmente mostra."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que usa plantígrafo no consultório.",
+        "crenca": "Você precisa entender o seguinte: uma pegada não é um diagnóstico. É uma parte da história.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Isso tudo está no StepBase, e as inscrições estão abertas até domingo. Comenta STEP que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P6",
+      "serie": "P",
+      "titulo": "Pra quem é (e pra quem não é) o StepBase",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Lançamento",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento"
+      ],
+      "data_planejada": "2026-10-23",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Aprovar oferta de lançamento"
+      ],
+      "visual": "você falando direto para a câmera",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "O StepBase não é pra toda podóloga. E eu prefiro te falar isso antes de você comprar.",
+        "intensificador": "",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "não é pra você se",
+            "texto": "Você procura uma técnica nova pra aplicar amanhã sem entender o porquê. O StepBase ensina a pensar, não um protocolo pronto."
+          },
+          {
+            "rotulo": "não é pra você se",
+            "texto": "Você já avalia pisada, faz plantigrafia com critério e monta hipótese com segurança. Aí o seu próximo passo é outro."
+          },
+          {
+            "rotulo": "é pra você se",
+            "texto": "Você tira o mesmo calo da mesma paciente, sente que falta alguma coisa na sua avaliação e quer começar na biomecânica com base sólida, sem decorar termo técnico."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que está em dúvida.",
+        "crenca": "Você precisa entender o seguinte: você não precisa saber tudo pra começar. Precisa começar pelo lugar certo.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "O carrinho fecha domingo. Comenta STEP que eu te mando o link."
+      }
+    },
+    {
+      "codigo": "P7",
+      "serie": "P",
+      "titulo": "As dúvidas da aula, respondidas",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Lançamento",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-24",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Completar duas respostas",
+        "Aprovar oferta de lançamento"
+      ],
+      "visual": "perguntas na tela, respostas rápidas",
+      "notas_antes_de_gravar": "Trocar pelas dúvidas reais que aparecerem no chat da aula.",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Eu separei as perguntas que mais apareceram na aula de quarta. A terceira é a que mais trava as podólogas.",
+        "intensificador": "",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "\"Preciso ter plantígrafo pra fazer o curso?\" [Resposta da Natália.]"
+          },
+          {
+            "rotulo": "",
+            "texto": "\"Serve pra quem acabou de se formar?\" Serve. O StepBase começa pela base, justamente pra quem quer entrar na biomecânica sem pular etapa."
+          },
+          {
+            "rotulo": "",
+            "texto": "\"E se eu não conseguir acompanhar?\" [Resposta da Natália: tempo de acesso, formato das aulas e garantia de 7 dias.]"
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que te fez uma dessas perguntas.",
+        "crenca": "Você precisa entender o seguinte: a dúvida que te trava hoje é a mesma que vai estar lá daqui a um ano, se você não der o primeiro passo.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "O carrinho fecha amanhã. Comenta STEP."
+      }
+    },
+    {
+      "codigo": "P8",
+      "serie": "P",
+      "titulo": "Últimas horas",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase (lançamento)",
+      "linha_do_dia": "Lançamento",
+      "template": "",
+      "modelo": "Mistério tardiamente revelado",
+      "gatilhos": [
+        "Recompensa",
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-25",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Aprovar oferta de lançamento"
+      ],
+      "visual": "você com um relógio ou o celular mostrando a hora",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Hoje, às 23h59, o StepBase fecha. E eu quero te fazer uma pergunta antes.",
+        "intensificador": "",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Quantas vezes, nos últimos meses, você tirou o mesmo calo da mesma paciente?"
+          },
+          {
+            "rotulo": "",
+            "texto": "Cada uma dessas vezes foi um atendimento que podia ter ido além: uma explicação que a paciente ia lembrar, um motivo pra ela voltar e te indicar."
+          },
+          {
+            "rotulo": "",
+            "texto": "Quem entrar até hoje leva o StepBase com [bônus até o fechamento] e 7 dias de garantia. Depois disso, a turma fecha."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que disse que ia entrar e ainda não entrou.",
+        "crenca": "Você precisa entender o seguinte: a podóloga que explica a causa deixa de ser comparada pelo preço.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta STEP e eu te mando o link agora."
+      }
+    },
+    {
+      "codigo": "B1",
+      "serie": "B",
+      "titulo": "O maior erro na unha encravada",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "ONICOTAPE",
+      "linha_do_dia": "ONICOTAPE",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Crença"
+      ],
+      "data_planejada": "2026-10-26",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Confirmar fonte do dado de 20% de onicocriptose (ou retirar o número)"
+      ],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "O maior erro das podólogas brasileiras não é técnico. É tratar a unha encravada e ignorar o resto do pé.",
+        "intensificador": "E isso está deixando paciente, resultado e dinheiro na mesa.",
+        "cta_salvamento": "Salva esse vídeo e revê antes da próxima paciente.",
+        "notaveis": [
+          {
+            "rotulo": "dado",
+            "texto": "Estima-se que cerca de 20% de quem procura podologia tem algum grau de onicocriptose. Olha o tamanho disso."
+          },
+          {
+            "rotulo": "",
+            "texto": "Quantas dessas pacientes escutam que a unha pode estar sofrendo pela forma como o pé pisa? Pressão errada, atrito, sapato comprimindo, hálux colapsando."
+          },
+          {
+            "rotulo": "",
+            "texto": "Você tem a paciente na mão e poderia oferecer um cuidado mais completo e mais lucrativo. Só não aprendeu a interpretar marcha, carga e compensações."
+          }
+        ],
+        "cta_compartilhamento": "",
+        "crenca": "Você precisa entender o seguinte: quem entende o motivo de a unha continuar adoecendo deixa de ser mais uma e vira especialista.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "E se você quer entender o caminho para uma solução eficaz, comenta STEP que eu te mostro."
+      }
+    },
+    {
+      "codigo": "A7",
+      "serie": "A",
+      "titulo": "A unha encravada que sempre volta",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Mentoria Insole360",
+      "linha_do_dia": "Mentoria",
+      "template": "T9",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Crença",
+        "Autoridade"
+      ],
+      "data_planejada": "2026-10-27",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Quem tem unha encravada que sempre volta precisa saber disso.",
+        "intensificador": "E vou falar uma coisa que talvez gere polêmica.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "opinião",
+            "texto": "Podólogos e médicos tratam a unha encravada. Mas, na minha opinião de fisioterapeuta especialista em pés, isso é muito mais competência do podólogo do que se imagina, porque é ele quem vê pressão, atrito, deformidade e pele no detalhe."
+          },
+          {
+            "rotulo": "",
+            "texto": "A unha não encrava do nada. Ela sofre microtrauma o tempo todo: o dedo colapsa, o sapato comprime, o hálux perde mobilidade, a carga vai pra borda."
+          },
+          {
+            "rotulo": "",
+            "texto": "O tape ajuda a abrir campo, reduzir tensão e pressão. E funciona melhor ainda quando a profissional entende biomecânica, com a palmilha mudando a mecânica que continua traumatizando a unha."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra alguém que precisa entender isso.",
+        "crenca": "Você precisa entender o seguinte: às vezes o problema não é a unha que cresce errado. É o corpo inteiro esmagando aquela região todos os dias.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    },
+    {
+      "codigo": "M2",
+      "serie": "M",
+      "titulo": "O tape mais subestimado da podologia",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "PODOTAPE",
+      "linha_do_dia": "PODOTAPE",
+      "template": "T16",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-28",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "aplicação de tape em leque (linfático) no dorso do pé",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "O tape mais subestimado da podologia não é o da unha. É esse aqui.",
+        "intensificador": "E ele pode mudar a forma como a sua paciente se recupera depois de um procedimento.",
+        "cta_salvamento": "Salva pra usar na próxima paciente com inchaço.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "É o tape com função linfática, cortado em tiras finas, em leque, aplicado com pouquíssima tensão."
+          },
+          {
+            "rotulo": "",
+            "texto": "Ele é usado como recurso para edema, hematoma e inchaço depois de trauma ou procedimento. A ideia é criar pequenas ondulações na pele, e não apertar."
+          },
+          {
+            "rotulo": "",
+            "texto": "Mas atenção: nunca sobre ferida aberta, e inchaço com dor forte, vermelhidão ou calor na perna precisa de avaliação médica antes de qualquer tape."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que só usa tape na unha.",
+        "crenca": "Você precisa entender o seguinte: quem só sabe um tape tem um recurso. Quem entende a função tem um arsenal.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta PODOTAPE."
+      }
+    },
+    {
+      "codigo": "N5",
+      "serie": "N",
+      "titulo": "O teste do dedão em 30 segundos",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "StepBase",
+      "linha_do_dia": "StepBase",
+      "template": "",
+      "modelo": "Lista de valor prático",
+      "gatilhos": [
+        "Recompensa"
+      ],
+      "data_planejada": "2026-10-29",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "você fazendo o teste (elevação passiva do hálux com a pessoa em pé)",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Um teste de 30 segundos que mostra como o pé se prepara pra impulsionar.",
+        "intensificador": "Você só precisa da paciente em pé e das suas mãos. Mas tem que saber pra onde olhar.",
+        "cta_salvamento": "Salva e testa no próximo atendimento.",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Com a paciente em pé, eleve devagar o dedão. Olhe primeiro pra ele: sobe fácil? Tem resistência logo no começo? Dói?"
+          },
+          {
+            "rotulo": "",
+            "texto": "Depois olhe o arco: ele sobe junto? E o calcanhar e a perna, mudam de posição? É a fáscia plantar sendo tensionada, o chamado mecanismo windlass."
+          },
+          {
+            "rotulo": "",
+            "texto": "Mas atenção: esse teste não é aprovado ou reprovado. Tem gente que quase não levanta o arco e caminha sem dor nenhuma. Ele é uma informação, que só vale junto com a marcha e a queixa."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que ainda avalia o dedão só com a paciente sentada.",
+        "crenca": "Você precisa entender o seguinte: o movimento do dedão não pertence só ao dedão.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Comenta STEPBASE."
+      }
+    },
+    {
+      "codigo": "D1",
+      "serie": "D",
+      "titulo": "Fofocas de congresso",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Posicionamento",
+      "linha_do_dia": "Posicionamento",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento",
+        "Mistério"
+      ],
+      "data_planejada": "2026-10-30",
+      "status_roteiro": "pronto",
+      "pendencias": [
+        "Revisar para não identificar pessoas"
+      ],
+      "visual": "",
+      "notas_antes_de_gravar": "Sem nomes, eventos ou detalhes que identifiquem alguém.",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Fofocas de congresso que eu provavelmente não deveria contar.",
+        "intensificador": "Mas eu vou contar, porque todas elas ensinam alguma coisa.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "",
+            "texto": "Já vi palestrante no palco aplicando tape errado, sem princípio, e uma plateia inteira anotando."
+          },
+          {
+            "rotulo": "",
+            "texto": "Já vi palestra de plantigrafia dizendo que avaliação só estática estava ótima. Eu respirando fundo na cadeira. E já vi professor admitindo que aprendeu tape num vídeo do YouTube."
+          },
+          {
+            "rotulo": "",
+            "texto": "E a minha favorita: gente passando por mim no corredor fingindo que não me viu… e eu sabendo bem o que aquela pessoa tinha feito."
+          }
+        ],
+        "cta_compartilhamento": "Manda pra colega que vai comigo no próximo congresso.",
+        "crenca": "Você precisa entender o seguinte: congresso também ensina, às vezes pelo conteúdo, às vezes mostrando por que a gente estuda antes de ensinar.",
+        "argumento_prova": "",
+        "apresentacao": "",
+        "cta_final": "Quer a parte 2? Comenta \"PARTE 2\", porque eu tenho material."
+      }
+    },
+    {
+      "codigo": "R4",
+      "serie": "R",
+      "titulo": "Você achou que estava pronta",
+      "tipo_roteiro": "reel_feed",
+      "perfil": "Profissional",
+      "avatar": "Carla",
+      "produto": "Mentoria Insole360",
+      "linha_do_dia": "Mentoria",
+      "template": "",
+      "modelo": "Lista de reconhecimento",
+      "gatilhos": [
+        "Reconhecimento",
+        "Crença"
+      ],
+      "data_planejada": "2026-10-31",
+      "status_roteiro": "pronto",
+      "pendencias": [],
+      "visual": "",
+      "notas_antes_de_gravar": "",
+      "legenda": "",
+      "conteudo": {
+        "headline": "Você saiu do curso técnico achando que estava pronta. Não estava, e a culpa não é sua.",
+        "intensificador": "Ninguém te contou que existe uma diferença entre cuidar da unha e entender o pé.",
+        "cta_salvamento": "",
+        "notaveis": [
+          {
+            "rotulo": "identificação",
+            "texto": "Você trata bem, a paciente sai feliz… e volta em 30 dias com o mesmo problema."
+          },
+          {
+            "rotulo": "",
+            "texto": "Isso é a podologia de superfície: a formação que ensina a tratar o que aparece, não o que causa."
+          },
+          {
+            "rotulo": "",
+            "texto": "A causa quase sempre está na forma como o pé pisa. E isso se aprende."
+          }
+        ],
+        "cta_compartilhamento": "Marca aquela amiga que se formou com você.",
+        "crenca": "Você precisa entender o seguinte: podóloga não nasceu para ficar presa no mocho.",
+        "argumento_prova": "",
+        "apresentacao": "Eu sou a Natália Targas e ajudo podólogas presas no mocho a se tornarem especialistas com técnica, autoridade e lucro.",
+        "cta_final": "Me segue."
+      }
+    }
+  ]
+}
