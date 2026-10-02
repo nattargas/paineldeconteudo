@@ -26,7 +26,6 @@ Toque em qualquer peça para ler o roteiro (texto falado, CTAs e legenda, com bo
 
 ## Landing page BLACK PASS 2026
 - `black-pass/index.html`: página de inscrição da live gratuita de 27/11 (sem oferta, preço ou produtos), com as fotos em `black-pass/img/`.
-- Antes de publicar, edite o bloco `CONFIG` no fim do arquivo:
-  - `whatsappGroupUrl`: link de convite do grupo exclusivo (para onde a pessoa vai depois de se inscrever).
-  - `webhookUrl`: endereço que recebe os cadastros por POST em JSON (ActiveCampaign, RD Station, Make, Zapier, Google Apps Script…). Vazio = só redireciona.
-- Cada cadastro envia: nome, WhatsApp (+55), e-mail, se já é aluna, consentimento, qual botão foi clicado e as UTMs da URL. Se houver Meta Pixel, GA4 ou GTM na página, os eventos `Lead`, `generate_lead` e `lead_black_pass` são disparados.
+- O bloco `CONFIG` no fim do arquivo guarda o link do grupo do WhatsApp e o formulário do ActiveCampaign (conta `insole36075844`, formulário 1).
+- Cada inscrição vai para o ActiveCampaign com nome, WhatsApp (+55), e-mail e o campo "já é aluna" (`isstudent`: yes/no). Se o ActiveCampaign recusar (por exemplo, e-mail inválido), a mensagem aparece no formulário; se não responder em 10 segundos, a pessoa segue para o grupo mesmo assim.
+- Depois da inscrição, a pessoa é levada ao grupo exclusivo no WhatsApp. Se houver Meta Pixel, GA4 ou GTM na página, os eventos `Lead`, `generate_lead` e `lead_black_pass` são disparados.

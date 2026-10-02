@@ -373,6 +373,7 @@ fieldset{border:0;padding:0;margin:0}
 .consent input:focus-visible{box-shadow:0 0 0 3px rgba(201,168,76,.3)}
 .consent span{color:var(--gray);font-size:13.5px;line-height:1.5}
 .field.err .consent input{border-color:#d9a441}
+.form-error{margin:0 0 14px;padding:12px 14px;border:1px solid #d9a441;border-radius:6px;color:var(--gold-light);font-size:13.5px;background:rgba(217,164,65,.08)}
 .form-note{color:var(--gray-dim);font-size:12px;text-align:center;margin:12px 0 0}
 .btn[disabled]{opacity:.7;cursor:progress}
 .success{display:none;text-align:center;padding:20px 0 6px}
@@ -667,6 +668,7 @@ fieldset{border:0;padding:0;margin:0}
         <div class="msg" style="margin-top:-12px;margin-bottom:14px">É preciso concordar para recebermos você na lista.</div>
       </div>
 
+      <p class="form-error" id="form-error" role="alert" hidden></p>
       <button class="btn btn-block" type="submit" id="submit">Garantir minha inscrição <span class="arrow" aria-hidden="true">→</span></button>
       <p class="form-note">Seus dados são usados apenas para as comunicações do evento.</p>
     </form>
@@ -683,15 +685,21 @@ fieldset{border:0;padding:0;margin:0}
 
 <script>
 /* =========================================================
-   CONFIGURAÇÃO — preencha antes de publicar
+   CONFIGURAÇÃO
    whatsappGroupUrl: link de convite do grupo exclusivo da BLACK PASS
-   webhookUrl: endereço que recebe os cadastros (ActiveCampaign, RD Station,
-               Make, Zapier, Google Apps Script…). Recebe um POST com JSON.
-               Deixe vazio para apenas redirecionar.
+   activeCampaign:   formulário 1 da conta insole36075844 (BLACK PASS 2026).
+                     Os campos são os mesmos do formulário gerado pelo
+                     ActiveCampaign: firstname, phone, email e field[2]
+                     ("isstudent", com os valores yes / no).
    ========================================================= */
 const CONFIG = {
   whatsappGroupUrl: "https://chat.whatsapp.com/EvNhiFRknwfJxtMZVrAjhH?mode=gi_t",
-  webhookUrl: "",
+  activeCampaign: {
+    url: "https://insole36075844.activehosted.com/proc.php",
+    hidden: { u:"1", f:"1", s:"", c:"0", m:"0", act:"sub", v:"2", or:"5a8964d8-62f7-4221-9937-3b08a652b4f0" },
+    alunaField: "field[2]"
+  },
+  timeoutMs: 10000,
   redirectDelayMs: 1800
 };
 
@@ -771,10 +779,44 @@ const CONFIG = {
   const utm = {};
   ["utm_source","utm_medium","utm_campaign","utm_content","utm_term"].forEach(k=>{ if(params.get(k)) utm[k] = params.get(k); });
 
+  /* ---------- envio ao ActiveCampaign ----------
+     O proc.php responde em JSONP chamando window._show_thank_you ou
+     window._show_error, como no formulário original do ActiveCampaign. */
+  const sendToActiveCampaign = (lead)=> new Promise((resolve)=>{
+    const ac = CONFIG.activeCampaign;
+    const q = new URLSearchParams(ac.hidden);
+    q.set("firstname", lead.nome);
+    q.set("phone", lead.whatsapp);
+    q.set("email", lead.email);
+    q.set(ac.alunaField, lead.ja_e_aluna ? "yes" : "no");
+    q.set("jsonp", "true");
+
+    let done = false;
+    const finish = (r)=>{ if(!done){ done = true; clearTimeout(timer); resolve(r); } };
+    const timer = setTimeout(()=>finish({status:"timeout"}), CONFIG.timeoutMs);
+    window._show_thank_you = ()=>finish({status:"ok"});
+    window._show_unsubscribe = ()=>finish({status:"ok"});
+    window._show_pc_confirmation = ()=>finish({status:"ok"});
+    window._show_error = (id, message)=>{
+      const tmp = document.createElement("div"); tmp.innerHTML = message || "";
+      finish({status:"error", message: tmp.textContent.trim()});
+    };
+    window._load_script = (url)=>{ const t = document.createElement("script"); t.src = url; t.async = true; document.head.appendChild(t); };
+
+    const sc = document.createElement("script");
+    sc.src = ac.url + "?" + q.toString();
+    sc.async = true;
+    sc.onerror = ()=>finish({status:"timeout"});
+    document.head.appendChild(sc);
+  });
+
   /* ---------- envio ---------- */
   const submit = document.getElementById("submit");
+  const submitLabel = submit.innerHTML;
+  const formError = document.getElementById("form-error");
   form.addEventListener("submit", async (e)=>{
     e.preventDefault();
+    formError.hidden = true;
     if (!validate()){
       const first = form.querySelector(".field.err input");
       if (first) first.focus();
@@ -798,18 +840,15 @@ const CONFIG = {
     submit.disabled = true;
     submit.innerHTML = "Enviando…";
 
-    if (CONFIG.webhookUrl){
-      try{
-        const ctrl = new AbortController();
-        const t = setTimeout(()=>ctrl.abort(), 8000);
-        await fetch(CONFIG.webhookUrl, {
-          method:"POST", mode:"no-cors", keepalive:true, signal:ctrl.signal,
-          headers:{"Content-Type":"text/plain;charset=UTF-8"},
-          body: JSON.stringify(lead)
-        });
-        clearTimeout(t);
-      }catch(err){ console.warn("Falha ao enviar o cadastro", err); }
+    const result = await sendToActiveCampaign(lead);
+    if (result.status === "error"){
+      submit.disabled = false;
+      submit.innerHTML = submitLabel;
+      formError.textContent = result.message || "Não foi possível concluir sua inscrição. Confira os dados e tente novamente.";
+      formError.hidden = false;
+      return;
     }
+    if (result.status === "timeout") console.warn("ActiveCampaign não respondeu a tempo; seguindo para o grupo.");
 
     try{ if (window.fbq) fbq("track","Lead",{content_name:"BLACK PASS 2026 - Live"}); }catch(_){}
     try{ if (window.gtag) gtag("event","generate_lead",{event_category:"black_pass",event_label:origem}); }catch(_){}
