@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Black Pass 2026 — Live gratuita 27/11 | Natália Targas</title>
+<meta name="description" content="Live gratuita e ao vivo em 27 de novembro. Natália Targas revela pela primeira vez tudo o que preparou para a BLACK PASS 2026. Inscreva-se e entre na Lista Prioritária.">
+<meta name="theme-color" content="#050505">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BLACK PASS 2026 — Live gratuita em 27/11">
+<meta property="og:description" content="A Black começa antes da Black. Inscreva-se gratuitamente para a live de revelação da BLACK PASS.">
+<meta property="og:image" content="img/natalia-hero.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/natalia-hero.webp">
+<style>
+:root{
+  --black:#050505;
+  --black-2:#0D0D0D;
+  --black-3:#141414;
+  --gold:#C9A84C;
+  --gold-light:#E1CA7A;
+  --white:#FFFFFF;
+  --gray:#B8B8B8;
+  --gray-dim:#7a7a7a;
+  --line:rgba(201,168,76,.22);
+  --line-soft:rgba(255,255,255,.08);
+  --display:"Archivo Black","Montserrat",system-ui,sans-serif;
+  --head:"Montserrat",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --gutter:20px;
+  --max:1200px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--black);color:var(--white);
+  font-family:var(--body);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.gold{color:var(--gold)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- elementos base ---------- */
+.tag{
+  display:inline-flex;text-align:left;align-items:center;gap:10px;
+  font-family:var(--head);font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold-light);border:1px solid var(--line);border-radius:999px;
+  padding:8px 14px;background:rgba(201,168,76,.06);
+}
+.tag .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 0 rgba(201,168,76,.6);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(201,168,76,.55)}70%{box-shadow:0 0 0 9px rgba(201,168,76,0)}100%{box-shadow:0 0 0 0 rgba(201,168,76,0)}}
+
+.btn{
+  position:relative;overflow:hidden;isolation:isolate;
+  display:inline-flex;align-items:center;justify-content:center;gap:12px;
+  min-height:58px;padding:0 30px;border:0;border-radius:4px;cursor:pointer;
+  font-family:var(--head);font-weight:800;font-size:15px;letter-spacing:.08em;text-transform:uppercase;
+  color:#0a0a0a;background:linear-gradient(180deg,var(--gold-light),var(--gold));
+  box-shadow:0 10px 30px -10px rgba(201,168,76,.55), inset 0 1px 0 rgba(255,255,255,.35);
+  transition:transform .3s var(--ease), box-shadow .3s var(--ease);
+  text-decoration:none;
+}
+.btn::after{ /* brilho dourado discreto */
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.45) 50%,transparent 70%);
+  transform:translateX(-120%);animation:sheen 5.5s var(--ease) infinite 1.5s;
+}
+@keyframes sheen{0%{transform:translateX(-120%)}22%,100%{transform:translateX(120%)}}
+.btn:hover{transform:translateY(-2px);box-shadow:0 16px 40px -12px rgba(201,168,76,.7), inset 0 1px 0 rgba(255,255,255,.35)}
+.btn:focus-visible{outline:2px solid var(--white);outline-offset:3px}
+.btn .arrow{transition:transform .3s var(--ease)}
+.btn:hover .arrow{transform:translateX(4px)}
+.btn-block{width:100%}
+.micro{
+  margin-top:14px;font-family:var(--head);font-weight:700;font-size:11px;letter-spacing:.22em;color:var(--gray);text-transform:uppercase;
+}
+.micro span{color:var(--gold)}
+
+.eyebrow{font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.h2{
+  font-family:var(--head);font-weight:800;line-height:1.08;letter-spacing:-.02em;
+  font-size:clamp(30px,7.4vw,56px);margin:14px 0 0;
+}
+.lead{color:var(--gray);font-size:17px;max-width:560px}
+.lead strong{color:var(--white);font-weight:600}
+
+section{position:relative}
+.sec{padding:88px 0}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease), transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}.d5{transition-delay:.4s}
+
+/* ---------- HERO ---------- */
+.hero{
+  min-height:100svh;padding:28px 0 56px;overflow:hidden;
+  background:
+    radial-gradient(70% 55% at 85% 30%, rgba(201,168,76,.13), transparent 60%),
+    radial-gradient(60% 40% at 0% 100%, rgba(201,168,76,.05), transparent 70%),
+    var(--black);
+}
+.hero::before{ /* linhas finas de profundidade */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(90deg,transparent 0 119px,rgba(255,255,255,.025) 119px 120px);
+  mask-image:linear-gradient(180deg,#000 0%,transparent 85%);
+  -webkit-mask-image:linear-gradient(180deg,#000 0%,transparent 85%);
+}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px;position:relative;z-index:2}
+.brand{font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gray)}
+.brand b{color:var(--white);font-weight:800}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:36px;position:relative;z-index:2}
+.hero-copy{display:flex;flex-direction:column;align-items:flex-start}
+
+.title-row{display:flex;align-items:flex-end;gap:18px;margin:22px 0 4px}
+.bp{
+  font-family:var(--display);font-weight:400;text-transform:uppercase;
+  font-size:clamp(76px,23vw,168px);line-height:.84;letter-spacing:-.02em;margin:0;
+}
+.bp span{display:block}
+.bp .pass{
+  color:var(--gold);
+  background:linear-gradient(180deg,var(--gold-light) 0%,var(--gold) 55%,#9c7f32 100%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.date-chip{
+  flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  border:1px solid var(--gold);padding:10px 12px 8px;margin-bottom:6px;min-width:74px;
+  background:rgba(201,168,76,.06);
+}
+.date-chip .d{font-family:var(--display);font-size:38px;line-height:.9;color:var(--white)}
+.date-chip .m{font-family:var(--head);font-weight:800;font-size:13px;letter-spacing:.3em;color:var(--gold);margin-top:4px;padding-left:.3em}
+.year{font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.5em;color:var(--gray-dim);margin:8px 0 0}
+
+.headline{
+  font-family:var(--head);font-weight:800;letter-spacing:-.015em;line-height:1.08;
+  font-size:clamp(26px,6.6vw,40px);margin:22px 0 0;
+}
+.headline em{font-style:normal;color:var(--gold-light)}
+.sub{color:var(--gray);font-size:16px;margin:16px 0 0;max-width:520px}
+.sub strong{color:var(--white);font-weight:600}
+.hero-cta{margin-top:24px;width:100%}
+.complement{color:var(--gray-dim);font-size:14.5px;max-width:480px;margin:22px 0 0;padding-left:14px;border-left:1px solid var(--line)}
+
+.hero-photo{position:relative;margin:0 calc(var(--gutter) * -1)}
+.hero-photo .frame{position:relative;aspect-ratio:4/5;max-height:620px;margin:0 auto;width:100%;max-width:520px}
+.hero-photo img{
+  width:100%;height:100%;object-fit:cover;object-position:50% 18%;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%,#000 84%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 64%,transparent 98%);
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(90deg,transparent 0,#000 14%,#000 84%,transparent 100%),linear-gradient(180deg,transparent 0,#000 10%,#000 64%,transparent 98%);
+  mask-composite:intersect;
+  filter:saturate(.92) contrast(1.04);
+}
+.hero-photo .glow{position:absolute;inset:8% 4% 10%;background:radial-gradient(closest-side,rgba(201,168,76,.22),transparent);filter:blur(30px);z-index:-1}
+.big27{
+  position:absolute;right:-6px;bottom:-14px;z-index:1;pointer-events:none;text-align:right;
+  font-family:var(--display);line-height:.78;
+  color:transparent;-webkit-text-stroke:1px rgba(201,168,76,.55);
+}
+.big27 .n{display:block;font-size:clamp(110px,34vw,220px)}
+.big27 .mo{display:block;font-size:clamp(36px,11vw,72px);letter-spacing:.12em;-webkit-text-stroke:0;color:var(--gold);margin-top:6px}
+.photo-caption{
+  position:absolute;left:var(--gutter);bottom:14px;z-index:2;
+  font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gray);
+}
+.photo-caption b{display:block;color:var(--white);font-size:13px;letter-spacing:.14em}
+
+/* ---------- MARQUEE ---------- */
+.band{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--black-2);overflow:hidden;padding:14px 0}
+.band-track{display:flex;width:max-content;animation:marq 38s linear infinite}
+.band-track span{
+  font-family:var(--head);font-weight:800;font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--gray-dim);
+  padding:0 26px;white-space:nowrap;
+}
+.band-track span i{font-style:normal;color:var(--gold)}
+@keyframes marq{to{transform:translateX(-50%)}}
+
+/* ---------- DOBRA 02 ---------- */
+.s2{background:linear-gradient(180deg,var(--black-2),var(--black) 85%)}
+.s2-grid{display:grid;gap:44px}
+.s2 .text p{color:var(--gray);font-size:17px;margin:18px 0 0;max-width:560px}
+.s2 .text p strong{color:var(--white);font-weight:600}
+.reveal-quote{
+  margin:48px 0 0;padding:28px 0 28px 22px;border-left:2px solid var(--gold);
+  font-family:var(--display);text-transform:uppercase;line-height:.98;
+  font-size:clamp(34px,9vw,64px);letter-spacing:-.01em;
+}
+.reveal-quote span{display:block}
+.reveal-quote .gold{color:var(--gold)}
+.list-intro{margin:52px 0 8px;font-family:var(--head);font-weight:700;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--gray)}
+.items{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.item{
+  position:relative;display:flex;gap:18px;align-items:flex-start;
+  padding:22px 20px;background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));
+  border:1px solid var(--line-soft);border-radius:6px;
+  transition:border-color .4s var(--ease), transform .4s var(--ease);
+}
+.item:hover{border-color:var(--line);transform:translateY(-2px)}
+.item .num{font-family:var(--display);font-size:30px;line-height:1;color:var(--gold);min-width:44px}
+.s2 .text .item p{margin:3px 0 0;font-family:var(--head);font-weight:600;font-size:17px;line-height:1.35;color:var(--white)}
+.item .lock{margin-left:auto;flex:none;opacity:.55;margin-top:4px}
+.s2-photo{position:relative;border-radius:6px;overflow:hidden;aspect-ratio:3/4;max-width:460px;width:100%;justify-self:center}
+.s2-photo img{width:100%;height:100%;object-fit:cover;object-position:52% 40%}
+.s2-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,5,.15) 30%,rgba(5,5,5,.85))}
+.s2-photo .stamp{
+  position:absolute;left:20px;right:20px;bottom:20px;z-index:2;
+  font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--gray);
+}
+.s2-photo .stamp b{display:block;font-family:var(--display);font-weight:400;font-size:30px;letter-spacing:0;color:var(--white);line-height:1.05;margin-top:6px;text-transform:none}
+.cta-row{margin-top:40px}
+
+/* ---------- DOBRA 03 ---------- */
+.s3{background:var(--black);overflow:hidden}
+.s3-media{position:relative;height:56vh;min-height:340px;max-height:620px;overflow:hidden}
+.s3-media img{width:100%;height:100%;object-fit:cover;object-position:50% 45%;transform:scale(1.04);transition:transform 2.4s var(--ease)}
+.s3-media.in img{transform:scale(1)}
+.s3-media::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg,var(--black) 0%,rgba(5,5,5,.15) 22%,rgba(5,5,5,.25) 60%,var(--black) 100%),
+  linear-gradient(90deg,rgba(5,5,5,.6),transparent 40%,transparent 60%,rgba(5,5,5,.6))}
+.s3-body{position:relative;z-index:2;margin-top:-90px}
+.triad{margin:34px 0 0;padding:0;list-style:none}
+.triad li{
+  font-family:var(--display);text-transform:uppercase;line-height:.95;letter-spacing:-.01em;
+  font-size:clamp(34px,9.8vw,128px);
+  border-top:1px solid var(--line-soft);padding:14px 0 10px;
+  display:flex;align-items:baseline;gap:12px;
+}
+.triad li:last-child{border-bottom:1px solid var(--line-soft)}
+.triad li small{font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.2em;color:var(--gold);min-width:24px}
+.triad li:nth-child(2){color:transparent;-webkit-text-stroke:1.2px rgba(255,255,255,.75)}
+.triad li:nth-child(3) .w{
+  background:linear-gradient(180deg,var(--gold-light),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.s3-text{display:grid;gap:22px;margin-top:44px}
+.s3-text p{color:var(--gray);font-size:17px;margin:0;max-width:560px}
+.s3-line{
+  font-family:var(--head);font-weight:800;font-size:clamp(24px,6vw,38px);line-height:1.15;letter-spacing:-.01em;
+  display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+}
+.s3-line .rule{flex:1;min-width:40px;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+.s3-close{font-family:var(--head);font-weight:600;color:var(--gold-light);font-size:18px}
+
+/* ---------- DOBRA 04 ---------- */
+.s4{background:linear-gradient(180deg,var(--black),var(--black-2))}
+.s4 .h2 .soft{color:var(--gray)}
+.cards{display:grid;gap:16px;margin-top:44px}
+.card{
+  position:relative;padding:30px 24px 28px;border-radius:6px;overflow:hidden;
+  background:var(--black-3);border:1px solid var(--line-soft);
+}
+.card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px}
+.card.a::before{background:var(--gold)}
+.card.b::before{background:linear-gradient(180deg,var(--white),rgba(255,255,255,.2))}
+.card .label{display:flex;align-items:center;gap:10px;font-family:var(--head);font-weight:800;font-size:14px;letter-spacing:.2em;text-transform:uppercase}
+.card.a .label{color:var(--gold)}
+.card p{color:var(--gray);margin:16px 0 0;font-size:16.5px}
+.card p strong{color:var(--white);font-weight:600}
+.card .ghost{position:absolute;right:-6px;top:-20px;font-family:var(--display);font-size:120px;line-height:1;color:rgba(255,255,255,.03);pointer-events:none}
+.together{text-align:center;margin-top:64px}
+.together .t1{font-family:var(--head);font-weight:800;font-size:clamp(26px,6.4vw,44px);line-height:1.12;letter-spacing:-.015em;margin:0}
+.together .t1 span{color:var(--gray)}
+.together .t2{
+  display:inline-flex;align-items:center;gap:16px;margin-top:24px;
+  font-family:var(--display);font-size:clamp(26px,7vw,46px);color:var(--gold);letter-spacing:.02em;
+}
+.together .t2::before,.together .t2::after{content:"";width:34px;height:1px;background:var(--gold);opacity:.6}
+
+/* ---------- DOBRA 05 ---------- */
+.s5{
+  overflow:hidden;padding:0;
+  background:radial-gradient(60% 50% at 70% 40%,rgba(201,168,76,.12),transparent 70%),var(--black);
+}
+.s5-grid{display:grid;grid-template-columns:1fr;align-items:center}
+.s5-photo{position:relative;height:62vh;min-height:380px;max-height:720px;margin:0 calc(var(--gutter) * -1)}
+.s5-photo img{
+  width:100%;height:100%;object-fit:cover;object-position:50% 12%;
+  -webkit-mask-image:linear-gradient(180deg,transparent 0%,#000 14%,#000 55%,transparent 100%);
+  mask-image:linear-gradient(180deg,transparent 0%,#000 14%,#000 55%,transparent 100%);
+}
+.s5-copy{position:relative;z-index:2;padding:0 0 96px;margin-top:-70px}
+.s5 .h2{font-size:clamp(38px,10vw,76px)}
+.s5 .sub2{font-family:var(--head);font-weight:700;color:var(--white);font-size:19px;margin:22px 0 0}
+.s5 .sub3{color:var(--gray);font-size:16.5px;margin:10px 0 0;max-width:500px}
+.s5 .btn{min-height:64px;font-size:16px;margin-top:30px}
+.fine{color:var(--gray-dim);font-size:13.5px;margin:16px 0 0;max-width:460px}
+.fine b{color:var(--gray);font-weight:600}
+.before{
+  margin-top:44px;padding-top:26px;border-top:1px solid var(--line);
+  font-family:var(--display);text-transform:uppercase;font-size:clamp(26px,7vw,40px);line-height:1;letter-spacing:.01em;
+}
+.before span{display:block}
+.before .gold{color:var(--gold)}
+
+footer{border-top:1px solid var(--line-soft);padding:30px 0 110px;color:var(--gray-dim);font-size:12.5px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+/* ---------- barra fixa mobile ---------- */
+.sticky{
+  position:fixed;left:0;right:0;bottom:0;z-index:40;
+  padding:10px var(--gutter) calc(10px + env(safe-area-inset-bottom));
+  background:rgba(5,5,5,.88);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border-top:1px solid var(--line);
+  display:flex;align-items:center;gap:14px;
+  transform:translateY(110%);transition:transform .45s var(--ease);
+}
+.sticky.show{transform:none}
+.sticky .info{font-family:var(--head);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase;line-height:1.3;white-space:nowrap}
+.sticky .info span{display:block;color:var(--gold);font-size:10.5px;letter-spacing:.2em}
+.sticky .btn{flex:1;min-height:48px;font-size:13px;padding:0 16px}
+
+/* ---------- MODAL / FORM ---------- */
+dialog{
+  border:0;padding:0;background:transparent;color:var(--white);
+  width:100%;max-width:520px;max-height:100dvh;margin:auto 0 0;
+}
+@media (min-width:600px){dialog{margin:auto}}
+dialog::backdrop{background:rgba(0,0,0,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+dialog[open] .sheet{animation:up .5s var(--ease)}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.sheet{
+  position:relative;background:linear-gradient(180deg,#111 0%,var(--black-2) 100%);
+  border:1px solid var(--line);border-bottom:0;border-radius:14px 14px 0 0;
+  padding:30px 22px calc(26px + env(safe-area-inset-bottom));max-height:100dvh;overflow:auto;
+  box-shadow:0 -20px 60px rgba(0,0,0,.6);
+}
+@media (min-width:600px){.sheet{border-radius:10px;border-bottom:1px solid var(--line);padding:38px 36px 34px}}
+.sheet::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.close{
+  position:absolute;right:12px;top:12px;width:42px;height:42px;border-radius:50%;border:1px solid var(--line-soft);
+  background:transparent;color:var(--gray);cursor:pointer;font-size:22px;line-height:1;display:grid;place-items:center;
+}
+.close:hover{color:var(--white);border-color:var(--line)}
+.sheet h3{font-family:var(--head);font-weight:800;font-size:26px;line-height:1.1;margin:10px 0 6px;letter-spacing:-.01em}
+.sheet h3 .bpm{font-family:var(--display);font-weight:400}
+.sheet .intro{color:var(--gray);font-size:14.5px;margin:0 0 22px}
+.field{margin-bottom:16px}
+.field label,.field legend{display:block;font-family:var(--head);font-weight:700;font-size:13px;letter-spacing:.02em;margin-bottom:8px;color:var(--white)}
+.field input[type=text],.field input[type=tel],.field input[type=email]{
+  width:100%;height:52px;padding:0 16px;border-radius:6px;
+  background:#070707;border:1px solid #2a2a2a;color:var(--white);font:500 16px var(--body);
+  transition:border-color .25s, box-shadow .25s;
+}
+.field input::placeholder{color:#5c5c5c}
+.field input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,.18)}
+.field.err input{border-color:#d9a441}
+.field .msg{display:none;color:var(--gold-light);font-size:12.5px;margin-top:6px}
+.field.err .msg{display:block}
+fieldset{border:0;padding:0;margin:0}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice{position:relative}
+.choice input{position:absolute;opacity:0;inset:0;cursor:pointer;margin:0}
+.choice span{
+  display:flex;align-items:center;justify-content:center;gap:8px;height:52px;border-radius:6px;
+  border:1px solid #2a2a2a;background:#070707;font-family:var(--head);font-weight:700;font-size:14px;letter-spacing:.06em;
+  transition:all .25s;
+}
+.choice input:checked + span{border-color:var(--gold);background:rgba(201,168,76,.1);color:var(--gold-light)}
+.choice input:focus-visible + span{box-shadow:0 0 0 3px rgba(201,168,76,.3)}
+.field label.consent{display:flex;gap:12px;align-items:flex-start;margin:6px 0 20px;cursor:pointer;font-family:var(--body);font-weight:400;letter-spacing:0}
+.consent input{
+  appearance:none;-webkit-appearance:none;flex:none;width:22px;height:22px;margin:1px 0 0;border-radius:4px;
+  border:1px solid #3a3a3a;background:#070707;display:grid;place-items:center;cursor:pointer;
+}
+.consent input:checked{background:var(--gold);border-color:var(--gold)}
+.consent input:checked::after{content:"";width:6px;height:11px;border:solid #0a0a0a;border-width:0 2px 2px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.consent input:focus-visible{box-shadow:0 0 0 3px rgba(201,168,76,.3)}
+.consent span{color:var(--gray);font-size:13.5px;line-height:1.5}
+.field.err .consent input{border-color:#d9a441}
+.form-note{color:var(--gray-dim);font-size:12px;text-align:center;margin:12px 0 0}
+.btn[disabled]{opacity:.7;cursor:progress}
+.success{display:none;text-align:center;padding:20px 0 6px}
+.success .ok{width:64px;height:64px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;border:1px solid var(--gold);color:var(--gold)}
+.success h3{margin-top:0}
+.success p{color:var(--gray);margin:0 0 22px}
+.sheet.done form{display:none}
+.sheet.done .success{display:block}
+
+/* ---------- breakpoints ---------- */
+@media (max-width:899px){
+  /* no celular, o CTA sobe antes do texto complementar */
+  .hero-copy .complement{order:10}
+  .btn{font-size:14px;letter-spacing:.05em;padding:0 20px}
+}
+@media (min-width:600px){
+  :root{--gutter:32px}
+  .items{grid-template-columns:1fr 1fr}
+  .cards{grid-template-columns:1fr 1fr}
+  .hero-cta{width:auto}
+  .card{padding:38px 34px 34px}
+}
+@media (min-width:900px){
+  :root{--gutter:48px}
+  .sec{padding:130px 0}
+  .hero{padding:36px 0 80px;display:flex;flex-direction:column}
+  .hero .wrap{flex:1;display:flex;flex-direction:column}
+  .topbar{margin-bottom:0}
+  .hero-grid{grid-template-columns:1.08fr .92fr;align-items:center;flex:1;gap:24px}
+  .title-row{margin-top:30px}
+  .date-chip{display:none}
+  .sub{font-size:18px}
+  .hero-photo{margin:0}
+  .hero-photo .frame{max-width:none;max-height:none;height:min(82vh,760px);aspect-ratio:auto}
+  .big27{right:-34px;bottom:-2%}
+  .photo-caption{left:8%;bottom:6%}
+  .s2-grid{grid-template-columns:1.25fr .75fr;align-items:start;gap:72px}
+  .s2-photo{position:sticky;top:60px;margin-top:84px}
+  .s3-media{height:70vh}
+  .s3-body{margin-top:-160px}
+  .s3-text{grid-template-columns:1fr 1fr;gap:40px 64px;align-items:end}
+  .s5-grid{grid-template-columns:1.05fr .95fr;min-height:100vh}
+  .s5-photo{order:2;height:100vh;max-height:none;margin:0}
+  .s5-photo img{
+    -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 26%,#000 78%,transparent 100%),linear-gradient(180deg,transparent 0%,#000 16%,#000 72%,transparent 100%);
+    -webkit-mask-composite:source-in;
+    mask-image:linear-gradient(90deg,transparent 0%,#000 26%,#000 78%,transparent 100%),linear-gradient(180deg,transparent 0%,#000 16%,#000 72%,transparent 100%);
+    mask-composite:intersect;
+  }
+  .s5-copy{margin-top:0;padding:120px 0}
+  .sticky{display:none}
+  footer{padding-bottom:30px}
+}
+@media (min-width:1200px){
+  .bp{font-size:176px}
+}
+@media (max-width:380px){
+  :root{--gutter:16px}
+  .bp{font-size:72px}
+  .date-chip{min-width:64px;padding:8px 10px 6px}
+  .date-chip .d{font-size:32px}
+  .headline{font-size:24px;margin-top:18px}
+  .sub{font-size:15px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= DOBRA 01 — HERO ================= -->
+<header class="hero" id="topo">
+  <div class="wrap">
+    <div class="topbar reveal">
+      <div class="brand"><b>Natália Targas</b></div>
+      <div class="brand" aria-hidden="true">2026</div>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="tag reveal d1"><span class="dot" aria-hidden="true"></span>Evento gratuito • Ao vivo • 27 de novembro</span>
+
+        <div class="title-row reveal d2">
+          <h1 class="bp"><span>Black</span><span class="pass">Pass</span></h1>
+          <div class="date-chip" aria-hidden="true"><span class="d">27</span><span class="m">NOV</span></div>
+        </div>
+
+        <p class="headline reveal d3">A Black começa<br><em>antes da Black.</em></p>
+
+        <p class="sub reveal d4">No dia <strong>27 de novembro</strong>, eu vou abrir uma <strong>live gratuita</strong> e revelar, pela primeira vez, tudo o que preparei para a BLACK PASS 2026.</p>
+
+        <p class="complement reveal d5">Entre agora na Lista Prioritária para receber as informações do evento, o acesso à live e acompanhar as revelações antes da abertura oficial.</p>
+
+        <div class="hero-cta reveal d5">
+          <button class="btn btn-block js-open" type="button" data-origem="hero">Quero participar da live <span class="arrow" aria-hidden="true">→</span></button>
+          <div class="micro">Gratuito <span>•</span> Ao vivo <span>•</span> 27/11</div>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal d3">
+        <div class="frame">
+          <div class="glow" aria-hidden="true"></div>
+          <img src="img/natalia-hero.webp" width="1000" height="1500" alt="Natália Targas sorrindo, segurando uma faixa de kinesiology tape azul" fetchpriority="high">
+          <div class="big27" aria-hidden="true"><span class="n">27</span><span class="mo">NOV</span></div>
+          <div class="photo-caption">Com<b>Natália Targas</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="band" aria-hidden="true">
+  <div class="band-track">
+    <span>Black <i>Pass</i></span><span>27 • Nov</span><span>Live gratuita</span><span>Lista prioritária</span><span>Ao vivo</span><span>Black <i>Pass</i></span><span>27 • Nov</span><span>Live gratuita</span><span>Lista prioritária</span><span>Ao vivo</span>
+    <span>Black <i>Pass</i></span><span>27 • Nov</span><span>Live gratuita</span><span>Lista prioritária</span><span>Ao vivo</span><span>Black <i>Pass</i></span><span>27 • Nov</span><span>Live gratuita</span><span>Lista prioritária</span><span>Ao vivo</span>
+  </div>
+</div>
+
+<main>
+<!-- ================= DOBRA 02 — O QUE VAI ACONTECER ================= -->
+<section class="sec s2" id="live">
+  <div class="wrap s2-grid">
+    <div class="text">
+      <div class="eyebrow reveal">A live</div>
+      <h2 class="h2 reveal d1">Dia 27 eu vou<br>colocar tudo na mesa.</h2>
+      <p class="reveal d2"><strong>Eu preparei uma BLACK diferente de tudo o que já fiz.</strong></p>
+      <p class="reveal d3">E no dia 27 de novembro, vou entrar ao vivo para mostrar exatamente o que construí, para quem faz sentido e quais serão as condições da BLACK PASS.</p>
+
+      <div class="reveal-quote reveal" role="heading" aria-level="3"><span>É nessa live</span><span>que eu vou</span><span class="gold">revelar a oferta.</span></div>
+
+      <div class="list-intro reveal">Você vai conhecer em primeira mão:</div>
+      <ol class="items">
+        <li class="item reveal d1"><span class="num">01</span><p>A proposta completa da BLACK PASS.</p><svg class="lock" width="16" height="18" viewBox="0 0 16 18" fill="none" aria-hidden="true"><rect x="1" y="8" width="14" height="9" rx="1.5" stroke="#C9A84C"/><path d="M4 8V5.5a4 4 0 0 1 8 0V8" stroke="#C9A84C"/></svg></li>
+        <li class="item reveal d2"><span class="num">02</span><p>O que fará parte dessa condição especial.</p><svg class="lock" width="16" height="18" viewBox="0 0 16 18" fill="none" aria-hidden="true"><rect x="1" y="8" width="14" height="9" rx="1.5" stroke="#C9A84C"/><path d="M4 8V5.5a4 4 0 0 1 8 0V8" stroke="#C9A84C"/></svg></li>
+        <li class="item reveal d3"><span class="num">03</span><p>As novidades que nunca foram lançadas antes.</p><svg class="lock" width="16" height="18" viewBox="0 0 16 18" fill="none" aria-hidden="true"><rect x="1" y="8" width="14" height="9" rx="1.5" stroke="#C9A84C"/><path d="M4 8V5.5a4 4 0 0 1 8 0V8" stroke="#C9A84C"/></svg></li>
+        <li class="item reveal d4"><span class="num">04</span><p>As condições e benefícios da abertura.</p><svg class="lock" width="16" height="18" viewBox="0 0 16 18" fill="none" aria-hidden="true"><rect x="1" y="8" width="14" height="9" rx="1.5" stroke="#C9A84C"/><path d="M4 8V5.5a4 4 0 0 1 8 0V8" stroke="#C9A84C"/></svg></li>
+      </ol>
+
+      <div class="cta-row reveal">
+        <button class="btn js-open" type="button" data-origem="o-que-vai-acontecer">Quero estar na live <span class="arrow" aria-hidden="true">→</span></button>
+        <div class="micro">Inscrição gratuita <span>•</span> 27/11</div>
+      </div>
+    </div>
+
+    <figure class="s2-photo reveal d2" style="margin-left:0;margin-right:0">
+      <img src="img/natalia-tape-esticado.webp" width="1600" height="1066" loading="lazy" alt="Natália Targas sorrindo e esticando uma faixa de kinesiology tape azul em direção à câmera">
+      <figcaption class="stamp">27 de novembro<b>Ao vivo, comigo.</b></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= DOBRA 03 — CONCEITO ================= -->
+<section class="s3" id="conceito">
+  <div class="s3-media reveal-media">
+    <img src="img/tape-rolos.webp" width="1600" height="1066" loading="lazy" alt="Rolos de kinesiology tape marrom e azul nas mãos de Natália Targas">
+  </div>
+  <div class="wrap s3-body">
+    <div class="eyebrow reveal">Um novo olhar</div>
+    <h2 class="h2 reveal d1">Tem uma coisa que eu nunca<br>consegui colocar dessa forma.</h2>
+
+    <ol class="triad" aria-label="Avaliar, raciocinar, intervir">
+      <li class="reveal"><small>01</small><span class="w">Avaliar.</span></li>
+      <li class="reveal d1"><small>02</small><span class="w">Raciocinar.</span></li>
+      <li class="reveal d2"><small>03</small><span class="w">Intervir.</span></li>
+    </ol>
+
+    <div class="s3-text">
+      <div>
+        <p class="reveal">Ao longo dos anos, eu ensinei técnicas, avaliação, biomecânica e diferentes formas de intervenção.</p>
+        <p class="reveal d1" style="margin-top:16px;color:var(--white)">Para essa BLACK, eu decidi olhar para tudo isso de outro jeito.</p>
+      </div>
+      <div>
+        <div class="s3-line reveal d1">Da avaliação à intervenção.<span class="rule" aria-hidden="true"></span></div>
+        <p class="s3-close reveal d2" style="margin-top:14px">No dia 27, você vai entender por quê.</p>
+      </div>
+    </div>
+  </div>
+  <div style="height:96px" aria-hidden="true"></div>
+</section>
+
+<!-- ================= DOBRA 04 — PARA QUEM ================= -->
+<section class="sec s4" id="para-quem">
+  <div class="wrap">
+    <div class="eyebrow reveal">Para quem é a live</div>
+    <h2 class="h2 reveal d1">Se você já estudou comigo,<br>essa live é para você.<br><span class="soft">Se nunca estudou, também.</span></h2>
+
+    <div class="cards">
+      <article class="card a reveal d1">
+        <span class="ghost" aria-hidden="true">01</span>
+        <div class="label">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="8" stroke="currentColor"/><path d="M5.5 9.2l2.3 2.3 4.7-4.9" stroke="currentColor" stroke-width="1.4"/></svg>
+          Já sou aluna
+        </div>
+        <p>Se você já fez algum dos meus cursos, <strong>quero que esteja comigo no dia 27.</strong></p>
+        <p>A BLACK PASS não foi construída fingindo que a nossa história começa agora.</p>
+      </article>
+      <article class="card b reveal d2">
+        <span class="ghost" aria-hidden="true">02</span>
+        <div class="label">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="8" stroke="currentColor"/><path d="M9 5v8M5 9h8" stroke="currentColor" stroke-width="1.4"/></svg>
+          Ainda não sou aluna
+        </div>
+        <p>Se você acompanha meu trabalho, mas ainda não entrou em nenhuma das minhas formações, <strong>essa live vai mostrar uma nova forma de começar.</strong></p>
+      </article>
+    </div>
+
+    <div class="together">
+      <p class="t1 reveal">Duas histórias diferentes.<br><span>A mesma data.</span></p>
+      <div class="t2 reveal d1">27 de novembro.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOBRA 05 — CTA FINAL ================= -->
+<section class="s5" id="inscricao">
+  <div class="wrap s5-grid">
+    <div class="s5-photo reveal">
+      <img src="img/natalia-final.webp" width="1000" height="1500" loading="lazy" alt="Natália Targas sorrindo para a câmera, com kinesiology tape azul nas mãos">
+    </div>
+    <div class="s5-copy">
+      <span class="tag reveal"><span class="dot" aria-hidden="true"></span>27 • Novembro • Ao vivo</span>
+      <h2 class="h2 reveal d1" style="margin-top:22px">Eu te conto tudo<br><span class="gold">no dia 27.</span></h2>
+      <p class="sub2 reveal d2">A primeira BLACK PASS está chegando.</p>
+      <p class="sub3 reveal d2">Cadastre-se gratuitamente para receber o acesso à live e entrar na Lista Prioritária.</p>
+      <div class="reveal d3">
+        <button class="btn btn-block js-open" type="button" data-origem="cta-final">Quero participar gratuitamente <span class="arrow" aria-hidden="true">→</span></button>
+        <p class="fine"><b>Inscrição gratuita.</b> As informações e o acesso à transmissão serão enviados aos inscritos.</p>
+      </div>
+      <p class="before reveal d4"><span>Entre antes.</span><span class="gold">Descubra antes.</span></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Natália Targas. Todos os direitos reservados.</span>
+    <span>BLACK PASS 2026 • Live gratuita em 27/11</span>
+  </div>
+</footer>
+
+<!-- barra fixa no celular -->
+<div class="sticky" id="sticky" aria-hidden="true">
+  <div class="info">Live gratuita<span>27 de novembro</span></div>
+  <button class="btn js-open" type="button" tabindex="-1" data-origem="barra-fixa">Quero participar <span class="arrow" aria-hidden="true">→</span></button>
+</div>
+
+<!-- ================= FORMULÁRIO ================= -->
+<dialog id="form-dialog" aria-labelledby="form-title">
+  <div class="sheet" id="sheet">
+    <button class="close" type="button" id="close" aria-label="Fechar">×</button>
+
+    <form id="lead-form" novalidate>
+      <span class="tag"><span class="dot" aria-hidden="true"></span>Gratuito • Ao vivo • 27/11</span>
+      <h3 id="form-title">Garanta sua vaga na live da <span class="bpm">BLACK <span class="gold">PASS</span></span></h3>
+      <p class="intro">Preencha para receber o acesso à transmissão e entrar na Lista Prioritária.</p>
+
+      <div class="field" data-field="nome">
+        <label for="f-nome">Qual o seu nome?</label>
+        <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome" required>
+        <div class="msg">Conte como você se chama.</div>
+      </div>
+
+      <div class="field" data-field="whatsapp">
+        <label for="f-whats">Seu melhor WhatsApp com DDD</label>
+        <input id="f-whats" name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="(00) 00000-0000" maxlength="16" required>
+        <div class="msg">Informe o número com DDD, por exemplo (11) 98765-4321.</div>
+      </div>
+
+      <div class="field" data-field="email">
+        <label for="f-email">Qual o seu e-mail?</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="voce@email.com" required>
+        <div class="msg">Confira o e-mail digitado.</div>
+      </div>
+
+      <fieldset class="field" data-field="aluna">
+        <legend>Você já é aluna da Natália Targas?</legend>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="aluna" value="sim" required><span>Sim</span></label>
+          <label class="choice"><input type="radio" name="aluna" value="nao"><span>Não</span></label>
+        </div>
+        <div class="msg">Escolha uma das opções.</div>
+      </fieldset>
+
+      <div class="field" data-field="consentimento">
+        <label class="consent">
+          <input type="checkbox" name="consentimento" value="sim" required>
+          <span>Concordo em receber pelo WhatsApp e e-mail as comunicações relacionadas à BLACK PASS e ao evento.</span>
+        </label>
+        <div class="msg" style="margin-top:-12px;margin-bottom:14px">É preciso concordar para recebermos você na lista.</div>
+      </div>
+
+      <button class="btn btn-block" type="submit" id="submit">Garantir minha inscrição <span class="arrow" aria-hidden="true">→</span></button>
+      <p class="form-note">Seus dados são usados apenas para as comunicações do evento.</p>
+    </form>
+
+    <div class="success" role="status" aria-live="polite">
+      <div class="ok" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M6 13.5l4.5 4.5L20 8.5" stroke="currentColor" stroke-width="2"/></svg></div>
+      <h3>Inscrição confirmada.</h3>
+      <p>Agora entre no grupo exclusivo da BLACK PASS no WhatsApp. É por lá que o acesso à live vai chegar.</p>
+      <a class="btn btn-block" id="wa-link" href="#" rel="noopener">Entrar no grupo do WhatsApp <span class="arrow" aria-hidden="true">→</span></a>
+      <p class="form-note" id="redirect-note">Redirecionando em instantes…</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* =========================================================
+   CONFIGURAÇÃO — preencha antes de publicar
+   whatsappGroupUrl: link de convite do grupo exclusivo da BLACK PASS
+   webhookUrl: endereço que recebe os cadastros (ActiveCampaign, RD Station,
+               Make, Zapier, Google Apps Script…). Recebe um POST com JSON.
+               Deixe vazio para apenas redirecionar.
+   ========================================================= */
+const CONFIG = {
+  whatsappGroupUrl: "https://chat.whatsapp.com/COLE-AQUI-O-LINK-DO-GRUPO",
+  webhookUrl: "",
+  redirectDelayMs: 1800
+};
+
+(function(){
+  /* ---------- reveal ---------- */
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+  },{threshold:.14, rootMargin:"0px 0px -6% 0px"});
+  document.querySelectorAll(".reveal,.reveal-media").forEach(el=>io.observe(el));
+
+  /* ---------- barra fixa mobile ---------- */
+  const sticky = document.getElementById("sticky");
+  const hero = document.getElementById("topo");
+  const finalSec = document.getElementById("inscricao");
+  let heroOut = false, finalIn = false;
+  const toggleSticky = ()=>{
+    const show = heroOut && !finalIn;
+    sticky.classList.toggle("show", show);
+    sticky.setAttribute("aria-hidden", show ? "false" : "true");
+    sticky.querySelector("button").tabIndex = show ? 0 : -1;
+  };
+  new IntersectionObserver(([e])=>{ heroOut = !e.isIntersecting; toggleSticky(); },{threshold:0, rootMargin:"-40% 0px 0px 0px"}).observe(hero);
+  new IntersectionObserver(([e])=>{ finalIn = e.isIntersecting; toggleSticky(); },{threshold:.25}).observe(finalSec);
+
+  /* ---------- modal ---------- */
+  const dlg = document.getElementById("form-dialog");
+  const form = document.getElementById("lead-form");
+  const sheet = document.getElementById("sheet");
+  let origem = "hero";
+  const open = (btn)=>{
+    origem = btn.dataset.origem || "cta";
+    if (typeof dlg.showModal === "function") dlg.showModal(); else dlg.setAttribute("open","");
+    document.body.style.overflow = "hidden";
+    setTimeout(()=>{ if(!sheet.classList.contains("done")) document.getElementById("f-nome").focus(); }, 60);
+  };
+  const close = ()=>{ dlg.close ? dlg.close() : dlg.removeAttribute("open"); };
+  document.querySelectorAll(".js-open").forEach(b=>b.addEventListener("click",()=>open(b)));
+  document.getElementById("close").addEventListener("click", close);
+  dlg.addEventListener("click",(e)=>{ if(e.target === dlg) close(); });
+  dlg.addEventListener("close",()=>{ document.body.style.overflow = ""; });
+
+  /* ---------- máscara de WhatsApp ---------- */
+  const whats = document.getElementById("f-whats");
+  whats.addEventListener("input",()=>{
+    let d = whats.value.replace(/\D/g,"").slice(0,11);
+    let out = d;
+    if (d.length > 0) out = "(" + d.slice(0,2);
+    if (d.length >= 3) out += ") " + (d.length === 11 ? d.slice(2,7) + (d.length>7?"-"+d.slice(7):"") : d.slice(2,6) + (d.length>6?"-"+d.slice(6):""));
+    whats.value = out;
+  });
+
+  /* ---------- validação ---------- */
+  const setErr = (name, bad)=>{ form.querySelector('[data-field="'+name+'"]').classList.toggle("err", bad); return !bad; };
+  const validate = ()=>{
+    const fd = new FormData(form);
+    const digits = (fd.get("whatsapp")||"").replace(/\D/g,"");
+    const ok = [
+      setErr("nome", (fd.get("nome")||"").trim().length < 2),
+      setErr("whatsapp", !(digits.length === 10 || digits.length === 11) || /^0/.test(digits)),
+      setErr("email", !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test((fd.get("email")||"").trim())),
+      setErr("aluna", !fd.get("aluna")),
+      setErr("consentimento", !fd.get("consentimento"))
+    ];
+    return ok.every(Boolean);
+  };
+  form.addEventListener("input",(e)=>{
+    const f = e.target.closest(".field");
+    if (f && f.classList.contains("err")) validate();
+  });
+  form.addEventListener("change",(e)=>{
+    const f = e.target.closest(".field");
+    if (f && f.classList.contains("err")) validate();
+  });
+
+  /* ---------- UTMs ---------- */
+  const params = new URLSearchParams(location.search);
+  const utm = {};
+  ["utm_source","utm_medium","utm_campaign","utm_content","utm_term"].forEach(k=>{ if(params.get(k)) utm[k] = params.get(k); });
+
+  /* ---------- envio ---------- */
+  const submit = document.getElementById("submit");
+  form.addEventListener("submit", async (e)=>{
+    e.preventDefault();
+    if (!validate()){
+      const first = form.querySelector(".field.err input");
+      if (first) first.focus();
+      return;
+    }
+    const fd = new FormData(form);
+    const digits = fd.get("whatsapp").replace(/\D/g,"");
+    const lead = {
+      nome: fd.get("nome").trim(),
+      whatsapp: "+55" + digits,
+      email: fd.get("email").trim().toLowerCase(),
+      ja_e_aluna: fd.get("aluna") === "sim",
+      consentimento: true,
+      origem_cta: origem,
+      campanha: "black-pass-2026-live-27-11",
+      pagina: location.href.split("#")[0],
+      enviado_em: new Date().toISOString(),
+      ...utm
+    };
+
+    submit.disabled = true;
+    submit.innerHTML = "Enviando…";
+
+    if (CONFIG.webhookUrl){
+      try{
+        const ctrl = new AbortController();
+        const t = setTimeout(()=>ctrl.abort(), 8000);
+        await fetch(CONFIG.webhookUrl, {
+          method:"POST", mode:"no-cors", keepalive:true, signal:ctrl.signal,
+          headers:{"Content-Type":"text/plain;charset=UTF-8"},
+          body: JSON.stringify(lead)
+        });
+        clearTimeout(t);
+      }catch(err){ console.warn("Falha ao enviar o cadastro", err); }
+    }
+
+    try{ if (window.fbq) fbq("track","Lead",{content_name:"BLACK PASS 2026 - Live"}); }catch(_){}
+    try{ if (window.gtag) gtag("event","generate_lead",{event_category:"black_pass",event_label:origem}); }catch(_){}
+    try{ (window.dataLayer = window.dataLayer || []).push({event:"lead_black_pass", origem_cta:origem, ja_e_aluna:lead.ja_e_aluna}); }catch(_){}
+
+    const wa = document.getElementById("wa-link");
+    wa.href = CONFIG.whatsappGroupUrl;
+    sheet.classList.add("done");
+    setTimeout(()=>{ window.location.href = CONFIG.whatsappGroupUrl; }, CONFIG.redirectDelayMs);
+  });
+})();
+</script>
+</body>
+</html>

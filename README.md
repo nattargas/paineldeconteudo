@@ -23,3 +23,10 @@ Toque em qualquer peça para ler o roteiro (texto falado, CTAs e legenda, com bo
 ## Onde os dados ficam
 - Pelo link publicado no Claude, os dados ficam num banco compartilhado e sincronizam entre aparelhos.
 - Aberto fora do Claude (por exemplo, pelo GitHub Pages), o painel funciona em modo local e salva as alterações só naquele navegador.
+
+## Landing page BLACK PASS 2026
+- `black-pass/index.html`: página de inscrição da live gratuita de 27/11 (sem oferta, preço ou produtos), com as fotos em `black-pass/img/`.
+- Antes de publicar, edite o bloco `CONFIG` no fim do arquivo:
+  - `whatsappGroupUrl`: link de convite do grupo exclusivo (para onde a pessoa vai depois de se inscrever).
+  - `webhookUrl`: endereço que recebe os cadastros por POST em JSON (ActiveCampaign, RD Station, Make, Zapier, Google Apps Script…). Vazio = só redireciona.
+- Cada cadastro envia: nome, WhatsApp (+55), e-mail, se já é aluna, consentimento, qual botão foi clicado e as UTMs da URL. Se houver Meta Pixel, GA4 ou GTM na página, os eventos `Lead`, `generate_lead` e `lead_black_pass` são disparados.
